@@ -564,7 +564,7 @@
         "x": [
           "The free plan is offered with the limits shown on our pricing page and may change over time.",
           "Paid plans are billed in advance, monthly or yearly, through Stripe, and renew automatically until cancelled.",
-          "You can cancel anytime from the billing portal; your plan stays active until the end of the current period. Payments are non-refundable except where required by law.",
+          "You can cancel anytime from the billing portal; your plan stays active until the end of the current period. Payments are non-refundable, except as described in section 4 (right of withdrawal) or where required by law.",
           "If you are a consumer in the EU/UK, you agree that the service starts immediately after purchase; your statutory rights are not affected.",
           "We may change prices with at least 30 days' notice before your next renewal.",
           "Usage limits (campaigns, products, AI rewrites) reset each calendar month."
@@ -572,7 +572,39 @@
       },
       {
         "t": "h2",
-        "x": "4. Your content"
+        "x": "4. Right of withdrawal (consumers in the EU and the UK)"
+      },
+      {
+        "t": "p",
+        "x": "If you are a consumer in the European Union or the United Kingdom, you normally have 14 days from the day you subscribe to withdraw from the contract without giving any reason."
+      },
+      {
+        "t": "p",
+        "x": "Because ContentArc gives you immediate access, we ask you before payment to tick a box expressly requesting that your subscription starts immediately. By doing so, you acknowledge that:"
+      },
+      {
+        "t": "ul",
+        "x": [
+          "you lose your right of withdrawal for the digital content generated for you (such as campaigns and posts) once it has been supplied;",
+          "if you withdraw within 14 days, you pay for the service provided until you inform us, and we refund the unused part of the period within 14 days, using the same payment method;",
+          "your right of withdrawal ends once the service has been fully provided."
+        ]
+      },
+      {
+        "t": "p",
+        "x": "To withdraw, send us a clear statement before the 14-day period ends, for example by email to [{email}](mailto:{email}). You may use the model form below, but it is not required."
+      },
+      {
+        "t": "p",
+        "x": "**Model withdrawal form.** To {company}, {address}, {email}: I hereby give notice that I withdraw from my contract for the ContentArc subscription ordered on (date). Name: (…) · Account email: (…) · Date: (…)."
+      },
+      {
+        "t": "p",
+        "x": "Business customers, and customers in countries without a statutory right of withdrawal (such as Switzerland), have no right of withdrawal; cancellation then works as described in section 3. Nothing in these terms limits rights you have under mandatory consumer law."
+      },
+      {
+        "t": "h2",
+        "x": "5. Your content"
       },
       {
         "t": "p",
@@ -580,7 +612,7 @@
       },
       {
         "t": "h2",
-        "x": "5. AI-generated output"
+        "x": "6. AI-generated output"
       },
       {
         "t": "p",
@@ -588,7 +620,7 @@
       },
       {
         "t": "h2",
-        "x": "6. Acceptable use"
+        "x": "7. Acceptable use"
       },
       {
         "t": "p",
@@ -609,7 +641,7 @@
       },
       {
         "t": "h2",
-        "x": "7. Our property"
+        "x": "8. Our property"
       },
       {
         "t": "p",
@@ -617,7 +649,7 @@
       },
       {
         "t": "h2",
-        "x": "8. Availability and changes"
+        "x": "9. Availability and changes"
       },
       {
         "t": "p",
@@ -625,7 +657,7 @@
       },
       {
         "t": "h2",
-        "x": "9. Liability"
+        "x": "10. Liability"
       },
       {
         "t": "p",
@@ -633,7 +665,7 @@
       },
       {
         "t": "h2",
-        "x": "10. Termination"
+        "x": "11. Termination"
       },
       {
         "t": "p",
@@ -641,7 +673,7 @@
       },
       {
         "t": "h2",
-        "x": "11. Changes to these terms"
+        "x": "12. Changes to these terms"
       },
       {
         "t": "p",
@@ -649,7 +681,7 @@
       },
       {
         "t": "h2",
-        "x": "12. Governing law"
+        "x": "13. Governing law"
       },
       {
         "t": "p",
@@ -657,7 +689,7 @@
       },
       {
         "t": "h2",
-        "x": "13. Contact"
+        "x": "14. Contact"
       },
       {
         "t": "p",

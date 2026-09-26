@@ -1,6 +1,12 @@
 {
   "common": {
-    "nav": { "howItWorks": "Cómo funciona", "features": "Funciones", "pricing": "Precios", "faq": "FAQ", "help": "Ayuda" },
+    "nav": {
+      "howItWorks": "Cómo funciona",
+      "features": "Funciones",
+      "pricing": "Precios",
+      "faq": "FAQ",
+      "help": "Ayuda"
+    },
     "signIn": "Iniciar sesión",
     "startFree": "Empezar gratis",
     "menuOpen": "Abrir menú",
@@ -48,13 +54,34 @@
     "heroAlt": "Ilustración: una idea en un portátil que se ramifica en publicaciones para varias redes sociales",
     "formatsLabel": "Qué incluye una campaña",
     "platforms": {
-      "youtube": { "label": "Guion de YouTube", "detail": "Un guion completo a cámara con gancho, capítulos, indicaciones de B-roll y llamada a la acción." },
-      "short_video": { "label": "Vídeos cortos", "detail": "Cinco guiones de 30–60 s para TikTok, Reels y Shorts, cada uno con un estilo de gancho distinto." },
-      "linkedin": { "label": "Posts de LinkedIn", "detail": "Tres posts profundos con una primera línea que detiene el scroll y una pregunta que genera comentarios." },
-      "x_thread": { "label": "Posts e hilos de X", "detail": "Dos hilos y dos posts sueltos, todos de menos de 280 caracteres." },
-      "carousel": { "label": "Carruseles", "detail": "Dos carruseles diapositiva a diapositiva con titulares, textos y notas de diseño." },
-      "story": { "label": "Stories de Instagram", "detail": "Tres secuencias de stories con texto en pantalla y el sticker adecuado para cada pantalla." },
-      "newsletter": { "label": "Newsletters", "detail": "Un correo de valor y un correo de venta, asuntos incluidos." }
+      "youtube": {
+        "label": "Guion de YouTube",
+        "detail": "Un guion completo a cámara con gancho, capítulos, indicaciones de B-roll y llamada a la acción."
+      },
+      "short_video": {
+        "label": "Vídeos cortos",
+        "detail": "Cinco guiones de 30–60 s para TikTok, Reels y Shorts, cada uno con un estilo de gancho distinto."
+      },
+      "linkedin": {
+        "label": "Posts de LinkedIn",
+        "detail": "Tres posts profundos con una primera línea que detiene el scroll y una pregunta que genera comentarios."
+      },
+      "x_thread": {
+        "label": "Posts e hilos de X",
+        "detail": "Dos hilos y dos posts sueltos, todos de menos de 280 caracteres."
+      },
+      "carousel": {
+        "label": "Carruseles",
+        "detail": "Dos carruseles diapositiva a diapositiva con titulares, textos y notas de diseño."
+      },
+      "story": {
+        "label": "Stories de Instagram",
+        "detail": "Tres secuencias de stories con texto en pantalla y el sticker adecuado para cada pantalla."
+      },
+      "newsletter": {
+        "label": "Newsletters",
+        "detail": "Un correo de valor y un correo de venta, asuntos incluidos."
+      }
     },
     "how": {
       "eyebrow": "Cómo funciona",
@@ -79,23 +106,59 @@
       "eyebrow": "Funciones",
       "title": "Todo lo que necesitas para vender lo que creas",
       "intro": "Para quienes prefieren construir su producto antes que cuidar siete calendarios de contenido.",
-      "brandBrain": { "title": "Brand Brain", "body": "Cada campaña se escribe a partir de la audiencia, la propuesta de valor y la llamada a la acción de tu producto, para que venda en lugar de solo llenar el feed." },
-      "angles": { "title": "Cuatro ángulos probados", "body": "Problema-Agitación-Solución, AIDA, visión contraria y Build in Public. La misma idea, una campaña totalmente distinta." },
-      "seo": { "title": "Estrategia SEO long-tail", "body": "Cada campaña empieza con una palabra clave principal y objetivos long-tail, y cada pieza indica la palabra clave en torno a la que se construye." },
-      "dm": { "title": "Ganchos para DM automáticos", "body": "Las piezas sociales incluyen un disparador comentario-a-DM («Comenta PLAYBOOK y te lo envío») listo para tu herramienta de automatización de DM." },
-      "copilot": { "title": "Copilot de IA", "body": "Haz cualquier pieza más contundente, más corta, más larga, más narrativa o más fuerte en la llamada a la acción, o da tu propia instrucción. Deshaz con un clic." },
-      "export": { "title": "Exporta a cualquier sitio", "body": "Copia pieza a pieza o descarga toda la campaña como archivos Markdown o un CSV que los programadores masivos pueden importar." },
-      "languages": { "title": "10 idiomas", "body": "Escribe campañas y usa la app en inglés, francés, alemán, italiano, español, portugués, chino, ruso, coreano o árabe." },
-      "week": { "title": "Pensado para 30 minutos a la semana", "body": "Sigue cada pieza de borrador a lista a publicada, y mantén cada campaña unida, del guion de YouTube a la newsletter." }
+      "brandBrain": {
+        "title": "Brand Brain",
+        "body": "Cada campaña se escribe a partir de la audiencia, la propuesta de valor y la llamada a la acción de tu producto, para que venda en lugar de solo llenar el feed."
+      },
+      "angles": {
+        "title": "Cuatro ángulos probados",
+        "body": "Problema-Agitación-Solución, AIDA, visión contraria y Build in Public. La misma idea, una campaña totalmente distinta."
+      },
+      "seo": {
+        "title": "Estrategia SEO long-tail",
+        "body": "Cada campaña empieza con una palabra clave principal y objetivos long-tail, y cada pieza indica la palabra clave en torno a la que se construye."
+      },
+      "dm": {
+        "title": "Ganchos para DM automáticos",
+        "body": "Las piezas sociales incluyen un disparador comentario-a-DM («Comenta PLAYBOOK y te lo envío») listo para tu herramienta de automatización de DM."
+      },
+      "copilot": {
+        "title": "Copilot de IA",
+        "body": "Haz cualquier pieza más contundente, más corta, más larga, más narrativa o más fuerte en la llamada a la acción, o da tu propia instrucción. Deshaz con un clic."
+      },
+      "export": {
+        "title": "Exporta a cualquier sitio",
+        "body": "Copia pieza a pieza o descarga toda la campaña como archivos Markdown o un CSV que los programadores masivos pueden importar."
+      },
+      "languages": {
+        "title": "10 idiomas",
+        "body": "Escribe campañas y usa la app en inglés, francés, alemán, italiano, español, portugués, chino, ruso, coreano o árabe."
+      },
+      "week": {
+        "title": "Pensado para 30 minutos a la semana",
+        "body": "Sigue cada pieza de borrador a lista a publicada, y mantén cada campaña unida, del guion de YouTube a la newsletter."
+      }
     },
     "audiences": {
       "title1": "Hecho para quienes",
       "title2": "venden lo que crean",
       "intro": "Añade tantos productos como permita tu plan y cambia entre ellos en cada campaña.",
-      "ebook": { "title": "Autores de ebooks", "body": "Convierte cada capítulo en una semana de contenido que lleva a los lectores a tu página de ventas." },
-      "saas": { "title": "Fundadores de SaaS", "body": "Lanza una función y, después, la campaña que explica por qué importa." },
-      "digital": { "title": "Creadores de productos digitales", "body": "Cursos, plantillas y kits, promocionados de forma coherente en todos los canales." },
-      "brands": { "title": "Marcas", "body": "Mantén visible toda tu marca con campañas construidas en torno a tu historia y tu catálogo." }
+      "ebook": {
+        "title": "Autores de ebooks",
+        "body": "Convierte cada capítulo en una semana de contenido que lleva a los lectores a tu página de ventas."
+      },
+      "saas": {
+        "title": "Fundadores de SaaS",
+        "body": "Lanza una función y, después, la campaña que explica por qué importa."
+      },
+      "digital": {
+        "title": "Creadores de productos digitales",
+        "body": "Cursos, plantillas y kits, promocionados de forma coherente en todos los canales."
+      },
+      "brands": {
+        "title": "Marcas",
+        "body": "Mantén visible toda tu marca con campañas construidas en torno a tu historia y tu catálogo."
+      }
     },
     "pricing": {
       "eyebrow": "Precios",
@@ -145,10 +208,22 @@
     "startFree": "Empezar gratis",
     "footnote": "Precios en USD. Cancela cuando quieras desde tu portal de facturación. Los planes de pago se eligen dentro de la app después de registrarte.",
     "plans": {
-      "free": { "name": "Gratis", "tagline": "Prueba todo el motor con un producto." },
-      "creator": { "name": "Creator", "tagline": "Para creadores independientes que lanzan un producto." },
-      "publisher": { "name": "Publisher", "tagline": "Para fundadores que publican cada semana." },
-      "enterprise": { "name": "Enterprise", "tagline": "Para equipos y agencias con varias marcas." }
+      "free": {
+        "name": "Gratis",
+        "tagline": "Prueba todo el motor con un producto."
+      },
+      "creator": {
+        "name": "Creator",
+        "tagline": "Para creadores independientes que lanzan un producto."
+      },
+      "publisher": {
+        "name": "Publisher",
+        "tagline": "Para fundadores que publican cada semana."
+      },
+      "enterprise": {
+        "name": "Enterprise",
+        "tagline": "Para equipos y agencias con varias marcas."
+      }
     },
     "features": {
       "campaigns": "{count} campañas / mes ({pieces} piezas)",
@@ -177,51 +252,125 @@
       "sign-in": "Problemas de acceso"
     },
     "blocks": [
-      { "t": "h2", "id": "getting-started", "x": "Primeros pasos" },
-      { "t": "ol", "x": [
-        "[Inicia sesión]({signUpUrl}) con tu correo. Te enviamos un enlace de acceso de un solo uso, así que no hay contraseña que recordar.",
-        "Abre el **Brand Brain** y añade el producto o la marca que quieres promocionar.",
-        "Haz clic en **Nueva campaña**, escribe una idea, elige un ángulo y genera.",
-        "Revisa las {pieces} piezas, pule lo que te guste, márcalas como **Lista** y exporta."
-      ] },
-      { "t": "h2", "id": "brand-brain", "x": "Brand Brain" },
-      { "t": "p", "x": "El Brand Brain guarda lo que vendes para que cada campaña hable a las personas adecuadas y lleve al sitio correcto. Para cada entrada indicas:" },
-      { "t": "ul", "x": [
-        "**Tipo**: ebook, SaaS, producto digital, marca, oferta específica u otro.",
-        "**Audiencia objetivo**: para quién es y el problema que siente ahora mismo.",
-        "**Propuesta de valor**: el resultado concreto que ofreces.",
-        "**Lead magnet / enlace CTA**: adónde envía tu contenido a la gente."
-      ] },
-      { "t": "p", "x": "Escribe un primer borrador de la audiencia y la propuesta de valor y haz clic en **Mejorar con IA**. ContentArc afina tu redacción sin inventar datos, y puedes deshacerlo si prefieres tu versión." },
-      { "t": "h2", "id": "campaigns", "x": "Crear una campaña" },
-      { "t": "p", "x": "Elige un producto, describe una idea (un capítulo, un lanzamiento, una lección aprendida, un concepto de vídeo) y elige uno de los cuatro ángulos:" },
-      { "t": "ul", "x": [
-        "**Problema · Agitación · Solución**: nombra el dolor, sube lo que está en juego, presenta la solución.",
-        "**AIDA**: atención, interés, deseo, acción.",
-        "**Visión contraria**: cuestiona una creencia común en tu nicho.",
-        "**Build in public**: comparte cifras reales, el proceso y lo aprendido."
-      ] },
-      { "t": "p", "x": "La generación suele tardar de uno a tres minutos. Obtienes una estrategia de palabras clave SEO y {pieces} piezas: 1 guion de YouTube, 5 guiones de vídeo corto, 3 posts de LinkedIn, 4 posts e hilos de X, 2 carruseles, 3 secuencias de stories y 2 newsletters." },
-      { "t": "h2", "id": "editing", "x": "Edición y Copilot de IA" },
-      { "t": "p", "x": "Cada pieza se edita en el sitio y se guarda automáticamente. Usa el selector de estado para seguir **Borrador → Lista → Publicada**. El menú **Copilot** reescribe una pieza para hacerla más contundente, más corta, más larga, más narrativa o más fuerte en la llamada a la acción, o sigue tu propia instrucción. Cada reescritura se puede deshacer." },
-      { "t": "h2", "id": "export", "x": "Exportar y publicar" },
-      { "t": "p", "x": "ContentArc no publica en tus cuentas. Copia una pieza con un clic, copia su gancho de DM o usa **Exportar** para descargar:" },
-      { "t": "ul", "x": [
-        "un **.zip de archivos Markdown**, un archivo por pieza;",
-        "un **único archivo Markdown** con toda la campaña;",
-        "un **CSV** que puedes importar en programadores masivos."
-      ] },
-      { "t": "h2", "id": "billing", "x": "Planes y facturación" },
-      { "t": "p", "x": "Compara los planes en la [sección de precios](/#pricing). Mejora tu plan desde **Planes** en la app; los pagos los gestiona Stripe de forma segura. Cambia de plan, actualiza tu tarjeta, descarga facturas o cancela desde **Facturación**. Un plan cancelado sigue activo hasta el final del periodo pagado." },
-      { "t": "h2", "id": "account", "x": "Cuenta e idiomas" },
-      { "t": "p", "x": "Cambia el idioma de la interfaz desde el menú de banderas de la barra superior; las nuevas campañas usan ese idioma por defecto y puedes elegir otro en cada campaña. Los temas claro, oscuro y del sistema están en la misma barra. Gestiona tus preferencias de correo en **Ajustes**." },
-      { "t": "h2", "id": "sign-in", "x": "Problemas de acceso" },
-      { "t": "ul", "x": [
-        "Busca el correo de acceso en tu carpeta de spam o promociones.",
-        "Cada enlace funciona una vez y caduca en aproximadamente una hora. Pide uno nuevo si hace falta.",
-        "Pedir un enlace nuevo anula el anterior, así que usa el correo más reciente."
-      ] },
-      { "t": "p", "x": "¿Sigues sin poder entrar? [Contáctanos](/contact) y te ayudamos." }
+      {
+        "t": "h2",
+        "id": "getting-started",
+        "x": "Primeros pasos"
+      },
+      {
+        "t": "ol",
+        "x": [
+          "[Inicia sesión]({signUpUrl}) con tu correo. Te enviamos un enlace de acceso de un solo uso, así que no hay contraseña que recordar.",
+          "Abre el **Brand Brain** y añade el producto o la marca que quieres promocionar.",
+          "Haz clic en **Nueva campaña**, escribe una idea, elige un ángulo y genera.",
+          "Revisa las {pieces} piezas, pule lo que te guste, márcalas como **Lista** y exporta."
+        ]
+      },
+      {
+        "t": "h2",
+        "id": "brand-brain",
+        "x": "Brand Brain"
+      },
+      {
+        "t": "p",
+        "x": "El Brand Brain guarda lo que vendes para que cada campaña hable a las personas adecuadas y lleve al sitio correcto. Para cada entrada indicas:"
+      },
+      {
+        "t": "ul",
+        "x": [
+          "**Tipo**: ebook, SaaS, producto digital, marca, oferta específica u otro.",
+          "**Audiencia objetivo**: para quién es y el problema que siente ahora mismo.",
+          "**Propuesta de valor**: el resultado concreto que ofreces.",
+          "**Lead magnet / enlace CTA**: adónde envía tu contenido a la gente."
+        ]
+      },
+      {
+        "t": "p",
+        "x": "Escribe un primer borrador de la audiencia y la propuesta de valor y haz clic en **Mejorar con IA**. ContentArc afina tu redacción sin inventar datos, y puedes deshacerlo si prefieres tu versión."
+      },
+      {
+        "t": "h2",
+        "id": "campaigns",
+        "x": "Crear una campaña"
+      },
+      {
+        "t": "p",
+        "x": "Elige un producto, describe una idea (un capítulo, un lanzamiento, una lección aprendida, un concepto de vídeo) y elige uno de los cuatro ángulos:"
+      },
+      {
+        "t": "ul",
+        "x": [
+          "**Problema · Agitación · Solución**: nombra el dolor, sube lo que está en juego, presenta la solución.",
+          "**AIDA**: atención, interés, deseo, acción.",
+          "**Visión contraria**: cuestiona una creencia común en tu nicho.",
+          "**Build in public**: comparte cifras reales, el proceso y lo aprendido."
+        ]
+      },
+      {
+        "t": "p",
+        "x": "La generación suele tardar de uno a tres minutos. Obtienes una estrategia de palabras clave SEO y {pieces} piezas: 1 guion de YouTube, 5 guiones de vídeo corto, 3 posts de LinkedIn, 4 posts e hilos de X, 2 carruseles, 3 secuencias de stories y 2 newsletters."
+      },
+      {
+        "t": "h2",
+        "id": "editing",
+        "x": "Edición y Copilot de IA"
+      },
+      {
+        "t": "p",
+        "x": "Cada pieza se edita en el sitio y se guarda automáticamente. Usa el selector de estado para seguir **Borrador → Lista → Publicada**. El menú **Copilot** reescribe una pieza para hacerla más contundente, más corta, más larga, más narrativa o más fuerte en la llamada a la acción, o sigue tu propia instrucción. Cada reescritura se puede deshacer."
+      },
+      {
+        "t": "h2",
+        "id": "export",
+        "x": "Exportar y publicar"
+      },
+      {
+        "t": "p",
+        "x": "ContentArc no publica en tus cuentas. Copia una pieza con un clic, copia su gancho de DM o usa **Exportar** para descargar:"
+      },
+      {
+        "t": "ul",
+        "x": [
+          "un **.zip de archivos Markdown**, un archivo por pieza;",
+          "un **único archivo Markdown** con toda la campaña;",
+          "un **CSV** que puedes importar en programadores masivos."
+        ]
+      },
+      {
+        "t": "h2",
+        "id": "billing",
+        "x": "Planes y facturación"
+      },
+      {
+        "t": "p",
+        "x": "Compara los planes en la [sección de precios](/#pricing). Mejora tu plan desde **Planes** en la app; los pagos los gestiona Stripe de forma segura. Cambia de plan, actualiza tu tarjeta, descarga facturas o cancela desde **Facturación**. Un plan cancelado sigue activo hasta el final del periodo pagado."
+      },
+      {
+        "t": "h2",
+        "id": "account",
+        "x": "Cuenta e idiomas"
+      },
+      {
+        "t": "p",
+        "x": "Cambia el idioma de la interfaz desde el menú de banderas de la barra superior; las nuevas campañas usan ese idioma por defecto y puedes elegir otro en cada campaña. Los temas claro, oscuro y del sistema están en la misma barra. Gestiona tus preferencias de correo en **Ajustes**."
+      },
+      {
+        "t": "h2",
+        "id": "sign-in",
+        "x": "Problemas de acceso"
+      },
+      {
+        "t": "ul",
+        "x": [
+          "Busca el correo de acceso en tu carpeta de spam o promociones.",
+          "Cada enlace funciona una vez y caduca en aproximadamente una hora. Pide uno nuevo si hace falta.",
+          "Pedir un enlace nuevo anula el anterior, así que usa el correo más reciente."
+        ]
+      },
+      {
+        "t": "p",
+        "x": "¿Sigues sin poder entrar? [Contáctanos](/contact) y te ayudamos."
+      }
     ]
   },
   "contact": {
@@ -269,94 +418,285 @@
     "operatorTitle": "Quiénes somos",
     "operator": "ContentArc está operado por {company}, sociedad registrada en {jurisdiction} con el número {number} y domicilio social en {address}. Correo de la empresa: {companyEmail}.",
     "privacy": [
-      { "t": "p", "x": "Esta política explica cómo {company} («ContentArc», «nosotros») trata los datos personales cuando usas {site} y la app de ContentArc en {app}. Somos el responsable del tratamiento de estos datos." },
-      { "t": "h2", "x": "Datos que recopilamos" },
-      { "t": "ul", "x": [
-        "**Datos de la cuenta**: dirección de correo, nombre (opcional), idioma preferido e historial de inicios de sesión.",
-        "**Contenido que aportas**: productos y marcas de tu Brand Brain, ideas de campañas y el contenido generado y editado en la app.",
-        "**Datos de uso**: número de campañas y reescrituras de IA (para aplicar los límites del plan).",
-        "**Datos de facturación**: plan, estado de la suscripción y una referencia de cliente de Stripe. Los datos de la tarjeta los recopila y guarda Stripe, nunca nosotros.",
-        "**Preferencias de correo**: si aceptaste los correos de marketing y cuándo.",
-        "**Formulario de contacto**: tu nombre, correo y mensaje cuando nos escribes.",
-        "**Datos técnicos**: dirección IP y registros de solicitudes que guarda nuestro proveedor de alojamiento por seguridad."
-      ] },
-      { "t": "h2", "x": "Cómo los usamos" },
-      { "t": "ul", "x": [
-        "Para prestar el servicio: autenticarte, guardar tu trabajo y generar campañas (contrato).",
-        "Para procesar pagos y gestionar suscripciones (contrato, obligaciones legales).",
-        "Para enviar correos del servicio como enlaces de acceso, bienvenida y facturación (contrato).",
-        "Para enviar novedades y consejos, solo si lo aceptaste (consentimiento, revocable en cualquier momento).",
-        "Para mantener seguro el servicio y evitar abusos (interés legítimo).",
-        "Para responder a tus mensajes (interés legítimo)."
-      ] },
-      { "t": "p", "x": "No vendemos tus datos personales ni usamos tu contenido para entrenar modelos de IA." },
-      { "t": "h2", "x": "Proveedores de servicios" },
-      { "t": "p", "x": "Solo compartimos datos con proveedores que los tratan por cuenta nuestra para que ContentArc funcione:" },
-      { "t": "ul", "x": [
-        "**Supabase**: base de datos, autenticación y almacenamiento de archivos.",
-        "**Cloudflare**: alojamiento del sitio y de la aplicación, seguridad y protección antispam de formularios.",
-        "**Stripe**: pagos y facturación de suscripciones.",
-        "**Brevo**: correos transaccionales, gestión de contactos y (si lo aceptaste) newsletters.",
-        "**Proveedores de modelos de IA** (como Anthropic, OpenAI, Google o DeepSeek): los datos de tu producto y tus ideas de campaña se envían al modelo que genera o reescribe tu contenido. Usamos sus API empresariales; cómo trata cada proveedor los datos de la API se indica en sus propios términos."
-      ] },
-      { "t": "p", "x": "Algunos proveedores tratan datos fuera del Reino Unido y del Espacio Económico Europeo, incluso en Estados Unidos. Cuando es necesario, estas transferencias se basan en garantías adecuadas como el International Data Transfer Addendum del Reino Unido y las cláusulas contractuales tipo de la Comisión Europea." },
-      { "t": "h2", "x": "Cookies y almacenamiento local" },
-      { "t": "p", "x": "La app usa cookies estrictamente necesarias para mantener tu sesión y recordar tu idioma, y el almacenamiento local de tu navegador para recordar tu tema. Este sitio usa una cookie de idioma y el almacenamiento local para tu tema; no usa cookies publicitarias ni de seguimiento." },
-      { "t": "h2", "x": "Conservación" },
-      { "t": "p", "x": "Conservamos tu cuenta y tu contenido mientras la cuenta esté activa. Puedes pedirnos por correo que eliminemos tu cuenta en cualquier momento; entonces eliminamos tus datos personales en un plazo de 30 días, salvo los registros que debamos conservar por motivos legales o contables (como las facturas). Los mensajes del formulario de contacto se conservan hasta 24 meses." },
-      { "t": "h2", "x": "Tus derechos" },
-      { "t": "p", "x": "Según dónde vivas (incluido en virtud del RGPD del Reino Unido y del RGPD de la UE), puedes acceder a tus datos, rectificarlos, exportarlos o suprimirlos, oponerte a ciertos tratamientos o limitarlos y retirar tu consentimiento en cualquier momento. Date de baja de los correos de marketing con el enlace de cada correo o en los Ajustes de la app. Para ejercer tus derechos, escribe a [{email}](mailto:{email}). También puedes reclamar ante una autoridad de protección de datos: en el Reino Unido, la Information Commissioner's Office (ico.org.uk), o la autoridad de tu país de residencia en la UE (en España, la AEPD)." },
-      { "t": "h2", "x": "Seguridad" },
-      { "t": "p", "x": "Los datos se cifran en tránsito, el acceso está restringido con seguridad a nivel de fila y los secretos se guardan solo en el servidor. Ningún sistema es perfectamente seguro, pero trabajamos para proteger tu información." },
-      { "t": "h2", "x": "Menores" },
-      { "t": "p", "x": "ContentArc no está dirigido a menores de 16 años y no recopilamos sus datos a sabiendas." },
-      { "t": "h2", "x": "Cambios" },
-      { "t": "p", "x": "Actualizaremos esta página cuando cambien nuestras prácticas y te avisaremos de los cambios importantes por correo o en la app." },
-      { "t": "h2", "x": "Contacto" },
-      { "t": "p", "x": "¿Preguntas sobre privacidad? Escribe a [{email}](mailto:{email}) o usa nuestro [formulario de contacto](/contact). También puedes contactar con {company} en [{companyEmail}](mailto:{companyEmail}) o por correo postal en {address}." }
+      {
+        "t": "p",
+        "x": "Esta política explica cómo {company} («ContentArc», «nosotros») trata los datos personales cuando usas {site} y la app de ContentArc en {app}. Somos el responsable del tratamiento de estos datos."
+      },
+      {
+        "t": "h2",
+        "x": "Datos que recopilamos"
+      },
+      {
+        "t": "ul",
+        "x": [
+          "**Datos de la cuenta**: dirección de correo, nombre (opcional), idioma preferido e historial de inicios de sesión.",
+          "**Contenido que aportas**: productos y marcas de tu Brand Brain, ideas de campañas y el contenido generado y editado en la app.",
+          "**Datos de uso**: número de campañas y reescrituras de IA (para aplicar los límites del plan).",
+          "**Datos de facturación**: plan, estado de la suscripción y una referencia de cliente de Stripe. Los datos de la tarjeta los recopila y guarda Stripe, nunca nosotros.",
+          "**Preferencias de correo**: si aceptaste los correos de marketing y cuándo.",
+          "**Formulario de contacto**: tu nombre, correo y mensaje cuando nos escribes.",
+          "**Datos técnicos**: dirección IP y registros de solicitudes que guarda nuestro proveedor de alojamiento por seguridad."
+        ]
+      },
+      {
+        "t": "h2",
+        "x": "Cómo los usamos"
+      },
+      {
+        "t": "ul",
+        "x": [
+          "Para prestar el servicio: autenticarte, guardar tu trabajo y generar campañas (contrato).",
+          "Para procesar pagos y gestionar suscripciones (contrato, obligaciones legales).",
+          "Para enviar correos del servicio como enlaces de acceso, bienvenida y facturación (contrato).",
+          "Para enviar novedades y consejos, solo si lo aceptaste (consentimiento, revocable en cualquier momento).",
+          "Para mantener seguro el servicio y evitar abusos (interés legítimo).",
+          "Para responder a tus mensajes (interés legítimo)."
+        ]
+      },
+      {
+        "t": "p",
+        "x": "No vendemos tus datos personales ni usamos tu contenido para entrenar modelos de IA."
+      },
+      {
+        "t": "h2",
+        "x": "Proveedores de servicios"
+      },
+      {
+        "t": "p",
+        "x": "Solo compartimos datos con proveedores que los tratan por cuenta nuestra para que ContentArc funcione:"
+      },
+      {
+        "t": "ul",
+        "x": [
+          "**Supabase**: base de datos, autenticación y almacenamiento de archivos.",
+          "**Cloudflare**: alojamiento del sitio y de la aplicación, seguridad y protección antispam de formularios.",
+          "**Stripe**: pagos y facturación de suscripciones.",
+          "**Brevo**: correos transaccionales, gestión de contactos y (si lo aceptaste) newsletters.",
+          "**Proveedores de modelos de IA** (como Anthropic, OpenAI, Google o DeepSeek): los datos de tu producto y tus ideas de campaña se envían al modelo que genera o reescribe tu contenido. Usamos sus API empresariales; cómo trata cada proveedor los datos de la API se indica en sus propios términos."
+        ]
+      },
+      {
+        "t": "p",
+        "x": "Algunos proveedores tratan datos fuera del Reino Unido y del Espacio Económico Europeo, incluso en Estados Unidos. Cuando es necesario, estas transferencias se basan en garantías adecuadas como el International Data Transfer Addendum del Reino Unido y las cláusulas contractuales tipo de la Comisión Europea."
+      },
+      {
+        "t": "h2",
+        "x": "Cookies y almacenamiento local"
+      },
+      {
+        "t": "p",
+        "x": "La app usa cookies estrictamente necesarias para mantener tu sesión y recordar tu idioma, y el almacenamiento local de tu navegador para recordar tu tema. Este sitio usa una cookie de idioma y el almacenamiento local para tu tema; no usa cookies publicitarias ni de seguimiento."
+      },
+      {
+        "t": "h2",
+        "x": "Conservación"
+      },
+      {
+        "t": "p",
+        "x": "Conservamos tu cuenta y tu contenido mientras la cuenta esté activa. Puedes pedirnos por correo que eliminemos tu cuenta en cualquier momento; entonces eliminamos tus datos personales en un plazo de 30 días, salvo los registros que debamos conservar por motivos legales o contables (como las facturas). Los mensajes del formulario de contacto se conservan hasta 24 meses."
+      },
+      {
+        "t": "h2",
+        "x": "Tus derechos"
+      },
+      {
+        "t": "p",
+        "x": "Según dónde vivas (incluido en virtud del RGPD del Reino Unido y del RGPD de la UE), puedes acceder a tus datos, rectificarlos, exportarlos o suprimirlos, oponerte a ciertos tratamientos o limitarlos y retirar tu consentimiento en cualquier momento. Date de baja de los correos de marketing con el enlace de cada correo o en los Ajustes de la app. Para ejercer tus derechos, escribe a [{email}](mailto:{email}). También puedes reclamar ante una autoridad de protección de datos: en el Reino Unido, la Information Commissioner's Office (ico.org.uk), o la autoridad de tu país de residencia en la UE (en España, la AEPD)."
+      },
+      {
+        "t": "h2",
+        "x": "Seguridad"
+      },
+      {
+        "t": "p",
+        "x": "Los datos se cifran en tránsito, el acceso está restringido con seguridad a nivel de fila y los secretos se guardan solo en el servidor. Ningún sistema es perfectamente seguro, pero trabajamos para proteger tu información."
+      },
+      {
+        "t": "h2",
+        "x": "Menores"
+      },
+      {
+        "t": "p",
+        "x": "ContentArc no está dirigido a menores de 16 años y no recopilamos sus datos a sabiendas."
+      },
+      {
+        "t": "h2",
+        "x": "Cambios"
+      },
+      {
+        "t": "p",
+        "x": "Actualizaremos esta página cuando cambien nuestras prácticas y te avisaremos de los cambios importantes por correo o en la app."
+      },
+      {
+        "t": "h2",
+        "x": "Contacto"
+      },
+      {
+        "t": "p",
+        "x": "¿Preguntas sobre privacidad? Escribe a [{email}](mailto:{email}) o usa nuestro [formulario de contacto](/contact). También puedes contactar con {company} en [{companyEmail}](mailto:{companyEmail}) o por correo postal en {address}."
+      }
     ],
     "terms": [
-      { "t": "p", "x": "Estos términos constituyen un acuerdo entre tú y {company}, sociedad registrada en {jurisdiction} (número {number}), con domicilio social en {address} («ContentArc», «nosotros»), para el uso de ContentArc, incluidos {site} y la app en {app}. Al crear una cuenta o usar el servicio, los aceptas." },
-      { "t": "h2", "x": "1. El servicio" },
-      { "t": "p", "x": "ContentArc te ayuda a planificar y escribir contenido de marketing con IA: genera campañas multicanal a partir de la información de tu producto y de tus ideas, y te permite editarlas y exportarlas. ContentArc no publica en tus redes sociales." },
-      { "t": "h2", "x": "2. Tu cuenta" },
-      { "t": "p", "x": "Debes tener al menos 16 años y facilitar una dirección de correo que controles. Eres responsable de la actividad de tu cuenta y de mantener seguro el acceso a tu correo. Avísanos enseguida de cualquier uso no autorizado." },
-      { "t": "h2", "x": "3. Planes, pago y cancelación" },
-      { "t": "ul", "x": [
-        "El plan gratuito se ofrece con los límites indicados en nuestra página de precios y puede cambiar con el tiempo.",
-        "Los planes de pago se facturan por adelantado, mensual o anualmente, a través de Stripe, y se renuevan automáticamente hasta que los canceles.",
-        "Puedes cancelar en cualquier momento desde el portal de facturación; tu plan sigue activo hasta el final del periodo en curso. Los pagos no son reembolsables salvo que la ley lo exija.",
-        "Si eres consumidor en el Reino Unido o la UE, aceptas que el servicio empiece inmediatamente después de la compra; tus derechos legales no se ven afectados.",
-        "Podemos cambiar los precios con al menos 30 días de antelación antes de tu próxima renovación.",
-        "Los límites de uso (campañas, productos, reescrituras de IA) se reinician cada mes natural."
-      ] },
-      { "t": "h2", "x": "4. Tu contenido" },
-      { "t": "p", "x": "Conservas todos los derechos sobre lo que introduces en ContentArc y sobre el contenido generado para ti. Nos concedes una licencia limitada para alojar, tratar y transmitir tu contenido únicamente para prestar y mejorar el servicio para ti. Eres responsable del contenido que publiques, incluida la comprobación de su exactitud y de su conformidad con las leyes y las normas de las plataformas." },
-      { "t": "h2", "x": "5. Contenido generado por IA" },
-      { "t": "p", "x": "El contenido lo producen modelos de IA y puede ser inexacto, incompleto o parecido al producido para otros. Revísalo antes de publicarlo. No lo uses como asesoramiento legal, médico, financiero o profesional." },
-      { "t": "h2", "x": "6. Uso aceptable" },
-      { "t": "p", "x": "No uses ContentArc para:" },
-      { "t": "ul", "x": [
-        "crear contenido ilícito, engañoso, difamatorio, de odio o que infrinja derechos, o spam;",
-        "hacer afirmaciones falsas sobre productos, escribir reseñas falsas o suplantar a otras personas;",
-        "intentar romper, sobrecargar, aplicar ingeniería inversa o eludir los límites o la seguridad del servicio;",
-        "revender o compartir el acceso al servicio sin nuestro permiso por escrito."
-      ] },
-      { "t": "p", "x": "Podemos suspender las cuentas que incumplan estas normas." },
-      { "t": "h2", "x": "7. Nuestra propiedad" },
-      { "t": "p", "x": "El software, la marca y el sitio web de ContentArc son nuestros o de nuestros licenciantes. Estos términos no te dan ningún derecho sobre ellos más allá del uso del servicio." },
-      { "t": "h2", "x": "8. Disponibilidad y cambios" },
-      { "t": "p", "x": "Trabajamos para que ContentArc esté disponible, pero no garantizamos un servicio ininterrumpido. Podemos añadir, cambiar o retirar funciones; avisaremos con una antelación razonable de los cambios que reduzcan de forma significativa las funciones de pago." },
-      { "t": "h2", "x": "9. Responsabilidad" },
-      { "t": "p", "x": "En la medida en que lo permita la ley, ContentArc se ofrece «tal cual» y nuestra responsabilidad total por cualquier reclamación se limita al importe que nos hayas pagado en los 12 meses anteriores a la reclamación. No somos responsables de pérdidas indirectas o consecuentes, lucro cesante ni pérdida de datos. Nada en estos términos limita una responsabilidad que la ley no permita limitar." },
-      { "t": "h2", "x": "10. Terminación" },
-      { "t": "p", "x": "Puedes dejar de usar ContentArc en cualquier momento y pedirnos por correo que eliminemos tu cuenta. Podemos terminar o suspender el acceso si incumples estos términos. Puedes exportar tus campañas desde la app en cualquier momento y, tras la terminación, solicitar una exportación de tu contenido en un plazo de 30 días." },
-      { "t": "h2", "x": "11. Cambios en estos términos" },
-      { "t": "p", "x": "Podemos actualizar estos términos. Te avisaremos con antelación de los cambios importantes por correo o en la app; seguir usando ContentArc implica aceptar los nuevos términos." },
-      { "t": "h2", "x": "12. Ley aplicable" },
-      { "t": "p", "x": "Estos términos se rigen por la legislación de Inglaterra y Gales, y los tribunales de Inglaterra y Gales son competentes. Si eres consumidor y resides en otro lugar, conservas la protección de las normas imperativas de tu país de residencia y también puedes iniciar acciones allí." },
-      { "t": "h2", "x": "13. Contacto" },
-      { "t": "p", "x": "¿Preguntas? Escribe a [{email}](mailto:{email}) o usa nuestro [formulario de contacto](/contact). Asuntos de la empresa: [{companyEmail}](mailto:{companyEmail}). Consulta también nuestra [política de privacidad](/privacy)." }
+      {
+        "t": "p",
+        "x": "Estos términos constituyen un acuerdo entre tú y {company}, sociedad registrada en {jurisdiction} (número {number}), con domicilio social en {address} («ContentArc», «nosotros»), para el uso de ContentArc, incluidos {site} y la app en {app}. Al crear una cuenta o usar el servicio, los aceptas."
+      },
+      {
+        "t": "h2",
+        "x": "1. El servicio"
+      },
+      {
+        "t": "p",
+        "x": "ContentArc te ayuda a planificar y escribir contenido de marketing con IA: genera campañas multicanal a partir de la información de tu producto y de tus ideas, y te permite editarlas y exportarlas. ContentArc no publica en tus redes sociales."
+      },
+      {
+        "t": "h2",
+        "x": "2. Tu cuenta"
+      },
+      {
+        "t": "p",
+        "x": "Debes tener al menos 16 años y facilitar una dirección de correo que controles. Eres responsable de la actividad de tu cuenta y de mantener seguro el acceso a tu correo. Avísanos enseguida de cualquier uso no autorizado."
+      },
+      {
+        "t": "h2",
+        "x": "3. Planes, pago y cancelación"
+      },
+      {
+        "t": "ul",
+        "x": [
+          "El plan gratuito se ofrece con los límites indicados en nuestra página de precios y puede cambiar con el tiempo.",
+          "Los planes de pago se facturan por adelantado, mensual o anualmente, a través de Stripe, y se renuevan automáticamente hasta que los canceles.",
+          "Puedes cancelar en cualquier momento desde el portal de facturación; tu plan sigue activo hasta el final del periodo en curso. Los pagos no son reembolsables, salvo lo previsto en la sección 4 (derecho de desistimiento) o cuando la ley lo exija.",
+          "Si eres consumidor en el Reino Unido o la UE, aceptas que el servicio empiece inmediatamente después de la compra; tus derechos legales no se ven afectados.",
+          "Podemos cambiar los precios con al menos 30 días de antelación antes de tu próxima renovación.",
+          "Los límites de uso (campañas, productos, reescrituras de IA) se reinician cada mes natural."
+        ]
+      },
+      {
+        "t": "h2",
+        "x": "4. Derecho de desistimiento (consumidores de la UE y del Reino Unido)"
+      },
+      {
+        "t": "p",
+        "x": "Si eres consumidor en la Unión Europea o en el Reino Unido, por lo general dispones de 14 días desde tu suscripción para desistir del contrato sin indicar el motivo."
+      },
+      {
+        "t": "p",
+        "x": "Como ContentArc te da acceso inmediato, antes del pago te pedimos que marques una casilla para solicitar expresamente que tu suscripción empiece de inmediato. Al hacerlo, reconoces que:"
+      },
+      {
+        "t": "ul",
+        "x": [
+          "pierdes tu derecho de desistimiento sobre el contenido digital generado para ti (como campañas y publicaciones) una vez suministrado;",
+          "si desistes en un plazo de 14 días, pagas el servicio prestado hasta que nos lo comuniques y te reembolsamos la parte no utilizada del periodo en un plazo de 14 días, por el mismo medio de pago;",
+          "tu derecho de desistimiento termina una vez prestado íntegramente el servicio."
+        ]
+      },
+      {
+        "t": "p",
+        "x": "Para desistir, envíanos una declaración clara antes de que acabe el plazo de 14 días, por ejemplo por correo a [{email}](mailto:{email}). Puedes usar el modelo de formulario siguiente, aunque no es obligatorio."
+      },
+      {
+        "t": "p",
+        "x": "**Modelo de formulario de desistimiento.** A la atención de {company}, {address}, {email}: por la presente le comunico que desisto de mi contrato de la suscripción a ContentArc contratada el (fecha). Nombre: (…) · Correo de la cuenta: (…) · Fecha: (…)."
+      },
+      {
+        "t": "p",
+        "x": "Los clientes profesionales y los clientes de países sin derecho legal de desistimiento (como Suiza) no tienen derecho de desistimiento; la cancelación funciona entonces como se describe en la sección 3. Nada en estos términos limita los derechos que te reconoce la normativa imperativa de consumo."
+      },
+      {
+        "t": "h2",
+        "x": "5. Tu contenido"
+      },
+      {
+        "t": "p",
+        "x": "Conservas todos los derechos sobre lo que introduces en ContentArc y sobre el contenido generado para ti. Nos concedes una licencia limitada para alojar, tratar y transmitir tu contenido únicamente para prestar y mejorar el servicio para ti. Eres responsable del contenido que publiques, incluida la comprobación de su exactitud y de su conformidad con las leyes y las normas de las plataformas."
+      },
+      {
+        "t": "h2",
+        "x": "6. Contenido generado por IA"
+      },
+      {
+        "t": "p",
+        "x": "El contenido lo producen modelos de IA y puede ser inexacto, incompleto o parecido al producido para otros. Revísalo antes de publicarlo. No lo uses como asesoramiento legal, médico, financiero o profesional."
+      },
+      {
+        "t": "h2",
+        "x": "7. Uso aceptable"
+      },
+      {
+        "t": "p",
+        "x": "No uses ContentArc para:"
+      },
+      {
+        "t": "ul",
+        "x": [
+          "crear contenido ilícito, engañoso, difamatorio, de odio o que infrinja derechos, o spam;",
+          "hacer afirmaciones falsas sobre productos, escribir reseñas falsas o suplantar a otras personas;",
+          "intentar romper, sobrecargar, aplicar ingeniería inversa o eludir los límites o la seguridad del servicio;",
+          "revender o compartir el acceso al servicio sin nuestro permiso por escrito."
+        ]
+      },
+      {
+        "t": "p",
+        "x": "Podemos suspender las cuentas que incumplan estas normas."
+      },
+      {
+        "t": "h2",
+        "x": "8. Nuestra propiedad"
+      },
+      {
+        "t": "p",
+        "x": "El software, la marca y el sitio web de ContentArc son nuestros o de nuestros licenciantes. Estos términos no te dan ningún derecho sobre ellos más allá del uso del servicio."
+      },
+      {
+        "t": "h2",
+        "x": "9. Disponibilidad y cambios"
+      },
+      {
+        "t": "p",
+        "x": "Trabajamos para que ContentArc esté disponible, pero no garantizamos un servicio ininterrumpido. Podemos añadir, cambiar o retirar funciones; avisaremos con una antelación razonable de los cambios que reduzcan de forma significativa las funciones de pago."
+      },
+      {
+        "t": "h2",
+        "x": "10. Responsabilidad"
+      },
+      {
+        "t": "p",
+        "x": "En la medida en que lo permita la ley, ContentArc se ofrece «tal cual» y nuestra responsabilidad total por cualquier reclamación se limita al importe que nos hayas pagado en los 12 meses anteriores a la reclamación. No somos responsables de pérdidas indirectas o consecuentes, lucro cesante ni pérdida de datos. Nada en estos términos limita una responsabilidad que la ley no permita limitar."
+      },
+      {
+        "t": "h2",
+        "x": "11. Terminación"
+      },
+      {
+        "t": "p",
+        "x": "Puedes dejar de usar ContentArc en cualquier momento y pedirnos por correo que eliminemos tu cuenta. Podemos terminar o suspender el acceso si incumples estos términos. Puedes exportar tus campañas desde la app en cualquier momento y, tras la terminación, solicitar una exportación de tu contenido en un plazo de 30 días."
+      },
+      {
+        "t": "h2",
+        "x": "12. Cambios en estos términos"
+      },
+      {
+        "t": "p",
+        "x": "Podemos actualizar estos términos. Te avisaremos con antelación de los cambios importantes por correo o en la app; seguir usando ContentArc implica aceptar los nuevos términos."
+      },
+      {
+        "t": "h2",
+        "x": "13. Ley aplicable"
+      },
+      {
+        "t": "p",
+        "x": "Estos términos se rigen por la legislación de Inglaterra y Gales, y los tribunales de Inglaterra y Gales son competentes. Si eres consumidor y resides en otro lugar, conservas la protección de las normas imperativas de tu país de residencia y también puedes iniciar acciones allí."
+      },
+      {
+        "t": "h2",
+        "x": "14. Contacto"
+      },
+      {
+        "t": "p",
+        "x": "¿Preguntas? Escribe a [{email}](mailto:{email}) o usa nuestro [formulario de contacto](/contact). Asuntos de la empresa: [{companyEmail}](mailto:{companyEmail}). Consulta también nuestra [política de privacidad](/privacy)."
+      }
     ]
   },
   "notFound": {

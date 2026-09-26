@@ -1,12 +1,16 @@
 // Single source of truth for the marketing site. Keep prices/limits in sync with the app
 // (ContentArc/src/lib/plans.ts and the Stripe prices).
 
+// Build-time overrides (e.g. local runs): NEXT_PUBLIC_SITE_URL, NEXT_PUBLIC_APP_URL.
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://contentarc.to";
+const APP_URL = process.env.NEXT_PUBLIC_APP_URL || "https://app.contentarc.to";
+
 export const SITE = {
   name: "ContentArc",
-  url: "https://contentarc.to",
-  appUrl: "https://app.contentarc.to",
-  signUpUrl: "https://app.contentarc.to/login",
-  signInUrl: "https://app.contentarc.to/login",
+  url: SITE_URL,
+  appUrl: APP_URL,
+  signUpUrl: `${APP_URL}/login`,
+  signInUrl: `${APP_URL}/login`,
   contactEmail: "contact@contentarc.to",
 } as const;
 
