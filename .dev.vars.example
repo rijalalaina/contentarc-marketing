@@ -1,0 +1,6 @@
+# Copy to .dev.vars for `npm run preview` (wrangler pages dev). Never commit .dev.vars.
+BREVO_API_KEY=
+CONTACT_TO_EMAIL=you@example.com
+BREVO_SENDER_EMAIL=noreply@blissfulplan.com
+BREVO_LIST_ID=
+TURNSTILE_SECRET_KEY=
