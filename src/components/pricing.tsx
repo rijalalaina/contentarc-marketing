@@ -56,6 +56,8 @@ export function Pricing() {
             t("features.campaigns", { count: num(plan.campaigns), pieces: num(plan.campaigns * PIECES_PER_CAMPAIGN) }),
             plan.products === null ? t("features.productsUnlimited") : t("features.products", { count: plan.products }),
             t("features.rewrites", { count: num(plan.rewrites) }),
+            t("features.publishing", { count: plan.publishingBrands ?? 0 }),
+            t("features.images", { count: plan.images }),
             t("features.formats"),
             t("features.seo"),
             t("features.export"),

@@ -6,7 +6,7 @@ import {
   BrainIcon,
   BriefcaseBusinessIcon,
   CheckIcon,
-  DownloadIcon,
+  SendIcon,
   FlameIcon,
   GlobeIcon,
   LayersIcon,
@@ -44,7 +44,7 @@ const FEATURES = [
   { key: "seo", icon: SearchIcon },
   { key: "dm", icon: MessageCircleIcon },
   { key: "copilot", icon: WandSparklesIcon },
-  { key: "export", icon: DownloadIcon },
+  { key: "export", icon: SendIcon },
   { key: "languages", icon: GlobeIcon },
   { key: "week", icon: CheckIcon },
 ] as const;

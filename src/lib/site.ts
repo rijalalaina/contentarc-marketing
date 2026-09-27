@@ -21,7 +21,7 @@ export const LEGAL = {
   companyNumber: "15418196",
   address: "Covent Garden, 71-75 Shelton Street, London, WC2H 9JQ, UK",
   companyEmail: "contact@blissfulplan.com",
-  lastUpdated: "2026-09-26",
+  lastUpdated: "2026-09-27",
 } as const;
 
 export type Interval = "month" | "year";
@@ -32,6 +32,10 @@ export interface Plan {
   campaigns: number;
   products: number | null; // null = unlimited
   rewrites: number;
+  /** Brands that can auto-publish (one account per network each). null = unlimited. */
+  publishingBrands: number | null;
+  /** AI images per month. */
+  images: number;
   prioritySupport?: boolean;
   popular?: boolean;
 }
@@ -45,6 +49,8 @@ export const PLANS: Plan[] = [
     campaigns: 1,
     products: 1,
     rewrites: 10,
+    publishingBrands: 0,
+    images: 0,
   },
   {
     id: "creator",
@@ -52,6 +58,8 @@ export const PLANS: Plan[] = [
     campaigns: 10,
     products: 3,
     rewrites: 150,
+    publishingBrands: 1,
+    images: 150,
   },
   {
     id: "publisher",
@@ -59,6 +67,8 @@ export const PLANS: Plan[] = [
     campaigns: 30,
     products: 10,
     rewrites: 500,
+    publishingBrands: 3,
+    images: 450,
     popular: true,
   },
   {
@@ -67,6 +77,8 @@ export const PLANS: Plan[] = [
     campaigns: 100,
     products: null,
     rewrites: 1500,
+    publishingBrands: 10,
+    images: 1500,
     prioritySupport: true,
   },
 ];

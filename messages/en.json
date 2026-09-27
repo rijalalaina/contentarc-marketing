@@ -36,7 +36,7 @@
     "description": "ContentArc turns one idea into a 20-piece, 7-platform marketing campaign built to sell your ebook, SaaS, digital product or brand, in about 30 minutes a week.",
     "ogAlt": "ContentArc: turn one idea into posts across every channel",
     "helpTitle": "Help center",
-    "helpDescription": "How to set up your Brand Brain, generate a 20-piece campaign, refine it with the AI Copilot and export it.",
+    "helpDescription": "How to set up your Brand Brain, generate a 20-piece campaign, refine it with the AI Copilot, plan it and auto-publish it.",
     "contactTitle": "Contact",
     "contactDescription": "Questions about ContentArc, plans or your account? Send us a message.",
     "privacyTitle": "Privacy policy",
@@ -92,7 +92,7 @@
       "s2Title": "Drop one idea",
       "s2Body": "A chapter, a feature launch, a lesson learned or a hot take. Pick a proven marketing angle and the language to write in.",
       "s3Title": "Get {pieces} ready-to-post pieces",
-      "s3Body": "A coherent campaign across 7 formats in a few minutes. Refine anything with the AI Copilot, mark it ready, export it to your scheduler."
+      "s3Body": "A coherent campaign across 7 formats in a few minutes. Refine anything with the AI Copilot, approve it, and ContentArc publishes it on schedule to your social accounts."
     },
     "matrix": {
       "eyebrow": "The ContentArc matrix",
@@ -127,8 +127,8 @@
         "body": "Make any piece punchier, shorter, longer, more story-driven or sharper on the CTA, or give your own instruction. Undo in one click."
       },
       "export": {
-        "title": "Export anywhere",
-        "body": "Copy piece by piece, or download the whole campaign as Markdown files or a CSV that bulk schedulers can import."
+        "title": "Plan & auto-publish",
+        "body": "ContentArc turns each campaign into a content plan and calendar, then publishes the posts you approve to LinkedIn, X, Facebook, Instagram, Threads, Bluesky and Pinterest, with AI images. Prefer your own tools? Export everything as Markdown or CSV."
       },
       "languages": {
         "title": "10 languages",
@@ -172,7 +172,7 @@
       "q1": "What exactly do I get from one campaign?",
       "a1": "{pieces} pieces built around one idea: 1 YouTube script, 5 short-form video scripts, 3 LinkedIn posts, 4 X posts and threads, 2 carousels, 3 Instagram story sequences and 2 newsletters, plus an SEO keyword strategy for the whole campaign.",
       "q2": "Does ContentArc publish to my social accounts?",
-      "a2": "Not directly. ContentArc writes and organizes the campaign; you copy each piece or export the campaign as Markdown or CSV and publish with the tools you already use, including bulk schedulers.",
+      "a2": "Yes, on paid plans. Connect your accounts once, create a content plan for a campaign, and ContentArc publishes the posts you approve to LinkedIn, X, Facebook, Instagram, Threads, Bluesky and Pinterest at the scheduled times. Nothing goes out without your approval. Videos, stories and newsletters are planned on your calendar for you to post; you can also copy or export any piece.",
       "q3": "Is there a free plan?",
       "a3": "Yes. The free plan includes 1 campaign a month and 1 product, with no credit card required. Upgrade whenever you need more.",
       "q4": "Which AI powers ContentArc?",
@@ -234,7 +234,9 @@
       "seo": "SEO long-tail keyword strategy",
       "export": "Markdown & CSV export",
       "languages": "Content in 10 languages",
-      "priority": "Priority support"
+      "priority": "Priority support",
+      "publishing": "{count, plural, =0 {Copy & export (no auto-publishing)} one {Auto-publish # brand to 7 networks} other {Auto-publish # brands to 7 networks}}",
+      "images": "{count, plural, =0 {Template visuals only} other {# AI images / month}}"
     }
   },
   "help": {
@@ -246,7 +248,7 @@
       "brand-brain": "Brand Brain",
       "campaigns": "Creating a campaign",
       "editing": "Editing & Copilot",
-      "export": "Exporting & publishing",
+      "export": "Publishing & export",
       "billing": "Plans & billing",
       "account": "Account & languages",
       "sign-in": "Sign-in problems"
@@ -263,7 +265,7 @@
           "[Sign in]({signUpUrl}) with your email. We send you a one-time sign-in link, so there's no password to remember.",
           "Open **Brand Brain** and add the product or brand you want to promote.",
           "Click **New campaign**, write one idea, pick an angle and generate.",
-          "Review the {pieces} pieces, refine what you like, mark them **Ready** and export."
+          "Review the {pieces} pieces, refine what you like, then create a content plan and approve the posts to publish (or export them)."
         ]
       },
       {
@@ -322,11 +324,11 @@
       {
         "t": "h2",
         "id": "export",
-        "x": "Exporting & publishing"
+        "x": "Publishing & export"
       },
       {
         "t": "p",
-        "x": "ContentArc doesn't post to your accounts. Copy a piece with one click, copy its DM automation hook, or use **Export** to download:"
+        "x": "On paid plans, ContentArc publishes for you. Connect each brand's accounts once in **Social accounts**. On a campaign, create a **content plan**: ContentArc dates every piece at good times for each network. Add an AI image (or your own) where needed, then **approve & schedule** posts, or turn on automatic approval. Follow and move everything in the **Calendar**; you get an email if a post fails. Videos, stories and newsletters are planned for you to post yourself. You can also copy a piece with one click, copy its DM automation hook, or use **Export** to download:"
       },
       {
         "t": "ul",
@@ -400,7 +402,7 @@
     "emailCardTitle": "Email",
     "emailCardBody": "Prefer email? Write to us directly.",
     "helpCardTitle": "Help center",
-    "helpCardBody": "Guides for the Brand Brain, campaigns, export and billing.",
+    "helpCardBody": "Guides for the Brand Brain, campaigns, publishing and billing.",
     "helpCardLink": "Browse help",
     "errors": {
       "name": "Please enter your name.",
@@ -433,7 +435,8 @@
           "**Billing data**: plan, subscription status and a Stripe customer reference. Card details are collected and stored by Stripe, never by us.",
           "**Email preferences**: whether you opted in to marketing emails, and when.",
           "**Contact form**: your name, email and message when you write to us.",
-          "**Technical data**: IP address and request logs kept by our hosting provider for security."
+          "**Technical data**: IP address and request logs kept by our hosting provider for security.",
+          "**Connected social accounts**: the name, handle and profile picture of each account you connect, the posts you schedule, their images and their publishing results. Access to your social accounts is held by our publishing provider (Upload-Post), not by us."
         ]
       },
       {
@@ -470,7 +473,9 @@
           "**Cloudflare**: website and application hosting, security and spam protection for forms.",
           "**Stripe**: payments and subscription billing.",
           "**Brevo**: transactional email, contact management and (if you opted in) newsletters.",
-          "**AI model providers** (such as Anthropic, OpenAI, Google or DeepSeek): your product details and campaign ideas are sent to the model that generates or rewrites your content. We use their business APIs; how each provider handles API data is set out in its own terms."
+          "**AI model providers** (such as Anthropic, OpenAI, Google or DeepSeek): your product details and campaign ideas are sent to the model that generates or rewrites your content. We use their business APIs; how each provider handles API data is set out in its own terms.",
+          "**Upload-Post**: publishes the posts you approve to the social accounts you connect, and holds the access you grant to those accounts.",
+          "**Image model providers** (such as Black Forest Labs, Ideogram, OpenAI or Google): a text description of the image, written from your post, is sent to generate post images."
         ]
       },
       {
@@ -545,7 +550,11 @@
       },
       {
         "t": "p",
-        "x": "ContentArc helps you plan and write marketing content with AI: it generates multi-channel campaigns from your product information and ideas, lets you edit them and export them. ContentArc does not publish to your social accounts."
+        "x": "ContentArc helps you plan, write and publish marketing content with AI: it generates multi-channel campaigns from your product information and ideas, lets you edit them, organises them in a content plan and calendar, creates images for them and, on paid plans, publishes the posts you approve to the social accounts you connect. You can also export your content."
+      },
+      {
+        "t": "p",
+        "x": "When you connect social accounts, you authorise us and our publishing provider (Upload-Post) to publish, on your behalf and at the times you set, the posts you approve (or that you choose to approve automatically for a campaign). You can disconnect accounts or unschedule posts at any time. You are responsible for the content you publish and for complying with each network's rules. Social networks can change, limit or withdraw access at any time, so we cannot guarantee that a post will be published, published on time or stay online; if a post fails, we will tell you by email."
       },
       {
         "t": "h2",

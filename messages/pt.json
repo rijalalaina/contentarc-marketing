@@ -36,7 +36,7 @@
     "description": "O ContentArc transforma uma ideia numa campanha de marketing de 20 conteúdos para 7 plataformas, pensada para vender o seu ebook, SaaS, produto digital ou marca, em cerca de 30 minutos por semana.",
     "ogAlt": "ContentArc: transforme uma ideia em publicações para todos os canais",
     "helpTitle": "Centro de ajuda",
-    "helpDescription": "Como configurar o Brand Brain, gerar uma campanha de 20 conteúdos, refiná-la com o Copilot de IA e exportá-la.",
+    "helpDescription": "Como configurar seu Brand Brain, gerar uma campanha de 20 peças, refiná-la com o Copilot de IA, planejá-la e publicá-la automaticamente.",
     "contactTitle": "Contacto",
     "contactDescription": "Dúvidas sobre o ContentArc, os planos ou a sua conta? Envie-nos uma mensagem.",
     "privacyTitle": "Política de privacidade",
@@ -92,7 +92,7 @@
       "s2Title": "Lance uma ideia",
       "s2Body": "Um capítulo, o lançamento de uma funcionalidade, uma lição aprendida ou uma opinião forte. Escolha um ângulo de marketing comprovado e o idioma.",
       "s3Title": "Receba {pieces} conteúdos prontos a publicar",
-      "s3Body": "Uma campanha coerente em 7 formatos em poucos minutos. Refine tudo com o Copilot de IA, marque como pronto e exporte para o seu agendador."
+      "s3Body": "Uma campanha coerente em 7 formatos em poucos minutos. Refine o que quiser com o Copilot de IA, aprove, e o ContentArc publica no horário planejado nas suas contas sociais."
     },
     "matrix": {
       "eyebrow": "A matriz ContentArc",
@@ -127,8 +127,8 @@
         "body": "Torne qualquer conteúdo mais incisivo, mais curto, mais longo, mais narrativo ou mais forte no apelo à ação, ou dê a sua própria instrução. Anule com um clique."
       },
       "export": {
-        "title": "Exporte para qualquer lado",
-        "body": "Copie conteúdo a conteúdo ou descarregue a campanha inteira em ficheiros Markdown ou num CSV que os agendadores podem importar."
+        "title": "Planeje e publique automaticamente",
+        "body": "O ContentArc transforma cada campanha em um plano de conteúdo com calendário e publica os posts que você aprova no LinkedIn, X, Facebook, Instagram, Threads, Bluesky e Pinterest, com imagens de IA. Prefere suas ferramentas? Exporte tudo em Markdown ou CSV."
       },
       "languages": {
         "title": "10 idiomas",
@@ -171,8 +171,8 @@
       "more": "Mais alguma coisa? Visite o <help>centro de ajuda</help> ou <contact>contacte-nos</contact>.",
       "q1": "O que recebo exatamente numa campanha?",
       "a1": "{pieces} conteúdos construídos em torno de uma ideia: 1 guião de YouTube, 5 guiões de vídeo curto, 3 publicações no LinkedIn, 4 publicações e threads no X, 2 carrosséis, 3 sequências de stories do Instagram e 2 newsletters, mais uma estratégia de palavras-chave SEO para toda a campanha.",
-      "q2": "O ContentArc publica nas minhas redes sociais?",
-      "a2": "Não diretamente. O ContentArc escreve e organiza a campanha; copia cada conteúdo ou exporta a campanha em Markdown ou CSV e publica com as ferramentas que já usa, incluindo agendadores.",
+      "q2": "O ContentArc publica nas minhas contas sociais?",
+      "a2": "Sim, nos planos pagos. Conecte suas contas uma vez, crie um plano de conteúdo para uma campanha, e o ContentArc publica os posts que você aprova no LinkedIn, X, Facebook, Instagram, Threads, Bluesky e Pinterest nos horários agendados. Nada é publicado sem a sua aprovação. Vídeos, stories e newsletters ficam planejados no calendário para você publicar; você também pode copiar ou exportar qualquer peça.",
       "q3": "Existe um plano gratuito?",
       "a3": "Sim. O plano gratuito inclui 1 campanha por mês e 1 produto, sem cartão de crédito. Faça upgrade quando precisar de mais.",
       "q4": "Que IA utiliza o ContentArc?",
@@ -234,7 +234,9 @@
       "seo": "Estratégia de palavras-chave SEO de cauda longa",
       "export": "Exportação em Markdown e CSV",
       "languages": "Conteúdo em 10 idiomas",
-      "priority": "Suporte prioritário"
+      "priority": "Suporte prioritário",
+      "publishing": "{count, plural, =0 {Copiar e exportar (sem publicação automática)} one {Publicação automática de # marca em 7 redes} other {Publicação automática de # marcas em 7 redes}}",
+      "images": "{count, plural, =0 {Apenas visuais de modelo} other {# imagens de IA / mês}}"
     }
   },
   "help": {
@@ -246,7 +248,7 @@
       "brand-brain": "Brand Brain",
       "campaigns": "Criar uma campanha",
       "editing": "Edição e Copilot",
-      "export": "Exportar e publicar",
+      "export": "Publicação e exportação",
       "billing": "Planos e faturação",
       "account": "Conta e idiomas",
       "sign-in": "Problemas de acesso"
@@ -263,7 +265,7 @@
           "[Entre]({signUpUrl}) com o seu email. Enviamos-lhe um link de acesso de utilização única, por isso não há palavra-passe para memorizar.",
           "Abra o **Brand Brain** e adicione o produto ou a marca que quer promover.",
           "Clique em **Nova campanha**, escreva uma ideia, escolha um ângulo e gere.",
-          "Reveja os {pieces} conteúdos, refine o que gostar, marque-os como **Pronto** e exporte."
+          "Revise as {pieces} peças, refine o que quiser, depois crie um plano de conteúdo e aprove os posts para publicar (ou exporte-os)."
         ]
       },
       {
@@ -322,11 +324,11 @@
       {
         "t": "h2",
         "id": "export",
-        "x": "Exportar e publicar"
+        "x": "Publicação e exportação"
       },
       {
         "t": "p",
-        "x": "O ContentArc não publica nas suas contas. Copie um conteúdo com um clique, copie o respetivo gancho de DM ou use **Exportar** para descarregar:"
+        "x": "Nos planos pagos, o ContentArc publica por você. Conecte uma vez as contas de cada marca em **Contas sociais**. Em uma campanha, crie um **plano de conteúdo**: o ContentArc define a data de cada peça nos melhores horários de cada rede. Adicione uma imagem de IA (ou a sua) quando necessário e **aprove e agende** os posts, ou ative a aprovação automática. Acompanhe e mova tudo no **Calendário**; você recebe um e-mail se um post falhar. Vídeos, stories e newsletters ficam planejados para você publicar. Você também pode copiar uma peça com um clique, copiar o gancho de automação de DM ou usar **Exportar** para baixar:"
       },
       {
         "t": "ul",
@@ -400,7 +402,7 @@
     "emailCardTitle": "Email",
     "emailCardBody": "Prefere email? Escreva-nos diretamente.",
     "helpCardTitle": "Centro de ajuda",
-    "helpCardBody": "Guias sobre o Brand Brain, campanhas, exportação e faturação.",
+    "helpCardBody": "Guias sobre o Brand Brain, campanhas, publicação e cobrança.",
     "helpCardLink": "Ver a ajuda",
     "errors": {
       "name": "Introduza o seu nome.",
@@ -435,7 +437,8 @@
           "**Dados de faturação**: plano, estado da subscrição e uma referência de cliente Stripe. Os dados do cartão são recolhidos e guardados pela Stripe, nunca por nós.",
           "**Preferências de email**: se aceitou emails de marketing e quando.",
           "**Formulário de contacto**: o seu nome, email e mensagem quando nos escreve.",
-          "**Dados técnicos**: endereço IP e registos de pedidos guardados pelo nosso fornecedor de alojamento por motivos de segurança."
+          "**Dados técnicos**: endereço IP e registos de pedidos guardados pelo nosso fornecedor de alojamento por motivos de segurança.",
+          "**Contas sociais conectadas**: o nome, o usuário e a foto de perfil de cada conta que você conecta, os posts que você agenda, suas imagens e os resultados da publicação. O acesso às suas contas sociais fica com nosso provedor de publicação (Upload-Post), não conosco."
         ]
       },
       {
@@ -472,7 +475,9 @@
           "**Cloudflare**: alojamento do website e da aplicação, segurança e proteção antispam dos formulários.",
           "**Stripe**: pagamentos e faturação de subscrições.",
           "**Brevo**: emails transacionais, gestão de contactos e (se tiver aceitado) newsletters.",
-          "**Fornecedores de modelos de IA** (como Anthropic, OpenAI, Google ou DeepSeek): os dados do seu produto e as ideias de campanha são enviados para o modelo que gera ou reescreve o seu conteúdo. Usamos as suas APIs empresariais; a forma como cada fornecedor trata os dados da API consta dos respetivos termos."
+          "**Fornecedores de modelos de IA** (como Anthropic, OpenAI, Google ou DeepSeek): os dados do seu produto e as ideias de campanha são enviados para o modelo que gera ou reescreve o seu conteúdo. Usamos as suas APIs empresariais; a forma como cada fornecedor trata os dados da API consta dos respetivos termos.",
+          "**Upload-Post**: publica os posts que você aprova nas contas sociais que você conecta e mantém o acesso que você concede a essas contas.",
+          "**Provedores de modelos de imagem** (como Black Forest Labs, Ideogram, OpenAI ou Google): uma descrição em texto da imagem, escrita a partir do seu post, é enviada para gerar as imagens."
         ]
       },
       {
@@ -547,7 +552,11 @@
       },
       {
         "t": "p",
-        "x": "O ContentArc ajuda-o a planear e escrever conteúdo de marketing com IA: gera campanhas multicanal a partir das informações do seu produto e das suas ideias, e permite editá-las e exportá-las. O ContentArc não publica nas suas redes sociais."
+        "x": "O ContentArc ajuda você a planejar, escrever e publicar conteúdo de marketing com IA: ele gera campanhas multicanal a partir das informações do seu produto e das suas ideias, permite editá-las, organiza-as em um plano de conteúdo e calendário, cria imagens e, nos planos pagos, publica os posts que você aprova nas contas sociais que você conecta. Você também pode exportar seu conteúdo."
+      },
+      {
+        "t": "p",
+        "x": "Ao conectar contas sociais, você autoriza a nós e ao nosso provedor de publicação (Upload-Post) a publicar em seu nome, nos horários que você definir, os posts que você aprovar (ou que escolher aprovar automaticamente para uma campanha). Você pode desconectar contas ou desagendar posts a qualquer momento. Você é responsável pelo conteúdo que publica e pelo cumprimento das regras de cada rede. As redes sociais podem alterar, limitar ou retirar o acesso a qualquer momento, por isso não podemos garantir que um post seja publicado, publicado no horário ou permaneça no ar; se um post falhar, avisaremos você por e-mail."
       },
       {
         "t": "h2",
