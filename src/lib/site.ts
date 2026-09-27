@@ -42,20 +42,20 @@ export const PLANS: Plan[] = [
   {
     id: "free",
     prices: null,
-    campaigns: 2,
+    campaigns: 1,
     products: 1,
-    rewrites: 15,
+    rewrites: 10,
   },
   {
     id: "creator",
-    prices: { month: 15, year: 150 },
+    prices: { month: 19, year: 190 },
     campaigns: 10,
     products: 3,
     rewrites: 150,
   },
   {
     id: "publisher",
-    prices: { month: 45, year: 450 },
+    prices: { month: 49, year: 490 },
     campaigns: 30,
     products: 10,
     rewrites: 500,
@@ -63,10 +63,10 @@ export const PLANS: Plan[] = [
   },
   {
     id: "enterprise",
-    prices: { month: 99, year: 990 },
+    prices: { month: 149, year: 1490 },
     campaigns: 100,
     products: null,
-    rewrites: 2000,
+    rewrites: 1500,
     prioritySupport: true,
   },
 ];
