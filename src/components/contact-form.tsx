@@ -16,16 +16,43 @@ const ERROR_CODES = ["name", "email", "message", "verification", "not_configured
 const field =
   "border-border bg-card placeholder:text-muted/70 focus-visible:border-violet w-full rounded-xl border px-3.5 py-2.5 text-[0.95rem] outline-none transition-colors";
 
+const DRAFT_KEY = "contentarc:draft:contact";
+const DRAFT_FIELDS = ["name", "email", "topic", "message"] as const;
+
 export function ContactForm() {
   const t = useTranslations("contact");
   const locale = useLocale();
   const [status, setStatus] = useState<"idle" | "sending" | "sent" | "error">("idle");
   const [errorCode, setErrorCode] = useState<string | null>(null);
   const startedAt = useRef(0);
+  const formRef = useRef<HTMLFormElement>(null);
 
   useEffect(() => {
     startedAt.current = Date.now();
+    // Restore an unsent message after a refresh.
+    const form = formRef.current;
+    if (!form) return;
+    try {
+      const saved = JSON.parse(window.localStorage.getItem(DRAFT_KEY) ?? "null") as Record<string, string> | null;
+      if (!saved) return;
+      for (const name of DRAFT_FIELDS) {
+        const el = form.elements.namedItem(name) as HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement | null;
+        if (el && typeof saved[name] === "string") el.value = saved[name];
+      }
+    } catch {
+      // storage unavailable: nothing to restore
+    }
   }, []);
+
+  // Autosave what's typed so a refresh or closed tab doesn't lose it.
+  const saveDraft = (form: HTMLFormElement) => {
+    try {
+      const data = new FormData(form);
+      window.localStorage.setItem(DRAFT_KEY, JSON.stringify(Object.fromEntries(DRAFT_FIELDS.map((n) => [n, String(data.get(n) ?? "")]))));
+    } catch {
+      // storage unavailable: autosave is best-effort
+    }
+  };
 
   const submit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -43,6 +70,11 @@ export function ContactForm() {
       if (!res.ok) throw new Error(body?.code ?? "generic");
       setStatus("sent");
       form.reset();
+      try {
+        window.localStorage.removeItem(DRAFT_KEY);
+      } catch {
+        // ignore
+      }
     } catch (err) {
       const code = err instanceof Error ? err.message : "generic";
       setStatus("error");
@@ -66,7 +98,13 @@ export function ContactForm() {
   }
 
   return (
-    <form onSubmit={submit} className="border-border bg-card space-y-5 rounded-3xl border p-6 sm:p-8">
+    <form
+      ref={formRef}
+      onSubmit={submit}
+      onInput={(e) => saveDraft(e.currentTarget)}
+      onChange={(e) => saveDraft(e.currentTarget)}
+      className="border-border bg-card space-y-5 rounded-3xl border p-6 sm:p-8"
+    >
       {TURNSTILE_SITE_KEY && <Script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer />}
       <div className="grid gap-5 sm:grid-cols-2">
         <label className="space-y-1.5">
