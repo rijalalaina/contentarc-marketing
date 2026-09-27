@@ -172,7 +172,7 @@
       "q1": "What exactly do I get from one campaign?",
       "a1": "{pieces} pieces built around one idea: 1 YouTube script, 5 short-form video scripts, 3 LinkedIn posts, 4 X posts and threads, 2 carousels, 3 Instagram story sequences and 2 newsletters, plus an SEO keyword strategy for the whole campaign.",
       "q2": "Does ContentArc publish to my social accounts?",
-      "a2": "Yes, on paid plans. Connect your accounts once, create a content plan for a campaign, and ContentArc publishes the posts you approve to LinkedIn, X, Facebook, Instagram, Threads, Bluesky and Pinterest at the scheduled times. Nothing goes out without your approval. Videos, stories and newsletters are planned on your calendar for you to post; you can also copy or export any piece.",
+      "a2": "Yes, on paid plans. Connect your accounts once, create a content plan for a campaign, and ContentArc publishes the posts you approve to LinkedIn, X, Facebook, Instagram, Threads, Bluesky and Pinterest at the scheduled times, including carousels and stories designed with your brand kit. Nothing goes out without your approval. Videos and newsletters are planned on your calendar for you to post; you can also copy or export any piece.",
       "q3": "Is there a free plan?",
       "a3": "Yes. The free plan includes 1 campaign a month and 1 product, with no credit card required. Upgrade whenever you need more.",
       "q4": "Which AI powers ContentArc?",
@@ -328,7 +328,7 @@
       },
       {
         "t": "p",
-        "x": "On paid plans, ContentArc publishes for you. Connect each brand's accounts once in **Social accounts**. On a campaign, create a **content plan**: ContentArc dates every piece at good times for each network. Add an AI image (or your own) where needed, then **approve & schedule** posts, or turn on automatic approval. Follow and move everything in the **Calendar**; you get an email if a post fails. Videos, stories and newsletters are planned for you to post yourself. You can also copy a piece with one click, copy its DM automation hook, or use **Export** to download:"
+        "x": "On paid plans, ContentArc publishes for you. Connect each brand's accounts once in **Social accounts**. On a campaign, create a **content plan**: ContentArc dates every piece at good times for each network. Add an AI image (or your own) where needed, then **approve & schedule** posts, or turn on automatic approval. Follow and move everything in the **Calendar**; you get an email if a post fails. Videos and newsletters are planned for you to post yourself. You can also copy a piece with one click, copy its DM automation hook, or use **Export** to download:"
       },
       {
         "t": "ul",
@@ -337,6 +337,10 @@
           "a **single Markdown file** with the whole campaign;",
           "a **CSV** you can import into bulk schedulers."
         ]
+      },
+      {
+        "t": "p",
+        "x": "**Carousels and stories**: set your colours, font, logo and handle once in the **brand kit** (Brand Brain). On a carousel or story, ContentArc turns the text into slides you can edit and renders them in your brand style, or you upload your own images. Carousels go to Instagram, Facebook, Threads and X, and to LinkedIn as a swipeable PDF; story frames are published one by one."
       },
       {
         "t": "h2",

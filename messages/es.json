@@ -172,7 +172,7 @@
       "q1": "¿Qué recibo exactamente en una campaña?",
       "a1": "{pieces} piezas construidas en torno a una idea: 1 guion de YouTube, 5 guiones de vídeo corto, 3 posts de LinkedIn, 4 posts e hilos de X, 2 carruseles, 3 secuencias de stories de Instagram y 2 newsletters, además de una estrategia de palabras clave SEO para toda la campaña.",
       "q2": "¿ContentArc publica en mis cuentas sociales?",
-      "a2": "Sí, en los planes de pago. Conecta tus cuentas una vez, crea un plan de contenido para una campaña y ContentArc publica las publicaciones que apruebas en LinkedIn, X, Facebook, Instagram, Threads, Bluesky y Pinterest a las horas previstas. No sale nada sin tu aprobación. Los vídeos, historias y newsletters se planifican en tu calendario para que los publiques tú; también puedes copiar o exportar cualquier pieza.",
+      "a2": "Sí, en los planes de pago. Conecta tus cuentas una vez, crea un plan de contenido para una campaña y ContentArc publica las publicaciones que apruebas en LinkedIn, X, Facebook, Instagram, Threads, Bluesky y Pinterest a las horas previstas, incluidos carruseles e historias diseñados con tu kit de marca. No sale nada sin tu aprobación. Los vídeos y newsletters se planifican en tu calendario para que los publiques tú; también puedes copiar o exportar cualquier pieza.",
       "q3": "¿Hay un plan gratuito?",
       "a3": "Sí. El plan gratuito incluye 1 campaña al mes y 1 producto, sin tarjeta de crédito. Mejora tu plan cuando necesites más.",
       "q4": "¿Qué IA usa ContentArc?",
@@ -328,7 +328,7 @@
       },
       {
         "t": "p",
-        "x": "En los planes de pago, ContentArc publica por ti. Conecta una vez las cuentas de cada marca en **Cuentas sociales**. En una campaña, crea un **plan de contenido**: ContentArc fecha cada pieza en buenos momentos para cada red. Añade una imagen de IA (o la tuya) cuando haga falta y **aprueba y programa** las publicaciones, o activa la aprobación automática. Sigue y mueve todo en el **Calendario**; recibes un email si una publicación falla. Los vídeos, historias y newsletters se planifican para que los publiques tú. También puedes copiar una pieza con un clic, copiar su hook de automatización de DM o usar **Exportar** para descargar:"
+        "x": "En los planes de pago, ContentArc publica por ti. Conecta una vez las cuentas de cada marca en **Cuentas sociales**. En una campaña, crea un **plan de contenido**: ContentArc fecha cada pieza en buenos momentos para cada red. Añade una imagen de IA (o la tuya) cuando haga falta y **aprueba y programa** las publicaciones, o activa la aprobación automática. Sigue y mueve todo en el **Calendario**; recibes un email si una publicación falla. Los vídeos y newsletters se planifican para que los publiques tú. También puedes copiar una pieza con un clic, copiar su hook de automatización de DM o usar **Exportar** para descargar:"
       },
       {
         "t": "ul",
@@ -337,6 +337,10 @@
           "un **único archivo Markdown** con toda la campaña;",
           "un **CSV** que puedes importar en programadores masivos."
         ]
+      },
+      {
+        "t": "p",
+        "x": "**Carruseles e historias**: define una vez tus colores, fuente, logo y usuario en el **kit de marca** (Brand Brain). En un carrusel o una historia, ContentArc convierte el texto en diapositivas editables y las renderiza con tu estilo, o subes tus propias imágenes. Los carruseles van a Instagram, Facebook, Threads y X, y a LinkedIn como PDF deslizable; las pantallas de la historia se publican una a una."
       },
       {
         "t": "h2",

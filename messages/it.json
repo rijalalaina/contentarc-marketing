@@ -172,7 +172,7 @@
       "q1": "Cosa ottengo esattamente da una campagna?",
       "a1": "{pieces} contenuti costruiti attorno a un'idea: 1 script YouTube, 5 script per video brevi, 3 post LinkedIn, 4 post e thread X, 2 caroselli, 3 sequenze di storie Instagram e 2 newsletter, più una strategia di parole chiave SEO per tutta la campagna.",
       "q2": "ContentArc pubblica sui miei account social?",
-      "a2": "Sì, con i piani a pagamento. Collega i tuoi account una volta, crea un piano editoriale per una campagna e ContentArc pubblica i post che approvi su LinkedIn, X, Facebook, Instagram, Threads, Bluesky e Pinterest agli orari previsti. Nulla parte senza la tua approvazione. Video, storie e newsletter vengono pianificati nel calendario perché tu li pubblichi; puoi anche copiare o esportare qualsiasi contenuto.",
+      "a2": "Sì, con i piani a pagamento. Collega i tuoi account una volta, crea un piano editoriale per una campagna e ContentArc pubblica i post che approvi su LinkedIn, X, Facebook, Instagram, Threads, Bluesky e Pinterest agli orari previsti, compresi caroselli e storie realizzati con il kit del brand. Nulla parte senza la tua approvazione. Video e newsletter vengono pianificati nel calendario perché tu li pubblichi; puoi anche copiare o esportare qualsiasi contenuto.",
       "q3": "C'è un piano gratuito?",
       "a3": "Sì. Il piano gratuito include 1 campagna al mese e 1 prodotto, senza carta di credito. Passa a un piano superiore quando ti serve di più.",
       "q4": "Quale IA usa ContentArc?",
@@ -328,7 +328,7 @@
       },
       {
         "t": "p",
-        "x": "Con i piani a pagamento, ContentArc pubblica per te. Collega una volta gli account di ogni brand in **Account social**. In una campagna, crea un **piano editoriale**: ContentArc assegna a ogni contenuto una data negli orari migliori per ogni rete. Aggiungi un’immagine IA (o la tua) dove serve, poi **approva e programma** i post, oppure attiva l’approvazione automatica. Segui e sposta tutto nel **Calendario**; ricevi un’email se un post non va a buon fine. Video, storie e newsletter vengono pianificati perché tu li pubblichi. Puoi anche copiare un contenuto con un clic, copiare il suo hook di automazione DM o usare **Esporta** per scaricare:"
+        "x": "Con i piani a pagamento, ContentArc pubblica per te. Collega una volta gli account di ogni brand in **Account social**. In una campagna, crea un **piano editoriale**: ContentArc assegna a ogni contenuto una data negli orari migliori per ogni rete. Aggiungi un’immagine IA (o la tua) dove serve, poi **approva e programma** i post, oppure attiva l’approvazione automatica. Segui e sposta tutto nel **Calendario**; ricevi un’email se un post non va a buon fine. Video e newsletter vengono pianificati perché tu li pubblichi. Puoi anche copiare un contenuto con un clic, copiare il suo hook di automazione DM o usare **Esporta** per scaricare:"
       },
       {
         "t": "ul",
@@ -337,6 +337,10 @@
           "un **unico file Markdown** con tutta la campagna;",
           "un **CSV** da importare negli strumenti di programmazione."
         ]
+      },
+      {
+        "t": "p",
+        "x": "**Caroselli e storie**: imposta una volta colori, font, logo e handle nel **kit del brand** (Brand Brain). Su un carosello o una storia, ContentArc trasforma il testo in slide modificabili e le genera nel tuo stile, oppure carichi le tue immagini. I caroselli vanno su Instagram, Facebook, Threads e X, e su LinkedIn come PDF sfogliabile; le schermate delle storie vengono pubblicate una alla volta."
       },
       {
         "t": "h2",

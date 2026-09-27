@@ -172,7 +172,7 @@
       "q1": "Was genau bekomme ich pro Kampagne?",
       "a1": "{pieces} Inhalte rund um eine Idee: 1 YouTube-Skript, 5 Kurzvideo-Skripte, 3 LinkedIn-Posts, 4 X-Posts und Threads, 2 Karussells, 3 Instagram-Story-Sequenzen und 2 Newsletter, plus eine SEO-Keyword-Strategie für die ganze Kampagne.",
       "q2": "Veröffentlicht ContentArc auf meinen Social-Konten?",
-      "a2": "Ja, in den bezahlten Tarifen. Verbinden Sie Ihre Konten einmal, erstellen Sie einen Content-Plan für eine Kampagne, und ContentArc veröffentlicht die freigegebenen Beiträge zu den geplanten Zeiten auf LinkedIn, X, Facebook, Instagram, Threads, Bluesky und Pinterest. Nichts geht ohne Ihre Freigabe raus. Videos, Stories und Newsletter werden in Ihrem Kalender eingeplant, damit Sie sie selbst posten; jeden Inhalt können Sie auch kopieren oder exportieren.",
+      "a2": "Ja, in den bezahlten Tarifen. Verbinden Sie Ihre Konten einmal, erstellen Sie einen Content-Plan für eine Kampagne, und ContentArc veröffentlicht die freigegebenen Beiträge zu den geplanten Zeiten auf LinkedIn, X, Facebook, Instagram, Threads, Bluesky und Pinterest, auch Karussells und Stories im Design Ihres Brand-Kits. Nichts geht ohne Ihre Freigabe raus. Videos und Newsletter werden in Ihrem Kalender eingeplant, damit Sie sie selbst posten; jeden Inhalt können Sie auch kopieren oder exportieren.",
       "q3": "Gibt es einen kostenlosen Tarif?",
       "a3": "Ja. Der kostenlose Tarif umfasst 1 Kampagne pro Monat und 1 Produkt, ohne Kreditkarte. Upgrade, wann immer du mehr brauchst.",
       "q4": "Welche KI steckt hinter ContentArc?",
@@ -328,7 +328,7 @@
       },
       {
         "t": "p",
-        "x": "In den bezahlten Tarifen veröffentlicht ContentArc für Sie. Verbinden Sie die Konten jeder Marke einmal unter **Social-Konten**. Erstellen Sie in einer Kampagne einen **Content-Plan**: ContentArc terminiert jeden Inhalt zu guten Zeiten je Netzwerk. Fügen Sie bei Bedarf ein KI-Bild (oder Ihr eigenes) hinzu und **geben Sie Beiträge frei & planen Sie sie**, oder aktivieren Sie die automatische Freigabe. Im **Kalender** behalten Sie alles im Blick und verschieben es; schlägt ein Beitrag fehl, erhalten Sie eine E-Mail. Videos, Stories und Newsletter werden eingeplant, damit Sie sie selbst posten. Sie können einen Inhalt auch mit einem Klick kopieren, seinen DM-Automations-Hook kopieren oder über **Export** herunterladen:"
+        "x": "In den bezahlten Tarifen veröffentlicht ContentArc für Sie. Verbinden Sie die Konten jeder Marke einmal unter **Social-Konten**. Erstellen Sie in einer Kampagne einen **Content-Plan**: ContentArc terminiert jeden Inhalt zu guten Zeiten je Netzwerk. Fügen Sie bei Bedarf ein KI-Bild (oder Ihr eigenes) hinzu und **geben Sie Beiträge frei & planen Sie sie**, oder aktivieren Sie die automatische Freigabe. Im **Kalender** behalten Sie alles im Blick und verschieben es; schlägt ein Beitrag fehl, erhalten Sie eine E-Mail. Videos und Newsletter werden eingeplant, damit Sie sie selbst posten. Sie können einen Inhalt auch mit einem Klick kopieren, seinen DM-Automations-Hook kopieren oder über **Export** herunterladen:"
       },
       {
         "t": "ul",
@@ -337,6 +337,10 @@
           "eine **einzelne Markdown-Datei** mit der ganzen Kampagne;",
           "eine **CSV-Datei** zum Import in Planungstools."
         ]
+      },
+      {
+        "t": "p",
+        "x": "**Karussells und Stories**: Legen Sie Farben, Schrift, Logo und Handle einmal im **Brand-Kit** (Brand Brain) fest. Bei einem Karussell oder einer Story macht ContentArc aus dem Text bearbeitbare Slides und rendert sie in Ihrem Markenstil, oder Sie laden eigene Bilder hoch. Karussells gehen an Instagram, Facebook, Threads und X sowie als blätterbares PDF an LinkedIn; Story-Frames werden einzeln veröffentlicht."
       },
       {
         "t": "h2",
