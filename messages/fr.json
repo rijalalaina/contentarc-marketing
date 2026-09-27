@@ -247,6 +247,7 @@
       "getting-started": "Premiers pas",
       "brand-brain": "Brand Brain",
       "campaigns": "Créer une campagne",
+      "workflow": "Étapes pas à pas",
       "editing": "Édition et Copilot",
       "export": "Publication et export",
       "billing": "Offres et facturation",
@@ -311,6 +312,31 @@
       {
         "t": "p",
         "x": "La génération prend généralement une à trois minutes. Vous obtenez une stratégie de mots-clés SEO et {pieces} contenus : 1 script YouTube, 5 scripts de vidéos courtes, 3 posts LinkedIn, 4 posts et threads X, 2 carrousels, 3 séquences de stories et 2 newsletters."
+      },
+      {
+        "t": "h2",
+        "id": "workflow",
+        "x": "De l’idée aux posts publiés, étape par étape"
+      },
+      {
+        "t": "p",
+        "x": "Une nouvelle campagne affiche en haut une liste **Prochaines étapes**. Chaque étape se coche au fur et à mesure :"
+      },
+      {
+        "t": "ol",
+        "x": [
+          "**Relisez et peaufinez** les {pieces} contenus dans les onglets de format. Modifiez tout, utilisez le **Copilot**, marquez les bons contenus **Prêts**. Carrousels, stories, vidéos et newsletters sont des **scripts** : leur texte indique quoi montrer, et vos abonnés voient le résultat mis en forme, jamais les instructions.",
+          "**Connectez vos comptes sociaux** une fois par marque dans **Comptes sociaux** (offres payantes) : LinkedIn, X, Facebook, Instagram, Threads, Bluesky et Pinterest.",
+          "**Créez le plan de contenu** (7, 14 ou 28 jours). ContentArc date chaque contenu dans un ordre stratégique aux bons moments pour chaque réseau, dans votre fuseau horaire.",
+          "**Préparez les visuels** : sur un carrousel ou une story, cliquez sur **Créer les slides à partir du texte**, modifiez les titres et **Générez avec le kit de marque**, ou importez vos images. Ajoutez une image IA ou votre photo pour Instagram et Pinterest. Si vous sautez cette étape, l’approbation d’un carrousel ou d’une story crée les slides pour vous.",
+          "**Approuvez et programmez** : un post à la fois, ou **Approuver et programmer tout** dans le plan. Rien n’est publié sans votre approbation ; vous pouvez activer l’approbation automatique en créant le plan.",
+          "**Suivez dans le Calendrier** : déplacez les posts par glisser-déposer, ouvrez les liens en ligne et reprogrammez ce qui a échoué (vous recevez aussi un e-mail).",
+          "Les vidéos et newsletters restent dans votre calendrier comme rappels : tournez-les ou envoyez-les vous-même, ou **Exportez** la campagne."
+        ]
+      },
+      {
+        "t": "p",
+        "x": "**Lancez la visite guidée** à tout moment depuis le menu **?** en haut de l’app, ou depuis la liste des étapes. De petites icônes **ⓘ** près de chaque section expliquent à quoi elle sert."
       },
       {
         "t": "h2",

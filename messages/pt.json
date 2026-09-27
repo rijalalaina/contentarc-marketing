@@ -247,6 +247,7 @@
       "getting-started": "Primeiros passos",
       "brand-brain": "Brand Brain",
       "campaigns": "Criar uma campanha",
+      "workflow": "Passo a passo",
       "editing": "Edição e Copilot",
       "export": "Publicação e exportação",
       "billing": "Planos e faturação",
@@ -311,6 +312,31 @@
       {
         "t": "p",
         "x": "A geração demora normalmente um a três minutos. Recebe uma estratégia de palavras-chave SEO e {pieces} conteúdos: 1 guião de YouTube, 5 guiões de vídeo curto, 3 publicações no LinkedIn, 4 publicações e threads no X, 2 carrosséis, 3 sequências de stories e 2 newsletters."
+      },
+      {
+        "t": "h2",
+        "id": "workflow",
+        "x": "Da ideia aos posts publicados, passo a passo"
+      },
+      {
+        "t": "p",
+        "x": "Toda campanha nova mostra no topo uma lista de **Próximos passos**. Cada etapa é marcada sozinha conforme você avança:"
+      },
+      {
+        "t": "ol",
+        "x": [
+          "**Revise e refine** as {pieces} peças nas abas de formato. Edite tudo, use o **Copilot** e marque as boas como **Prontas**. Carrosséis, stories, vídeos e newsletters são **roteiros**: o texto indica o que mostrar e seus seguidores veem o resultado criado, nunca as instruções.",
+          "**Conecte suas contas sociais** uma vez por marca em **Contas sociais** (planos pagos): LinkedIn, X, Facebook, Instagram, Threads, Bluesky e Pinterest.",
+          "**Crie o plano de conteúdo** (7, 14 ou 28 dias). O ContentArc define a data de cada peça em ordem estratégica, nos melhores horários de cada rede, no seu fuso.",
+          "**Prepare os visuais**: em um carrossel ou story, clique em **Criar slides a partir do texto**, edite os títulos e **Renderize com o kit da marca**, ou envie suas imagens. Adicione uma imagem de IA ou sua foto para Instagram e Pinterest. Se pular esta etapa, ao aprovar um carrossel ou story os slides são criados para você.",
+          "**Aprove e agende**: um post por vez, ou **Aprovar e agendar tudo** no plano. Nada é publicado sem a sua aprovação; você pode ativar a aprovação automática ao criar o plano.",
+          "**Acompanhe no Calendário**: mova posts arrastando, abra os links e reagende o que falhou (você também recebe um e-mail).",
+          "Vídeos e newsletters ficam no calendário como lembretes: grave ou envie você mesmo, ou **Exporte** a campanha."
+        ]
+      },
+      {
+        "t": "p",
+        "x": "**Faça o tour** quando quiser pelo menu **?** no topo do app ou pela lista de etapas. Os ícones **ⓘ** ao lado de cada seção explicam para que ela serve."
       },
       {
         "t": "h2",

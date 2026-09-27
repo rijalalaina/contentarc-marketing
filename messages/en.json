@@ -247,6 +247,7 @@
       "getting-started": "Getting started",
       "brand-brain": "Brand Brain",
       "campaigns": "Creating a campaign",
+      "workflow": "Step-by-step workflow",
       "editing": "Editing & Copilot",
       "export": "Publishing & export",
       "billing": "Plans & billing",
@@ -311,6 +312,31 @@
       {
         "t": "p",
         "x": "Generation usually takes one to three minutes. You get an SEO keyword strategy plus {pieces} pieces: 1 YouTube script, 5 short-video scripts, 3 LinkedIn posts, 4 X posts and threads, 2 carousels, 3 story sequences and 2 newsletters."
+      },
+      {
+        "t": "h2",
+        "id": "workflow",
+        "x": "From idea to published posts, step by step"
+      },
+      {
+        "t": "p",
+        "x": "A new campaign shows a **Next steps** checklist at the top. Each step ticks itself as you go:"
+      },
+      {
+        "t": "ol",
+        "x": [
+          "**Review and polish** the {pieces} pieces in the format tabs. Edit anything, use the **Copilot**, mark good pieces **Ready**. Carousels, stories, videos and newsletters are **scripts**: their text says what to show, and your followers see the designed result, never the instructions.",
+          "**Connect your social accounts** once per brand in **Social accounts** (paid plans): LinkedIn, X, Facebook, Instagram, Threads, Bluesky and Pinterest.",
+          "**Create the content plan** (7, 14 or 28 days). ContentArc dates every piece in a strategic order at good times for each network, in your time zone.",
+          "**Prepare the visuals**: on a carousel or story, click **Build slides from the text**, edit the headlines and **Render with brand kit**, or upload your own images. Add an AI image or your own photo for Instagram and Pinterest posts. If you skip this, approving a carousel or story designs the slides for you.",
+          "**Approve and schedule**: one post at a time, or **Approve & schedule all** in the plan. Nothing is published before you approve; you can turn on automatic approval when you create the plan.",
+          "**Track in the Calendar**: move posts by drag and drop, open the live links, and reschedule anything that failed (you also get an email).",
+          "Videos and newsletters stay on your calendar as reminders: record or send them yourself, or **Export** the campaign."
+        ]
+      },
+      {
+        "t": "p",
+        "x": "**Take a tour** any time from the **?** menu at the top of the app, or from the checklist. Small **ⓘ** icons next to each section explain what it does."
       },
       {
         "t": "h2",

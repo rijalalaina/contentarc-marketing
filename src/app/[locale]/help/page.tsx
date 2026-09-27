@@ -5,7 +5,7 @@ import { PageHero, Prose } from "@/components/prose";
 import { languageAlternates, type Locale } from "@/i18n/routing";
 import { PIECES_PER_CAMPAIGN, SITE } from "@/lib/site";
 
-const TOPICS = ["getting-started", "brand-brain", "campaigns", "editing", "export", "billing", "account", "sign-in"] as const;
+const TOPICS = ["getting-started", "brand-brain", "campaigns", "workflow", "editing", "export", "billing", "account", "sign-in"] as const;
 
 export async function generateMetadata({ params }: PageProps<"/[locale]/help">): Promise<Metadata> {
   const { locale } = await params;

@@ -247,6 +247,7 @@
       "getting-started": "Erste Schritte",
       "brand-brain": "Brand Brain",
       "campaigns": "Kampagne erstellen",
+      "workflow": "Schritt für Schritt",
       "editing": "Bearbeiten & Copilot",
       "export": "Veröffentlichen & Export",
       "billing": "Tarife & Abrechnung",
@@ -311,6 +312,31 @@
       {
         "t": "p",
         "x": "Die Erstellung dauert meist ein bis drei Minuten. Du erhältst eine SEO-Keyword-Strategie und {pieces} Inhalte: 1 YouTube-Skript, 5 Kurzvideo-Skripte, 3 LinkedIn-Posts, 4 X-Posts und Threads, 2 Karussells, 3 Story-Sequenzen und 2 Newsletter."
+      },
+      {
+        "t": "h2",
+        "id": "workflow",
+        "x": "Von der Idee zu veröffentlichten Beiträgen, Schritt für Schritt"
+      },
+      {
+        "t": "p",
+        "x": "Jede neue Kampagne zeigt oben eine Checkliste **Nächste Schritte**. Jeder Schritt hakt sich unterwegs selbst ab:"
+      },
+      {
+        "t": "ol",
+        "x": [
+          "**Prüfen und verfeinern** Sie die {pieces} Inhalte in den Format-Tabs. Bearbeiten Sie alles, nutzen Sie den **Copilot** und markieren Sie gute Inhalte als **Bereit**. Karussells, Stories, Videos und Newsletter sind **Skripte**: Ihr Text beschreibt, was zu zeigen ist; Ihre Follower sehen das gestaltete Ergebnis, nie die Anweisungen.",
+          "**Verbinden Sie Ihre Social-Konten** einmal pro Marke unter **Social-Konten** (bezahlte Tarife): LinkedIn, X, Facebook, Instagram, Threads, Bluesky und Pinterest.",
+          "**Erstellen Sie den Content-Plan** (7, 14 oder 28 Tage). ContentArc terminiert jeden Inhalt in strategischer Reihenfolge zu guten Zeiten je Netzwerk, in Ihrer Zeitzone.",
+          "**Bereiten Sie die Visuals vor**: Klicken Sie bei einem Karussell oder einer Story auf **Slides aus dem Text erstellen**, passen Sie die Überschriften an und **rendern Sie mit dem Brand-Kit**, oder laden Sie eigene Bilder hoch. Fügen Sie für Instagram und Pinterest ein KI-Bild oder eigenes Foto hinzu. Wenn Sie das überspringen, gestaltet die Freigabe eines Karussells oder einer Story die Slides für Sie.",
+          "**Freigeben und planen**: einzeln oder mit **Alle freigeben & planen** im Plan. Nichts erscheint ohne Ihre Freigabe; beim Erstellen des Plans können Sie die automatische Freigabe aktivieren.",
+          "**Im Kalender verfolgen**: Beiträge per Drag & Drop verschieben, Live-Links öffnen und Fehlgeschlagenes neu planen (Sie erhalten auch eine E-Mail).",
+          "Videos und Newsletter bleiben als Erinnerung im Kalender: Nehmen Sie sie auf oder versenden Sie sie selbst, oder **exportieren** Sie die Kampagne."
+        ]
+      },
+      {
+        "t": "p",
+        "x": "**Starten Sie die Tour** jederzeit über das **?**-Menü oben in der App oder über die Checkliste. Kleine **ⓘ**-Symbole neben jedem Bereich erklären, wofür er da ist."
       },
       {
         "t": "h2",

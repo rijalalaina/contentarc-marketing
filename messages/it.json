@@ -247,6 +247,7 @@
       "getting-started": "Primi passi",
       "brand-brain": "Brand Brain",
       "campaigns": "Creare una campagna",
+      "workflow": "Passo dopo passo",
       "editing": "Modifica e Copilot",
       "export": "Pubblicazione ed esportazione",
       "billing": "Piani e fatturazione",
@@ -311,6 +312,31 @@
       {
         "t": "p",
         "x": "La generazione richiede di solito da uno a tre minuti. Ottieni una strategia di parole chiave SEO e {pieces} contenuti: 1 script YouTube, 5 script per video brevi, 3 post LinkedIn, 4 post e thread X, 2 caroselli, 3 sequenze di storie e 2 newsletter."
+      },
+      {
+        "t": "h2",
+        "id": "workflow",
+        "x": "Dall’idea ai post pubblicati, passo dopo passo"
+      },
+      {
+        "t": "p",
+        "x": "Ogni nuova campagna mostra in alto una checklist **Prossimi passi**. Ogni passo si spunta man mano:"
+      },
+      {
+        "t": "ol",
+        "x": [
+          "**Rivedi e rifinisci** i {pieces} contenuti nelle schede dei formati. Modifica tutto, usa il **Copilot** e segna quelli buoni come **Pronti**. Caroselli, storie, video e newsletter sono **script**: il testo dice cosa mostrare e i follower vedono il risultato finale, mai le istruzioni.",
+          "**Collega i tuoi account social** una volta per brand in **Account social** (piani a pagamento): LinkedIn, X, Facebook, Instagram, Threads, Bluesky e Pinterest.",
+          "**Crea il piano editoriale** (7, 14 o 28 giorni). ContentArc data ogni contenuto in un ordine strategico, negli orari migliori per ogni rete e nel tuo fuso orario.",
+          "**Prepara le grafiche**: su un carosello o una storia, clicca **Crea le slide dal testo**, modifica i titoli e **Genera con il kit del brand**, oppure carica le tue immagini. Aggiungi un’immagine IA o una tua foto per Instagram e Pinterest. Se salti questo passo, l’approvazione di un carosello o di una storia crea le slide per te.",
+          "**Approva e programma**: un post alla volta, oppure **Approva e programma tutto** nel piano. Nulla viene pubblicato senza la tua approvazione; puoi attivare l’approvazione automatica quando crei il piano.",
+          "**Segui nel Calendario**: sposta i post trascinandoli, apri i link online e riprogramma ciò che non è andato a buon fine (ricevi anche un’email).",
+          "Video e newsletter restano nel calendario come promemoria: registrali o inviali tu, oppure **Esporta** la campagna."
+        ]
+      },
+      {
+        "t": "p",
+        "x": "**Fai il tour** quando vuoi dal menu **?** in alto nell’app o dalla checklist. Le piccole icone **ⓘ** accanto a ogni sezione spiegano a cosa serve."
       },
       {
         "t": "h2",
