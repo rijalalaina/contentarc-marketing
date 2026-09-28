@@ -21,7 +21,7 @@ export const LEGAL = {
   companyNumber: "15418196",
   address: "Covent Garden, 71-75 Shelton Street, London, WC2H 9JQ, UK",
   companyEmail: "contact@blissfulplan.com",
-  lastUpdated: "2026-09-27",
+  lastUpdated: "2026-09-28",
 } as const;
 
 export type Interval = "month" | "year";

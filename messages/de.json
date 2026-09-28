@@ -72,7 +72,7 @@
       },
       "carousel": {
         "label": "Karussells",
-        "detail": "Zwei Karussells Folie für Folie, mit Überschriften, Texten und Design-Hinweisen."
+        "detail": "Zwei Karussells, Folie für Folie in deinem Markenstil gestaltet, mit KI-Illustrationen und fertiger Caption."
       },
       "story": {
         "label": "Instagram-Stories",
@@ -128,7 +128,7 @@
       },
       "export": {
         "title": "Planen & automatisch veröffentlichen",
-        "body": "ContentArc macht aus jeder Kampagne einen Content-Plan mit Kalender und veröffentlicht die freigegebenen Beiträge auf LinkedIn, X, Facebook, Instagram, Threads, Bluesky und Pinterest, mit KI-Bildern. Lieber eigene Tools? Exportieren Sie alles als Markdown oder CSV."
+        "body": "ContentArc macht aus jeder Kampagne einen Content-Plan, getimt für die Zeitzone deiner Zielgruppe, prüft Überschneidungen, gestaltet deine Karussells und Storys mit KI-Illustrationen und zeigt eine Vorschau jedes Beitrags – dann veröffentlicht es die freigegebenen auf LinkedIn, X, Facebook, Instagram, Threads, Bluesky und Pinterest. Lieber eigene Tools? Exportiere alles als Markdown oder CSV."
       },
       "languages": {
         "title": "10 Sprachen",
@@ -172,7 +172,7 @@
       "q1": "Was genau bekomme ich pro Kampagne?",
       "a1": "{pieces} Inhalte rund um eine Idee: 1 YouTube-Skript, 5 Kurzvideo-Skripte, 3 LinkedIn-Posts, 4 X-Posts und Threads, 2 Karussells, 3 Instagram-Story-Sequenzen und 2 Newsletter, plus eine SEO-Keyword-Strategie für die ganze Kampagne.",
       "q2": "Veröffentlicht ContentArc auf meinen Social-Konten?",
-      "a2": "Ja, in den bezahlten Tarifen. Verbinden Sie Ihre Konten einmal, erstellen Sie einen Content-Plan für eine Kampagne, und ContentArc veröffentlicht die freigegebenen Beiträge zu den geplanten Zeiten auf LinkedIn, X, Facebook, Instagram, Threads, Bluesky und Pinterest, auch Karussells und Stories im Design Ihres Brand-Kits. Nichts geht ohne Ihre Freigabe raus. Videos und Newsletter werden in Ihrem Kalender eingeplant, damit Sie sie selbst posten; jeden Inhalt können Sie auch kopieren oder exportieren.",
+      "a2": "Ja, in den bezahlten Plänen. Verbinde deine Konten einmal, erstelle einen Content-Plan für eine Kampagne, und ContentArc veröffentlicht die freigegebenen Beiträge auf LinkedIn, X, Facebook, Instagram, Threads, Bluesky und Pinterest zu den besten Zeiten für deine Zielgruppe – auch Karussells und Storys, gestaltet mit deinem Brand Kit und KI-Illustrationen. Du siehst jeden Beitrag vorab genau so, wie er erscheint, und nichts geht ohne deine Freigabe raus. Videos und Newsletter stehen in deinem Kalender, damit du sie selbst veröffentlichst; du kannst jeden Inhalt auch kopieren oder exportieren.",
       "q3": "Gibt es einen kostenlosen Tarif?",
       "a3": "Ja. Der kostenlose Tarif umfasst 1 Kampagne pro Monat und 1 Produkt, ohne Kreditkarte. Upgrade, wann immer du mehr brauchst.",
       "q4": "Welche KI steckt hinter ContentArc?",
@@ -327,9 +327,9 @@
         "x": [
           "**Prüfen und verfeinern** Sie die {pieces} Inhalte in den Format-Tabs. Bearbeiten Sie alles, nutzen Sie den **Copilot** und markieren Sie gute Inhalte als **Bereit**. Karussells, Stories, Videos und Newsletter sind **Skripte**: Ihr Text beschreibt, was zu zeigen ist; Ihre Follower sehen das gestaltete Ergebnis, nie die Anweisungen.",
           "**Verbinden Sie Ihre Social-Konten** einmal pro Marke unter **Social-Konten** (bezahlte Tarife): LinkedIn, X, Facebook, Instagram, Threads, Bluesky und Pinterest.",
-          "**Erstellen Sie den Content-Plan** (7, 14 oder 28 Tage). ContentArc terminiert jeden Inhalt in strategischer Reihenfolge zu guten Zeiten je Netzwerk, in Ihrer Zeitzone.",
-          "**Bereiten Sie die Visuals vor**: Klicken Sie bei einem Karussell oder einer Story auf **Slides aus dem Text erstellen**, passen Sie die Überschriften an und **rendern Sie mit dem Brand-Kit**, oder laden Sie eigene Bilder hoch. Fügen Sie für Instagram und Pinterest ein KI-Bild oder eigenes Foto hinzu. Wenn Sie das überspringen, gestaltet die Freigabe eines Karussells oder einer Story die Slides für Sie.",
-          "**Freigeben und planen**: einzeln oder mit **Alle freigeben & planen** im Plan. Nichts erscheint ohne Ihre Freigabe; beim Erstellen des Plans können Sie die automatische Freigabe aktivieren.",
+          "**Erstelle den Content-Plan** (7, 14 oder 28 Tage). ContentArc terminiert jeden Inhalt in strategischer Reihenfolge zu guten Zeiten pro Netzwerk, in der **Zeitzone deiner Zielgruppe** (aus deinem Brand Brain abgeleitet oder von dir gewählt). Passe die Posting-Zeiten pro Kanal an, klicke auf ein Datum, um einen Beitrag zu verschieben, und nutze **Automatisch beheben**, wenn zwei Beiträge im selben Netzwerk konkurrieren würden.",
+          "**Bereite die Visuals vor**: Karussells und Storys werden automatisch in deinem Markenstil gestaltet, mit einer KI-Illustration auf jeder Folie. Bearbeite im Folien-Editor jede Folie und klicke auf **Bild erstellen**, um ihr Bild aus Beschreibung oder Text zu erzeugen, oder lade eigene Bilder hoch. Füge für Instagram- und Pinterest-Beiträge ein KI-Bild oder dein eigenes Foto hinzu.",
+          "**Freigeben und planen**: prüfe die **Vorschau wie veröffentlicht** (genau der Text und die Bilder, die jedes Netzwerk erhält), dann gib einzeln frei oder nutze **Alle freigeben & planen** im Plan. Nichts wird vor deiner Freigabe veröffentlicht; die automatische Freigabe kannst du beim Erstellen des Plans aktivieren.",
           "**Im Kalender verfolgen**: Beiträge per Drag & Drop verschieben, Live-Links öffnen und Fehlgeschlagenes neu planen (Sie erhalten auch eine E-Mail).",
           "Videos und Newsletter bleiben als Erinnerung im Kalender: Nehmen Sie sie auf oder versenden Sie sie selbst, oder **exportieren** Sie die Kampagne."
         ]
@@ -354,7 +354,7 @@
       },
       {
         "t": "p",
-        "x": "In den bezahlten Tarifen veröffentlicht ContentArc für Sie. Verbinden Sie die Konten jeder Marke einmal unter **Social-Konten**. Erstellen Sie in einer Kampagne einen **Content-Plan**: ContentArc terminiert jeden Inhalt zu guten Zeiten je Netzwerk. Fügen Sie bei Bedarf ein KI-Bild (oder Ihr eigenes) hinzu und **geben Sie Beiträge frei & planen Sie sie**, oder aktivieren Sie die automatische Freigabe. Im **Kalender** behalten Sie alles im Blick und verschieben es; schlägt ein Beitrag fehl, erhalten Sie eine E-Mail. Videos und Newsletter werden eingeplant, damit Sie sie selbst posten. Sie können einen Inhalt auch mit einem Klick kopieren, seinen DM-Automations-Hook kopieren oder über **Export** herunterladen:"
+        "x": "In bezahlten Plänen veröffentlicht ContentArc für dich. Verbinde die Konten jeder Marke einmal unter **Social-Konten**. Erstelle in einer Kampagne einen **Content-Plan**: ContentArc terminiert jeden Inhalt zu guten Zeiten pro Netzwerk in der Zeitzone deiner Zielgruppe und markiert Überschneidungen. Füge bei Bedarf ein KI-Bild (oder dein eigenes) hinzu, prüfe die Vorschau jedes Beitrags und **gib frei & plane**, oder aktiviere die automatische Freigabe. Verfolge und verschiebe alles im **Kalender**; bei einem Fehler bekommst du eine E-Mail. Videos und Newsletter werden für dich zum Selbstveröffentlichen geplant. Du kannst auch einen Inhalt mit einem Klick kopieren, seinen DM-Hook kopieren oder mit **Exportieren** herunterladen:"
       },
       {
         "t": "ul",
@@ -366,7 +366,7 @@
       },
       {
         "t": "p",
-        "x": "**Karussells und Stories**: Legen Sie Farben, Schrift, Logo und Handle einmal im **Brand-Kit** (Brand Brain) fest. Bei einem Karussell oder einer Story macht ContentArc aus dem Text bearbeitbare Slides und rendert sie in Ihrem Markenstil, oder Sie laden eigene Bilder hoch. Karussells gehen an Instagram, Facebook, Threads und X sowie als blätterbares PDF an LinkedIn; Story-Frames werden einzeln veröffentlicht."
+        "x": "**Karussells und Storys**: Lege Farben, Schrift, Logo und Handle einmal im **Brand Kit** (Brand Brain) fest. ContentArc macht aus dem Skript Folien, fügt jeder Folie eine KI-Illustration hinzu und gestaltet sie in deinem Markenstil; du kannst jede Folie bearbeiten, ein neues Bild erstellen oder eigene Bilder hochladen. Karussells gehen an Instagram, Facebook, Threads und X sowie als wischbares PDF an LinkedIn; Story-Frames werden einzeln veröffentlicht."
       },
       {
         "t": "h2",
@@ -462,7 +462,7 @@
         "t": "ul",
         "x": [
           "**Kontodaten**: E-Mail-Adresse, Name (optional), bevorzugte Sprache, Anmeldeverlauf.",
-          "**Von dir bereitgestellte Inhalte**: Produkte und Marken in deinem Brand Brain, Kampagnenideen sowie in der App erstellte und bearbeitete Inhalte.",
+          "**Von dir bereitgestellte Inhalte**: Produkte und Marken in deinem Brand Brain (einschließlich Brand Kit und Logo), Kampagnenideen, die in der App erstellten und bearbeiteten Inhalte sowie die für deine Beiträge erzeugten oder hochgeladenen Bilder.",
           "**Nutzungsdaten**: Anzahl der Kampagnen und KI-Umschreibungen (zur Anwendung der Tariflimits).",
           "**Abrechnungsdaten**: Tarif, Abo-Status und eine Stripe-Kundenreferenz. Kartendaten werden von Stripe erhoben und gespeichert, nie von uns.",
           "**E-Mail-Einstellungen**: ob und wann du Marketing-E-Mails zugestimmt hast.",
@@ -507,7 +507,7 @@
           "**Brevo**: Transaktions-E-Mails, Kontaktverwaltung und (bei Zustimmung) Newsletter.",
           "**Anbieter von KI-Modellen** (etwa Anthropic, OpenAI, Google oder DeepSeek): deine Produktangaben und Kampagnenideen werden an das Modell gesendet, das deine Inhalte erstellt oder umschreibt. Wir nutzen ihre Business-APIs; wie jeder Anbieter API-Daten behandelt, regeln seine eigenen Bedingungen.",
           "**Upload-Post**: veröffentlicht die freigegebenen Beiträge auf den verbundenen Social-Konten und verwaltet den dafür erteilten Zugang.",
-          "**Anbieter von Bildmodellen** (etwa Black Forest Labs, Ideogram, OpenAI oder Google): Eine aus Ihrem Beitrag erstellte Textbeschreibung des Bildes wird zur Bilderzeugung übermittelt."
+          "**Anbieter von Bildmodellen** (etwa Black Forest Labs, Ideogram, OpenAI, Google oder Cloudflare Workers AI): Eine Textbeschreibung des Bildes, verfasst auf Basis deines Beitrags oder deiner Folie, wird gesendet, um Beitrags- und Folienbilder zu erzeugen."
         ]
       },
       {
@@ -520,7 +520,7 @@
       },
       {
         "t": "p",
-        "x": "Die App verwendet unbedingt erforderliche Cookies, um dich angemeldet zu halten und deine Sprache zu speichern, sowie den lokalen Speicher deines Browsers für dein Design. Diese Website verwendet ein Sprach-Cookie und den lokalen Speicher für dein Design; sie verwendet keine Werbe- oder Tracking-Cookies."
+        "x": "Die App nutzt unbedingt erforderliche Cookies, um dich angemeldet zu halten und deine Sprache und Zeitzone zu speichern (damit Daten und Posting-Zeiten in deiner Ortszeit angezeigt werden), sowie den lokalen Speicher deines Browsers für dein Design und nicht gespeicherte Entwürfe. Diese Website nutzt ein Sprach-Cookie und lokalen Speicher für dein Design; sie verwendet keine Werbe- oder Tracking-Cookies."
       },
       {
         "t": "h2",
@@ -608,7 +608,7 @@
           "Du kannst jederzeit im Abrechnungsportal kündigen; dein Tarif bleibt bis zum Ende des laufenden Zeitraums aktiv. Zahlungen werden nicht erstattet, außer wie in Abschnitt 4 (Widerrufsrecht) beschrieben oder wenn das Gesetz es verlangt.",
           "Wenn du Verbraucher im Vereinigten Königreich oder in der EU bist, stimmst du zu, dass der Dienst unmittelbar nach dem Kauf beginnt; deine gesetzlichen Rechte bleiben unberührt.",
           "Wir können Preise mit mindestens 30 Tagen Vorlauf vor deiner nächsten Verlängerung ändern.",
-          "Nutzungslimits (Kampagnen, Produkte, KI-Umschreibungen) werden jeden Kalendermonat zurückgesetzt."
+          "Nutzungslimits (Kampagnen, Produkte, KI-Umschreibungen, KI-Bilder) werden jeden Kalendermonat zurückgesetzt."
         ]
       },
       {
@@ -657,7 +657,7 @@
       },
       {
         "t": "p",
-        "x": "Ergebnisse werden von KI-Modellen erzeugt und können ungenau, unvollständig oder ähnlich zu Inhalten für andere sein. Prüfe sie vor der Veröffentlichung. Verlass dich nicht darauf für rechtliche, medizinische, finanzielle oder andere fachliche Beratung."
+        "x": "Ergebnisse, Texte wie Bilder, werden von KI-Modellen erzeugt und können ungenau, unvollständig oder Inhalten für andere ähnlich sein. Prüfe sie vor der Veröffentlichung, auch die Vorschau jedes Beitrags. Verlasse dich nicht darauf für rechtliche, medizinische, finanzielle oder andere fachliche Beratung."
       },
       {
         "t": "h2",

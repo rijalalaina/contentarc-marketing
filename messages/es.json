@@ -72,7 +72,7 @@
       },
       "carousel": {
         "label": "Carruseles",
-        "detail": "Dos carruseles diapositiva a diapositiva con titulares, textos y notas de diseño."
+        "detail": "Dos carruseles diseñados diapositiva a diapositiva con tu estilo, ilustraciones de IA y un texto listo para publicar."
       },
       "story": {
         "label": "Stories de Instagram",
@@ -128,7 +128,7 @@
       },
       "export": {
         "title": "Planifica y publica automáticamente",
-        "body": "ContentArc convierte cada campaña en un plan de contenido y un calendario, y publica las publicaciones que apruebas en LinkedIn, X, Facebook, Instagram, Threads, Bluesky y Pinterest, con imágenes de IA. ¿Prefieres tus herramientas? Exporta todo en Markdown o CSV."
+        "body": "ContentArc convierte cada campaña en un plan de contenido ajustado a la zona horaria de tu audiencia, revisa los solapamientos, diseña tus carruseles e historias con ilustraciones de IA y muestra una vista previa de cada publicación; después publica las que apruebas en LinkedIn, X, Facebook, Instagram, Threads, Bluesky y Pinterest. ¿Prefieres tus herramientas? Exporta todo en Markdown o CSV."
       },
       "languages": {
         "title": "10 idiomas",
@@ -172,7 +172,7 @@
       "q1": "¿Qué recibo exactamente en una campaña?",
       "a1": "{pieces} piezas construidas en torno a una idea: 1 guion de YouTube, 5 guiones de vídeo corto, 3 posts de LinkedIn, 4 posts e hilos de X, 2 carruseles, 3 secuencias de stories de Instagram y 2 newsletters, además de una estrategia de palabras clave SEO para toda la campaña.",
       "q2": "¿ContentArc publica en mis cuentas sociales?",
-      "a2": "Sí, en los planes de pago. Conecta tus cuentas una vez, crea un plan de contenido para una campaña y ContentArc publica las publicaciones que apruebas en LinkedIn, X, Facebook, Instagram, Threads, Bluesky y Pinterest a las horas previstas, incluidos carruseles e historias diseñados con tu kit de marca. No sale nada sin tu aprobación. Los vídeos y newsletters se planifican en tu calendario para que los publiques tú; también puedes copiar o exportar cualquier pieza.",
+      "a2": "Sí, en los planes de pago. Conecta tus cuentas una vez, crea un plan de contenido para una campaña y ContentArc publica las publicaciones que apruebas en LinkedIn, X, Facebook, Instagram, Threads, Bluesky y Pinterest en las mejores horas para tu audiencia, incluidos carruseles e historias diseñados con tu kit de marca e ilustraciones de IA. Ves una vista previa de cada publicación tal como aparecerá, y nada sale sin tu aprobación. Los vídeos y newsletters quedan en tu calendario para que los publiques tú; también puedes copiar o exportar cualquier pieza.",
       "q3": "¿Hay un plan gratuito?",
       "a3": "Sí. El plan gratuito incluye 1 campaña al mes y 1 producto, sin tarjeta de crédito. Mejora tu plan cuando necesites más.",
       "q4": "¿Qué IA usa ContentArc?",
@@ -327,9 +327,9 @@
         "x": [
           "**Revisa y pule** las {pieces} piezas en las pestañas de formato. Edita lo que quieras, usa el **Copilot** y marca las buenas como **Listas**. Carruseles, historias, vídeos y newsletters son **guiones**: su texto indica qué mostrar y tus seguidores ven el resultado diseñado, nunca las instrucciones.",
           "**Conecta tus cuentas sociales** una vez por marca en **Cuentas sociales** (planes de pago): LinkedIn, X, Facebook, Instagram, Threads, Bluesky y Pinterest.",
-          "**Crea el plan de contenido** (7, 14 o 28 días). ContentArc fecha cada pieza en un orden estratégico, en buenos momentos para cada red y en tu zona horaria.",
-          "**Prepara los visuales**: en un carrusel o una historia, haz clic en **Crear diapositivas a partir del texto**, edita los titulares y **Renderiza con el kit de marca**, o sube tus imágenes. Añade una imagen IA o tu foto para Instagram y Pinterest. Si te saltas este paso, al aprobar un carrusel o una historia se diseñan las diapositivas por ti.",
-          "**Aprueba y programa**: de una en una, o con **Aprobar y programar todo** en el plan. No se publica nada sin tu aprobación; puedes activar la aprobación automática al crear el plan.",
+          "**Crea el plan de contenido** (7, 14 o 28 días). ContentArc fecha cada pieza en un orden estratégico, en buenas horas para cada red y en la **zona horaria de tu audiencia** (deducida de tu Brand Brain o elegida por ti). Ajusta los horarios por canal, haz clic en una fecha para mover una publicación y usa **Corregir automáticamente** cuando dos publicaciones compitan en la misma red.",
+          "**Prepara los visuales**: los carruseles e historias se diseñan automáticamente con tu estilo, con una ilustración de IA en cada diapositiva. En el editor, edita cualquier diapositiva y pulsa **Crear imagen** para generarla a partir de su descripción o su texto, o sube tus propias imágenes. Añade una imagen de IA o tu foto para las publicaciones de Instagram y Pinterest.",
+          "**Aprueba y programa**: revisa la **Vista previa publicada** (el texto y las imágenes exactos que recibe cada red) y aprueba una publicación a la vez, o **Aprobar y programar todo** en el plan. Nada se publica antes de que apruebes; puedes activar la aprobación automática al crear el plan.",
           "**Sigue en el Calendario**: mueve publicaciones arrastrando, abre los enlaces y reprograma lo que haya fallado (también recibes un email).",
           "Los vídeos y newsletters quedan en tu calendario como recordatorio: grábalos o envíalos tú, o **Exporta** la campaña."
         ]
@@ -354,7 +354,7 @@
       },
       {
         "t": "p",
-        "x": "En los planes de pago, ContentArc publica por ti. Conecta una vez las cuentas de cada marca en **Cuentas sociales**. En una campaña, crea un **plan de contenido**: ContentArc fecha cada pieza en buenos momentos para cada red. Añade una imagen de IA (o la tuya) cuando haga falta y **aprueba y programa** las publicaciones, o activa la aprobación automática. Sigue y mueve todo en el **Calendario**; recibes un email si una publicación falla. Los vídeos y newsletters se planifican para que los publiques tú. También puedes copiar una pieza con un clic, copiar su hook de automatización de DM o usar **Exportar** para descargar:"
+        "x": "En los planes de pago, ContentArc publica por ti. Conecta una vez las cuentas de cada marca en **Cuentas sociales**. En una campaña, crea un **plan de contenido**: ContentArc fecha cada pieza en buenas horas para cada red, en la zona horaria de tu audiencia, y señala los solapamientos. Añade una imagen de IA (o la tuya) donde haga falta, revisa la vista previa de cada publicación y **aprueba y programa**, o activa la aprobación automática. Sigue y mueve todo en el **Calendario**; recibes un correo si una publicación falla. Los vídeos y newsletters quedan planificados para que los publiques tú. También puedes copiar una pieza con un clic, copiar su gancho de DM o usar **Exportar** para descargar:"
       },
       {
         "t": "ul",
@@ -366,7 +366,7 @@
       },
       {
         "t": "p",
-        "x": "**Carruseles e historias**: define una vez tus colores, fuente, logo y usuario en el **kit de marca** (Brand Brain). En un carrusel o una historia, ContentArc convierte el texto en diapositivas editables y las renderiza con tu estilo, o subes tus propias imágenes. Los carruseles van a Instagram, Facebook, Threads y X, y a LinkedIn como PDF deslizable; las pantallas de la historia se publican una a una."
+        "x": "**Carruseles e historias**: define una vez tus colores, fuente, logo y usuario en el **kit de marca** (Brand Brain). ContentArc convierte el guion en diapositivas, añade una ilustración de IA a cada una y las diseña con tu estilo; puedes editar cualquier diapositiva, crearle una nueva imagen o subir tus propias imágenes. Los carruseles van a Instagram, Facebook, Threads y X, y a LinkedIn como PDF deslizable; las pantallas de historia se publican una a una."
       },
       {
         "t": "h2",
@@ -462,7 +462,7 @@
         "t": "ul",
         "x": [
           "**Datos de la cuenta**: dirección de correo, nombre (opcional), idioma preferido e historial de inicios de sesión.",
-          "**Contenido que aportas**: productos y marcas de tu Brand Brain, ideas de campañas y el contenido generado y editado en la app.",
+          "**Contenido que aportas**: productos y marcas de tu Brand Brain (incluidos tu kit de marca y tu logo), ideas de campaña, el contenido generado y editado en la app y las imágenes creadas o subidas para tus publicaciones.",
           "**Datos de uso**: número de campañas y reescrituras de IA (para aplicar los límites del plan).",
           "**Datos de facturación**: plan, estado de la suscripción y una referencia de cliente de Stripe. Los datos de la tarjeta los recopila y guarda Stripe, nunca nosotros.",
           "**Preferencias de correo**: si aceptaste los correos de marketing y cuándo.",
@@ -507,7 +507,7 @@
           "**Brevo**: correos transaccionales, gestión de contactos y (si lo aceptaste) newsletters.",
           "**Proveedores de modelos de IA** (como Anthropic, OpenAI, Google o DeepSeek): los datos de tu producto y tus ideas de campaña se envían al modelo que genera o reescribe tu contenido. Usamos sus API empresariales; cómo trata cada proveedor los datos de la API se indica en sus propios términos.",
           "**Upload-Post**: publica las publicaciones que apruebas en las cuentas sociales que conectas y conserva el acceso que concedes a esas cuentas.",
-          "**Proveedores de modelos de imagen** (como Black Forest Labs, Ideogram, OpenAI o Google): se envía una descripción de la imagen, redactada a partir de tu publicación, para generar las imágenes."
+          "**Proveedores de modelos de imagen** (como Black Forest Labs, Ideogram, OpenAI, Google o Cloudflare Workers AI): se les envía una descripción en texto de la imagen, escrita a partir de tu publicación o diapositiva, para generar las imágenes."
         ]
       },
       {
@@ -520,7 +520,7 @@
       },
       {
         "t": "p",
-        "x": "La app usa cookies estrictamente necesarias para mantener tu sesión y recordar tu idioma, y el almacenamiento local de tu navegador para recordar tu tema. Este sitio usa una cookie de idioma y el almacenamiento local para tu tema; no usa cookies publicitarias ni de seguimiento."
+        "x": "La app usa cookies estrictamente necesarias para mantener tu sesión y recordar tu idioma y tu zona horaria (para mostrar fechas y horarios de publicación en tu hora local), y el almacenamiento local del navegador para tu tema y tus borradores sin guardar. Este sitio usa una cookie de idioma y almacenamiento local para tu tema; no usa cookies publicitarias ni de seguimiento."
       },
       {
         "t": "h2",
@@ -608,7 +608,7 @@
           "Puedes cancelar en cualquier momento desde el portal de facturación; tu plan sigue activo hasta el final del periodo en curso. Los pagos no son reembolsables, salvo lo previsto en la sección 4 (derecho de desistimiento) o cuando la ley lo exija.",
           "Si eres consumidor en el Reino Unido o la UE, aceptas que el servicio empiece inmediatamente después de la compra; tus derechos legales no se ven afectados.",
           "Podemos cambiar los precios con al menos 30 días de antelación antes de tu próxima renovación.",
-          "Los límites de uso (campañas, productos, reescrituras de IA) se reinician cada mes natural."
+          "Los límites de uso (campañas, productos, reescrituras con IA, imágenes con IA) se reinician cada mes natural."
         ]
       },
       {
@@ -657,7 +657,7 @@
       },
       {
         "t": "p",
-        "x": "El contenido lo producen modelos de IA y puede ser inexacto, incompleto o parecido al producido para otros. Revísalo antes de publicarlo. No lo uses como asesoramiento legal, médico, financiero o profesional."
+        "x": "Los resultados, textos e imágenes, los generan modelos de IA y pueden ser inexactos, incompletos o parecidos a contenido generado para otros. Revísalos antes de publicar, incluida la vista previa de cada publicación. No te bases en ellos para asesoramiento legal, médico, financiero u otro profesional."
       },
       {
         "t": "h2",
