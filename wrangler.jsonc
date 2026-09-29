@@ -1,12 +1,12 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  // ContentArc marketing site (contentarc.to) on Cloudflare Pages: static export in ./out + Pages Functions in ./functions.
+  // ContentArc marketing site (contentarc.app) on Cloudflare Pages: static export in ./out + Pages Functions in ./functions.
   "name": "contentarc-marketing",
   "pages_build_output_dir": "./out",
   "compatibility_date": "2026-09-01",
   "vars": {
-    "CONTACT_TO_EMAIL": "contact@contentarc.to",
-    "BREVO_SENDER_EMAIL": "noreply@contentarc.to",
+    "CONTACT_TO_EMAIL": "support@contentarc.app",
+    "BREVO_SENDER_EMAIL": "noreply@contentarc.app",
     "BREVO_LIST_ID": ""
   }
   // Secrets (Pages → Settings → Variables and secrets, or `npx wrangler pages secret put NAME`):

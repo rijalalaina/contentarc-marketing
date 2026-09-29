@@ -2,8 +2,8 @@
 // (ContentArc/src/lib/plans.ts and the Stripe prices).
 
 // Build-time overrides (e.g. local runs): NEXT_PUBLIC_SITE_URL, NEXT_PUBLIC_APP_URL.
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://contentarc.to";
-const APP_URL = process.env.NEXT_PUBLIC_APP_URL || "https://app.contentarc.to";
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://contentarc.app";
+const APP_URL = process.env.NEXT_PUBLIC_APP_URL || "https://app.contentarc.app";
 
 export const SITE = {
   name: "ContentArc",
@@ -11,7 +11,7 @@ export const SITE = {
   appUrl: APP_URL,
   signUpUrl: `${APP_URL}/login`,
   signInUrl: `${APP_URL}/login`,
-  contactEmail: "contact@contentarc.to",
+  contactEmail: "support@contentarc.app",
 } as const;
 
 /** Legal operator of ContentArc (shown in the footer and on /privacy and /terms). */

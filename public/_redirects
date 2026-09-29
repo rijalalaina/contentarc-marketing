@@ -1,5 +1,5 @@
 # Bare paths (/, /help, /contact, /privacy, /terms, /pricing…) are handled by Pages Functions (language detection).
-/app       https://app.contentarc.to/         302
-/login     https://app.contentarc.to/login    302
-/signin    https://app.contentarc.to/login    302
-/signup    https://app.contentarc.to/login    302
+/app       https://app.contentarc.app/         302
+/login     https://app.contentarc.app/login    302
+/signin    https://app.contentarc.app/login    302
+/signup    https://app.contentarc.app/login    302

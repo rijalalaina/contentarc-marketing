@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "eslint",
     "preview": "next build && wrangler pages dev ./out",
-    "deploy": "next build && wrangler pages deploy ./out",
+    "deploy": "next build && CLOUDFLARE_ACCOUNT_ID=02f29a5bf18324a746d50a1346315f03 wrangler pages deploy ./out",
     "typecheck": "tsc --noEmit && tsc -p functions --noEmit"
   },
   "dependencies": {

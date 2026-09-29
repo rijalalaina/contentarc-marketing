@@ -1,4 +1,4 @@
-# ContentArc — marketing site (contentarc.to)
+# ContentArc — marketing site (contentarc.app)
 
 Static Next.js 16 site (landing, help, privacy, terms, contact) on **Cloudflare Pages**, with one
 **Pages Function** (`functions/api/contact.ts`) that sends contact-form messages through Brevo.
@@ -15,11 +15,11 @@ npm run deploy     # build + `wrangler pages deploy ./out`
    - Build command: `npx next build` · Output directory: `out` · Node 20+.
 2. Settings → Variables and secrets (Production):
    - `BREVO_API_KEY` (**secret**)
-   - `CONTACT_TO_EMAIL`: inbox that receives messages (use your personal inbox until contact@contentarc.to exists)
-   - `BREVO_SENDER_EMAIL`: a Brevo-verified sender / authenticated domain (e.g. `noreply@blissfulplan.com` until contentarc.to is authenticated)
+   - `CONTACT_TO_EMAIL`: inbox that receives messages (default `support@contentarc.app`; it needs a real inbox, e.g. Cloudflare Email Routing forwarding it to your mailbox)
+   - `BREVO_SENDER_EMAIL`: a Brevo-verified sender / authenticated domain (default `noreply@contentarc.app`, authenticated in Brevo)
    - `BREVO_LIST_ID`: list for newsletter opt-ins (e.g. `14`)
    - Optional anti-spam: `TURNSTILE_SECRET_KEY` (secret) + build variable `NEXT_PUBLIC_TURNSTILE_SITE_KEY`
-3. Custom domains → add `contentarc.to` (and `www.contentarc.to`, redirected to the apex).
+3. Custom domains → add `contentarc.app` (and `www.contentarc.app`, redirected to the apex).
 
 ## Languages & theme
 - 10 languages (en, fr, de, it, es, pt, zh, ru, ko, ar — Arabic is right-to-left), statically generated at `/{locale}/…`.

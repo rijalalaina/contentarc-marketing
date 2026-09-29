@@ -1,8 +1,8 @@
 // Cloudflare Pages Function: POST /api/contact → email via Brevo (+ optional newsletter opt-in).
 // Configure in Pages → Settings → Variables and secrets (or .dev.vars locally):
 //   BREVO_API_KEY (secret, required)
-//   CONTACT_TO_EMAIL      where messages go        (default contact@contentarc.to)
-//   BREVO_SENDER_EMAIL    verified Brevo sender    (default noreply@contentarc.to)
+//   CONTACT_TO_EMAIL      where messages go        (default support@contentarc.app)
+//   BREVO_SENDER_EMAIL    verified Brevo sender    (default noreply@contentarc.app)
 //   BREVO_LIST_ID         list for newsletter opt-ins (optional)
 //   TURNSTILE_SECRET_KEY  enables Turnstile verification (optional, recommended)
 
@@ -90,8 +90,8 @@ export const onRequestPost: PagesFunction<Env> = async ({ request, env }) => {
     if (!verify.success) return json({ code: "verification" }, 400);
   }
 
-  const to = env.CONTACT_TO_EMAIL || "contact@contentarc.to";
-  const sender = env.BREVO_SENDER_EMAIL || "noreply@contentarc.to";
+  const to = env.CONTACT_TO_EMAIL || "support@contentarc.app";
+  const sender = env.BREVO_SENDER_EMAIL || "noreply@contentarc.app";
   const safe = { name: escapeHtml(name), email: escapeHtml(email), topic: escapeHtml(topic), message: escapeHtml(message) };
 
   const res = await brevo(env, "/smtp/email", {
