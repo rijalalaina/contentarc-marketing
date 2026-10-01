@@ -507,7 +507,8 @@
           "**Brevo**：事务性邮件、联系人管理以及（在你同意时）邮件简报。",
           "**AI 模型提供商**（如 Anthropic、OpenAI、Google 或 DeepSeek）：你的产品信息和营销活动想法会发送给负责生成或改写内容的模型。我们使用其企业级 API；各提供商如何处理 API 数据以其自身条款为准。",
           "**Upload-Post**：将你批准的帖子发布到你连接的社交账号，并持有你授予这些账号的访问权限。",
-          "**图像模型提供商**（如 Black Forest Labs、Ideogram、OpenAI、Google 或 Cloudflare Workers AI）：我们会发送根据你的帖子或幻灯片撰写的图片文字描述，用于生成帖子和幻灯片图片。"
+          "**图像模型提供商**（如 Black Forest Labs、Ideogram、OpenAI、Google 或 Cloudflare Workers AI）：我们会发送根据你的帖子或幻灯片撰写的图片文字描述，用于生成帖子和幻灯片图片。",
+          "**图库提供商**（如 Pexels、Pixabay 或 Unsplash）：当你选择图库照片时，我们会发送根据帖子或幻灯片生成的几个搜索词来查找照片，不会发送任何个人数据。"
         ]
       },
       {

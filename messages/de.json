@@ -507,7 +507,8 @@
           "**Brevo**: Transaktions-E-Mails, Kontaktverwaltung und (bei Zustimmung) Newsletter.",
           "**Anbieter von KI-Modellen** (etwa Anthropic, OpenAI, Google oder DeepSeek): deine Produktangaben und Kampagnenideen werden an das Modell gesendet, das deine Inhalte erstellt oder umschreibt. Wir nutzen ihre Business-APIs; wie jeder Anbieter API-Daten behandelt, regeln seine eigenen Bedingungen.",
           "**Upload-Post**: veröffentlicht die freigegebenen Beiträge auf den verbundenen Social-Konten und verwaltet den dafür erteilten Zugang.",
-          "**Anbieter von Bildmodellen** (etwa Black Forest Labs, Ideogram, OpenAI, Google oder Cloudflare Workers AI): Eine Textbeschreibung des Bildes, verfasst auf Basis deines Beitrags oder deiner Folie, wird gesendet, um Beitrags- und Folienbilder zu erzeugen."
+          "**Anbieter von Bildmodellen** (etwa Black Forest Labs, Ideogram, OpenAI, Google oder Cloudflare Workers AI): Eine Textbeschreibung des Bildes, verfasst auf Basis deines Beitrags oder deiner Folie, wird gesendet, um Beitrags- und Folienbilder zu erzeugen.",
+          "**Stockfoto-Anbieter** (etwa Pexels, Pixabay oder Unsplash): Wenn du Stockfotos wählst, werden einige Suchbegriffe aus deinem Beitrag oder deiner Folie gesendet, um passende Fotos zu finden. Es werden keine personenbezogenen Daten übermittelt."
         ]
       },
       {

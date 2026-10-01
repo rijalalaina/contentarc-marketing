@@ -507,7 +507,8 @@
           "**Brevo**: email transazionali, gestione dei contatti e (se hai acconsentito) newsletter.",
           "**Fornitori di modelli di IA** (come Anthropic, OpenAI, Google o DeepSeek): i dettagli del tuo prodotto e le idee per le campagne vengono inviati al modello che genera o riscrive i tuoi contenuti. Usiamo le loro API business; il modo in cui ciascun fornitore tratta i dati API è indicato nei suoi termini.",
           "**Upload-Post**: pubblica i post che approvi sugli account social che colleghi e detiene l’accesso che concedi a tali account.",
-          "**Fornitori di modelli di immagini** (come Black Forest Labs, Ideogram, OpenAI, Google o Cloudflare Workers AI): viene inviata una descrizione testuale dell'immagine, scritta a partire dal tuo post o dalla tua slide, per generare le immagini di post e slide."
+          "**Fornitori di modelli di immagini** (come Black Forest Labs, Ideogram, OpenAI, Google o Cloudflare Workers AI): viene inviata una descrizione testuale dell'immagine, scritta a partire dal tuo post o dalla tua slide, per generare le immagini di post e slide.",
+          "**Fornitori di foto stock** (come Pexels, Pixabay o Unsplash): quando scegli le foto stock, vengono inviate alcune parole di ricerca tratte dal tuo post o dalla tua slide per trovare le foto. Nessun dato personale viene inviato."
         ]
       },
       {

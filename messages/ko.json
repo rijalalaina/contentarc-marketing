@@ -507,7 +507,8 @@
           "**Brevo**: 트랜잭션 이메일, 연락처 관리, (동의하신 경우) 뉴스레터.",
           "**AI 모델 제공업체**(Anthropic, OpenAI, Google, DeepSeek 등): 제품 정보와 캠페인 아이디어가 콘텐츠를 생성하거나 다시 쓰는 모델로 전송됩니다. 당사는 각 업체의 비즈니스 API를 사용하며, API 데이터 처리 방식은 각 업체의 약관에 따릅니다.",
           "**Upload-Post**: 승인한 게시물을 연결한 소셜 계정에 게시하고, 해당 계정에 대해 부여한 접근 권한을 보유합니다.",
-          "**이미지 모델 제공업체**(Black Forest Labs, Ideogram, OpenAI, Google, Cloudflare Workers AI 등): 게시물이나 슬라이드를 바탕으로 작성한 이미지 설명 텍스트를 보내 게시물과 슬라이드 이미지를 생성합니다."
+          "**이미지 모델 제공업체**(Black Forest Labs, Ideogram, OpenAI, Google, Cloudflare Workers AI 등): 게시물이나 슬라이드를 바탕으로 작성한 이미지 설명 텍스트를 보내 게시물과 슬라이드 이미지를 생성합니다.",
+          "**스톡 사진 제공업체** (Pexels, Pixabay, Unsplash 등): 스톡 사진을 선택하면 게시물이나 슬라이드에서 만든 몇 개의 검색어가 사진을 찾기 위해 전송됩니다. 개인 데이터는 전송되지 않습니다."
         ]
       },
       {
