@@ -36,6 +36,8 @@ export interface Plan {
   publishingBrands: number | null;
   /** AI images per month. */
   images: number;
+  /** Minutes of AI video (from scripts) per month. */
+  videoMinutes: number;
   prioritySupport?: boolean;
   popular?: boolean;
 }
@@ -51,34 +53,38 @@ export const PLANS: Plan[] = [
     rewrites: 10,
     publishingBrands: 0,
     images: 0,
+    videoMinutes: 0,
   },
   {
     id: "creator",
-    prices: { month: 19, year: 190 },
+    prices: { month: 24, year: 240 },
     campaigns: 10,
     products: 3,
     rewrites: 150,
     publishingBrands: 1,
     images: 150,
+    videoMinutes: 10,
   },
   {
     id: "publisher",
-    prices: { month: 49, year: 490 },
+    prices: { month: 69, year: 690 },
     campaigns: 30,
     products: 10,
     rewrites: 500,
     publishingBrands: 3,
     images: 450,
+    videoMinutes: 30,
     popular: true,
   },
   {
     id: "enterprise",
-    prices: { month: 149, year: 1490 },
+    prices: { month: 199, year: 1990 },
     campaigns: 100,
     products: null,
     rewrites: 1500,
     publishingBrands: 10,
     images: 1500,
+    videoMinutes: 100,
     prioritySupport: true,
   },
 ];

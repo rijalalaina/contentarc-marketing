@@ -172,7 +172,7 @@
       "q1": "What exactly do I get from one campaign?",
       "a1": "{pieces} pieces built around one idea: 1 YouTube script, 5 short-form video scripts, 3 LinkedIn posts, 4 X posts and threads, 2 carousels, 3 Instagram story sequences and 2 newsletters, plus an SEO keyword strategy for the whole campaign.",
       "q2": "Does ContentArc publish to my social accounts?",
-      "a2": "Yes, on paid plans. Connect your accounts once, create a content plan for a campaign, and ContentArc publishes the posts you approve to LinkedIn, X, Facebook, Instagram, Threads, Bluesky and Pinterest at the best times for your audience, including carousels and stories designed with your brand kit and AI illustrations. You see a preview of each post exactly as it will appear, and nothing goes out without your approval. Videos and newsletters are planned on your calendar for you to post; you can also copy or export any piece.",
+      "a2": "Yes, on paid plans. Connect your accounts once, create a content plan for a campaign, and ContentArc publishes the posts you approve to LinkedIn, X, Facebook, Instagram, Threads, Bluesky and Pinterest at the best times for your audience, including carousels and stories designed with your brand kit and AI illustrations. You see a preview of each post exactly as it will appear, and nothing goes out without your approval. Videos and newsletters are planned on your calendar for you to post; you can also copy or export any piece. ContentArc can also turn your short-video and YouTube scripts into finished videos (AI voice-over, stock footage, subtitles) for you to download and post.",
       "q3": "Is there a free plan?",
       "a3": "Yes. The free plan includes 1 campaign a month and 1 product, with no credit card required. Upgrade whenever you need more.",
       "q4": "Which AI powers ContentArc?",
@@ -236,7 +236,8 @@
       "languages": "Content in 10 languages",
       "priority": "Priority support",
       "publishing": "{count, plural, =0 {Copy & export (no auto-publishing)} one {Auto-publish # brand to 7 networks} other {Auto-publish # brands to 7 networks}}",
-      "images": "{count, plural, =0 {Template visuals only} other {# AI images / month}}"
+      "images": "{count, plural, =0 {Template visuals only} other {# AI images / month}}",
+      "videos": "{count, plural, =0 {No AI video} other {# min of AI video / month (from your scripts)}}"
     }
   },
   "help": {
@@ -607,7 +608,7 @@
           "You can cancel anytime from the billing portal; your plan stays active until the end of the current period. Payments are non-refundable, except as described in section 4 (right of withdrawal) or where required by law.",
           "If you are a consumer in the EU/UK, you agree that the service starts immediately after purchase; your statutory rights are not affected.",
           "We may change prices with at least 30 days' notice before your next renewal.",
-          "Usage limits (campaigns, products, AI rewrites, AI images) reset each calendar month."
+          "Usage limits (campaigns, products, AI rewrites, AI images, AI video minutes) reset each calendar month."
         ]
       },
       {

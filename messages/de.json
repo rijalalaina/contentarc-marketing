@@ -172,7 +172,7 @@
       "q1": "Was genau bekomme ich pro Kampagne?",
       "a1": "{pieces} Inhalte rund um eine Idee: 1 YouTube-Skript, 5 Kurzvideo-Skripte, 3 LinkedIn-Posts, 4 X-Posts und Threads, 2 Karussells, 3 Instagram-Story-Sequenzen und 2 Newsletter, plus eine SEO-Keyword-Strategie für die ganze Kampagne.",
       "q2": "Veröffentlicht ContentArc auf meinen Social-Konten?",
-      "a2": "Ja, in den bezahlten Plänen. Verbinde deine Konten einmal, erstelle einen Content-Plan für eine Kampagne, und ContentArc veröffentlicht die freigegebenen Beiträge auf LinkedIn, X, Facebook, Instagram, Threads, Bluesky und Pinterest zu den besten Zeiten für deine Zielgruppe – auch Karussells und Storys, gestaltet mit deinem Brand Kit und KI-Illustrationen. Du siehst jeden Beitrag vorab genau so, wie er erscheint, und nichts geht ohne deine Freigabe raus. Videos und Newsletter stehen in deinem Kalender, damit du sie selbst veröffentlichst; du kannst jeden Inhalt auch kopieren oder exportieren.",
+      "a2": "Ja, in den bezahlten Plänen. Verbinde deine Konten einmal, erstelle einen Content-Plan für eine Kampagne, und ContentArc veröffentlicht die freigegebenen Beiträge auf LinkedIn, X, Facebook, Instagram, Threads, Bluesky und Pinterest zu den besten Zeiten für deine Zielgruppe – auch Karussells und Storys, gestaltet mit deinem Brand Kit und KI-Illustrationen. Du siehst jeden Beitrag vorab genau so, wie er erscheint, und nichts geht ohne deine Freigabe raus. Videos und Newsletter stehen in deinem Kalender, damit du sie selbst veröffentlichst; du kannst jeden Inhalt auch kopieren oder exportieren. ContentArc kann deine Kurzvideo- und YouTube-Skripte auch in fertige Videos verwandeln (KI-Voice-over, Stock-Material, Untertitel), die du herunterlädst und postest.",
       "q3": "Gibt es einen kostenlosen Tarif?",
       "a3": "Ja. Der kostenlose Tarif umfasst 1 Kampagne pro Monat und 1 Produkt, ohne Kreditkarte. Upgrade, wann immer du mehr brauchst.",
       "q4": "Welche KI steckt hinter ContentArc?",
@@ -236,7 +236,8 @@
       "languages": "Inhalte in 10 Sprachen",
       "priority": "Priorisierter Support",
       "publishing": "{count, plural, =0 {Kopieren & Export (ohne Auto-Veröffentlichung)} one {Auto-Veröffentlichung für # Marke auf 7 Netzwerken} other {Auto-Veröffentlichung für # Marken auf 7 Netzwerken}}",
-      "images": "{count, plural, =0 {Nur Vorlagen-Grafiken} other {# KI-Bilder / Monat}}"
+      "images": "{count, plural, =0 {Nur Vorlagen-Grafiken} other {# KI-Bilder / Monat}}",
+      "videos": "{count, plural, =0 {Kein KI-Video} other {# Min. KI-Video / Monat (aus deinen Skripten)}}"
     }
   },
   "help": {
@@ -609,7 +610,7 @@
           "Du kannst jederzeit im Abrechnungsportal kündigen; dein Tarif bleibt bis zum Ende des laufenden Zeitraums aktiv. Zahlungen werden nicht erstattet, außer wie in Abschnitt 4 (Widerrufsrecht) beschrieben oder wenn das Gesetz es verlangt.",
           "Wenn du Verbraucher im Vereinigten Königreich oder in der EU bist, stimmst du zu, dass der Dienst unmittelbar nach dem Kauf beginnt; deine gesetzlichen Rechte bleiben unberührt.",
           "Wir können Preise mit mindestens 30 Tagen Vorlauf vor deiner nächsten Verlängerung ändern.",
-          "Nutzungslimits (Kampagnen, Produkte, KI-Umschreibungen, KI-Bilder) werden jeden Kalendermonat zurückgesetzt."
+          "Nutzungslimits (Kampagnen, Produkte, KI-Umschreibungen, KI-Bilder, KI-Videominuten) werden jeden Kalendermonat zurückgesetzt."
         ]
       },
       {

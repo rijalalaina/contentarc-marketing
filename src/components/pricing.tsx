@@ -58,6 +58,7 @@ export function Pricing() {
             t("features.rewrites", { count: num(plan.rewrites) }),
             t("features.publishing", { count: plan.publishingBrands ?? 0 }),
             t("features.images", { count: plan.images }),
+            t("features.videos", { count: plan.videoMinutes }),
             t("features.formats"),
             t("features.seo"),
             t("features.export"),

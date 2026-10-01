@@ -172,7 +172,7 @@
       "q1": "¿Qué recibo exactamente en una campaña?",
       "a1": "{pieces} piezas construidas en torno a una idea: 1 guion de YouTube, 5 guiones de vídeo corto, 3 posts de LinkedIn, 4 posts e hilos de X, 2 carruseles, 3 secuencias de stories de Instagram y 2 newsletters, además de una estrategia de palabras clave SEO para toda la campaña.",
       "q2": "¿ContentArc publica en mis cuentas sociales?",
-      "a2": "Sí, en los planes de pago. Conecta tus cuentas una vez, crea un plan de contenido para una campaña y ContentArc publica las publicaciones que apruebas en LinkedIn, X, Facebook, Instagram, Threads, Bluesky y Pinterest en las mejores horas para tu audiencia, incluidos carruseles e historias diseñados con tu kit de marca e ilustraciones de IA. Ves una vista previa de cada publicación tal como aparecerá, y nada sale sin tu aprobación. Los vídeos y newsletters quedan en tu calendario para que los publiques tú; también puedes copiar o exportar cualquier pieza.",
+      "a2": "Sí, en los planes de pago. Conecta tus cuentas una vez, crea un plan de contenido para una campaña y ContentArc publica las publicaciones que apruebas en LinkedIn, X, Facebook, Instagram, Threads, Bluesky y Pinterest en las mejores horas para tu audiencia, incluidos carruseles e historias diseñados con tu kit de marca e ilustraciones de IA. Ves una vista previa de cada publicación tal como aparecerá, y nada sale sin tu aprobación. Los vídeos y newsletters quedan en tu calendario para que los publiques tú; también puedes copiar o exportar cualquier pieza. ContentArc también puede convertir tus guiones de vídeos cortos y de YouTube en vídeos terminados (voz en off con IA, imágenes de stock, subtítulos) para descargar y publicar.",
       "q3": "¿Hay un plan gratuito?",
       "a3": "Sí. El plan gratuito incluye 1 campaña al mes y 1 producto, sin tarjeta de crédito. Mejora tu plan cuando necesites más.",
       "q4": "¿Qué IA usa ContentArc?",
@@ -236,7 +236,8 @@
       "languages": "Contenido en 10 idiomas",
       "priority": "Soporte prioritario",
       "publishing": "{count, plural, =0 {Copiar y exportar (sin publicación automática)} one {Publicación automática de # marca en 7 redes} other {Publicación automática de # marcas en 7 redes}}",
-      "images": "{count, plural, =0 {Solo visuales de plantilla} other {# imágenes IA / mes}}"
+      "images": "{count, plural, =0 {Solo visuales de plantilla} other {# imágenes IA / mes}}",
+      "videos": "{count, plural, =0 {Sin vídeo IA} other {# min de vídeo IA / mes (a partir de tus guiones)}}"
     }
   },
   "help": {
@@ -609,7 +610,7 @@
           "Puedes cancelar en cualquier momento desde el portal de facturación; tu plan sigue activo hasta el final del periodo en curso. Los pagos no son reembolsables, salvo lo previsto en la sección 4 (derecho de desistimiento) o cuando la ley lo exija.",
           "Si eres consumidor en el Reino Unido o la UE, aceptas que el servicio empiece inmediatamente después de la compra; tus derechos legales no se ven afectados.",
           "Podemos cambiar los precios con al menos 30 días de antelación antes de tu próxima renovación.",
-          "Los límites de uso (campañas, productos, reescrituras con IA, imágenes con IA) se reinician cada mes natural."
+          "Los límites de uso (campañas, productos, reescrituras con IA, imágenes con IA, minutos de vídeo con IA) se reinician cada mes natural."
         ]
       },
       {

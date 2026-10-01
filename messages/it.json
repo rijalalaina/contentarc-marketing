@@ -172,7 +172,7 @@
       "q1": "Cosa ottengo esattamente da una campagna?",
       "a1": "{pieces} contenuti costruiti attorno a un'idea: 1 script YouTube, 5 script per video brevi, 3 post LinkedIn, 4 post e thread X, 2 caroselli, 3 sequenze di storie Instagram e 2 newsletter, più una strategia di parole chiave SEO per tutta la campagna.",
       "q2": "ContentArc pubblica sui miei account social?",
-      "a2": "Sì, con i piani a pagamento. Collega i tuoi account una volta, crea un piano di contenuti per una campagna e ContentArc pubblica i post che approvi su LinkedIn, X, Facebook, Instagram, Threads, Bluesky e Pinterest negli orari migliori per il tuo pubblico, inclusi caroselli e storie progettati con il tuo brand kit e illustrazioni IA. Vedi l’anteprima di ogni post esattamente come apparirà e nulla parte senza la tua approvazione. Video e newsletter restano nel tuo calendario perché li pubblichi tu; puoi anche copiare o esportare ogni contenuto.",
+      "a2": "Sì, con i piani a pagamento. Collega i tuoi account una volta, crea un piano di contenuti per una campagna e ContentArc pubblica i post che approvi su LinkedIn, X, Facebook, Instagram, Threads, Bluesky e Pinterest negli orari migliori per il tuo pubblico, inclusi caroselli e storie progettati con il tuo brand kit e illustrazioni IA. Vedi l’anteprima di ogni post esattamente come apparirà e nulla parte senza la tua approvazione. Video e newsletter restano nel tuo calendario perché li pubblichi tu; puoi anche copiare o esportare ogni contenuto. ContentArc può anche trasformare i tuoi script per video brevi e YouTube in video finiti (voce IA, filmati stock, sottotitoli) da scaricare e pubblicare.",
       "q3": "C'è un piano gratuito?",
       "a3": "Sì. Il piano gratuito include 1 campagna al mese e 1 prodotto, senza carta di credito. Passa a un piano superiore quando ti serve di più.",
       "q4": "Quale IA usa ContentArc?",
@@ -236,7 +236,8 @@
       "languages": "Contenuti in 10 lingue",
       "priority": "Supporto prioritario",
       "publishing": "{count, plural, =0 {Copia ed esportazione (senza pubblicazione automatica)} one {Pubblicazione automatica di # brand su 7 reti} other {Pubblicazione automatica di # brand su 7 reti}}",
-      "images": "{count, plural, =0 {Solo grafiche da modello} other {# immagini IA / mese}}"
+      "images": "{count, plural, =0 {Solo grafiche da modello} other {# immagini IA / mese}}",
+      "videos": "{count, plural, =0 {Nessun video IA} other {# min di video IA / mese (dai tuoi script)}}"
     }
   },
   "help": {
@@ -609,7 +610,7 @@
           "Puoi disdire in qualsiasi momento dal portale di fatturazione; il piano resta attivo fino alla fine del periodo in corso. I pagamenti non sono rimborsabili, salvo quanto previsto alla sezione 4 (diritto di recesso) o ove richiesto dalla legge.",
           "Se sei un consumatore nel Regno Unito o nell'UE, accetti che il servizio inizi subito dopo l'acquisto; i tuoi diritti di legge non sono pregiudicati.",
           "Possiamo modificare i prezzi con un preavviso di almeno 30 giorni prima del tuo prossimo rinnovo.",
-          "I limiti di utilizzo (campagne, prodotti, riscritture IA, immagini IA) si azzerano ogni mese di calendario."
+          "I limiti di utilizzo (campagne, prodotti, riscritture IA, immagini IA, minuti di video IA) si azzerano ogni mese di calendario."
         ]
       },
       {

@@ -172,7 +172,7 @@
       "q1": "Que contient exactement une campagne ?",
       "a1": "{pieces} contenus construits autour d'une idée : 1 script YouTube, 5 scripts de vidéos courtes, 3 posts LinkedIn, 4 posts et threads X, 2 carrousels, 3 séquences de stories Instagram et 2 newsletters, plus une stratégie de mots-clés SEO pour toute la campagne.",
       "q2": "ContentArc publie-t-il sur mes comptes sociaux ?",
-      "a2": "Oui, sur les offres payantes. Connectez vos comptes une fois, créez un plan de contenu pour une campagne, et ContentArc publie les posts que vous approuvez sur LinkedIn, X, Facebook, Instagram, Threads, Bluesky et Pinterest aux meilleurs horaires pour votre audience, y compris les carrousels et stories conçus avec votre kit de marque et des illustrations IA. Vous voyez un aperçu de chaque post tel qu’il apparaîtra, et rien ne part sans votre accord. Les vidéos et newsletters sont planifiées dans votre calendrier pour que vous les publiiez ; vous pouvez aussi copier ou exporter chaque contenu.",
+      "a2": "Oui, sur les offres payantes. Connectez vos comptes une fois, créez un plan de contenu pour une campagne, et ContentArc publie les posts que vous approuvez sur LinkedIn, X, Facebook, Instagram, Threads, Bluesky et Pinterest aux meilleurs horaires pour votre audience, y compris les carrousels et stories conçus avec votre kit de marque et des illustrations IA. Vous voyez un aperçu de chaque post tel qu’il apparaîtra, et rien ne part sans votre accord. Les vidéos et newsletters sont planifiées dans votre calendrier pour que vous les publiiez ; vous pouvez aussi copier ou exporter chaque contenu. ContentArc peut aussi transformer vos scripts de vidéos courtes et YouTube en vidéos finies (voix off IA, images d’archive, sous-titres) à télécharger et publier.",
       "q3": "Existe-t-il une offre gratuite ?",
       "a3": "Oui. L'offre gratuite comprend 1 campagne par mois et 1 produit, sans carte bancaire. Passez à l'offre supérieure quand vous en avez besoin.",
       "q4": "Quelle IA alimente ContentArc ?",
@@ -236,7 +236,8 @@
       "languages": "Contenus en 10 langues",
       "priority": "Assistance prioritaire",
       "publishing": "{count, plural, =0 {Copie et export (sans publication auto)} one {Publication auto de # marque sur 7 réseaux} other {Publication auto de # marques sur 7 réseaux}}",
-      "images": "{count, plural, =0 {Visuels modèles uniquement} other {# images IA / mois}}"
+      "images": "{count, plural, =0 {Visuels modèles uniquement} other {# images IA / mois}}",
+      "videos": "{count, plural, =0 {Pas de vidéo IA} other {# min de vidéo IA / mois (à partir de vos scripts)}}"
     }
   },
   "help": {
@@ -609,7 +610,7 @@
           "Vous pouvez résilier à tout moment depuis le portail de facturation ; votre offre reste active jusqu'à la fin de la période en cours. Les paiements ne sont pas remboursables, sauf dans les cas prévus à l'article 4 (droit de rétractation) ou si la loi l'exige.",
           "Si vous êtes un consommateur au Royaume-Uni ou dans l'UE, vous acceptez que le service commence immédiatement après l'achat ; vos droits légaux ne sont pas affectés.",
           "Nous pouvons modifier nos prix avec un préavis d'au moins 30 jours avant votre prochain renouvellement.",
-          "Les limites d'utilisation (campagnes, produits, réécritures IA, images IA) sont réinitialisées chaque mois civil."
+          "Les limites d'utilisation (campagnes, produits, réécritures IA, images IA, minutes de vidéo IA) sont réinitialisées chaque mois civil."
         ]
       },
       {
