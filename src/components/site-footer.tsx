@@ -3,6 +3,7 @@ import { getTranslations } from "next-intl/server";
 import { Logo } from "@/components/logo";
 import { localePath, type Locale } from "@/i18n/routing";
 import { LEGAL, SITE } from "@/lib/site";
+import { ALL_PRODUCTS_URL, SOCIAL_LINKS, otherProducts } from "@/lib/ecosystem";
 
 export async function SiteFooter({ locale }: { locale: Locale }) {
   const t = await getTranslations({ locale, namespace: "footer" });
@@ -37,8 +38,8 @@ export async function SiteFooter({ locale }: { locale: Locale }) {
   return (
     <footer className="border-border mt-24 border-t">
       <div className="bg-brand-spectrum h-px w-full opacity-60" aria-hidden />
-      <div className="mx-auto grid max-w-6xl gap-10 px-4 py-14 sm:px-6 md:grid-cols-[1.4fr_repeat(3,1fr)]">
-        <div className="space-y-3">
+      <div className="mx-auto grid max-w-6xl grid-cols-2 gap-10 px-4 py-14 sm:px-6 md:grid-cols-3 lg:grid-cols-[1.4fr_repeat(4,1fr)]">
+        <div className="col-span-2 space-y-3 md:col-span-3 lg:col-span-1">
           <Logo />
           <p className="text-muted max-w-xs text-sm">{t("tagline")}</p>
         </div>
@@ -62,6 +63,45 @@ export async function SiteFooter({ locale }: { locale: Locale }) {
             </ul>
           </div>
         ))}
+        {/* Blissfulplan Publishing's other products. */}
+        <div>
+          <h2 className="font-sans text-sm font-semibold">{t("otherProducts")}</h2>
+          <ul className="mt-3 space-y-2">
+            {otherProducts("contentarc.app").map((p) => (
+              <li key={p.url}>
+                <a href={p.url} target="_blank" rel="noopener noreferrer" className="text-muted hover:text-fg text-sm transition-colors">
+                  {p.name}
+                </a>
+              </li>
+            ))}
+            <li>
+              <a href={ALL_PRODUCTS_URL} target="_blank" rel="noopener noreferrer" className="text-muted hover:text-fg text-xs underline-offset-4 transition-colors hover:underline">
+                {t("exploreAll")}
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div className="border-border mx-auto flex max-w-6xl flex-wrap items-center gap-3 border-t px-4 py-5 sm:px-6">
+        <span className="text-muted text-xs font-medium">{t("follow")}</span>
+        <ul className="flex flex-wrap gap-2">
+          {SOCIAL_LINKS.map((s) => (
+            <li key={s.name}>
+              <a
+                href={s.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={s.ariaLabel}
+                title={s.name}
+                className="text-muted hover:text-fg border-border hover:border-fg/40 flex size-9 items-center justify-center rounded-full border transition-colors"
+              >
+                <svg viewBox="0 0 24 24" aria-hidden className="size-4 fill-current">
+                  <path d={s.path} />
+                </svg>
+              </a>
+            </li>
+          ))}
+        </ul>
       </div>
       <div className="border-border text-muted mx-auto max-w-6xl space-y-2 border-t px-4 py-6 text-xs sm:px-6">
         <div className="flex flex-wrap items-center justify-between gap-2">

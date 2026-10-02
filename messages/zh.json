@@ -29,7 +29,10 @@
     "terms": "服务条款",
     "rights": "© {year} Blissfulplan Publishing Ltd. 保留所有权利。",
     "madeFor": "为创作者、创始人和独立品牌打造。",
-    "operator": "ContentArc 是 {company} 的产品，该公司在 {jurisdiction} 注册（公司编号 {number}）。注册地址：{address}。"
+    "operator": "ContentArc 是 {company} 的产品，该公司在 {jurisdiction} 注册（公司编号 {number}）。注册地址：{address}。",
+    "otherProducts": "我们的其他产品",
+    "exploreAll": "在 blissfulplan.com 查看全部应用 →",
+    "follow": "关注 Blissfulplan"
   },
   "meta": {
     "title": "ContentArc：一个想法，无尽内容",

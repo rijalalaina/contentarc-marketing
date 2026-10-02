@@ -29,7 +29,10 @@
     "terms": "Условия использования",
     "rights": "© {year} Blissfulplan Publishing Ltd. Все права защищены.",
     "madeFor": "Для авторов, основателей и независимых брендов.",
-    "operator": "ContentArc — продукт компании {company}, зарегистрированной в юрисдикции {jurisdiction} (регистрационный номер {number}). Юридический адрес: {address}."
+    "operator": "ContentArc — продукт компании {company}, зарегистрированной в юрисдикции {jurisdiction} (регистрационный номер {number}). Юридический адрес: {address}.",
+    "otherProducts": "Другие наши продукты",
+    "exploreAll": "Все приложения на blissfulplan.com →",
+    "follow": "Подписывайтесь на Blissfulplan"
   },
   "meta": {
     "title": "ContentArc: одна идея, бесконечные публикации",

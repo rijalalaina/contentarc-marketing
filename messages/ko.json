@@ -29,7 +29,10 @@
     "terms": "이용약관",
     "rights": "© {year} Blissfulplan Publishing Ltd. 모든 권리 보유.",
     "madeFor": "크리에이터, 창업자, 독립 브랜드를 위해 만들었습니다.",
-    "operator": "ContentArc는 {jurisdiction}에 등록된 {company}(회사 번호 {number})의 제품입니다. 등록 주소: {address}."
+    "operator": "ContentArc는 {jurisdiction}에 등록된 {company}(회사 번호 {number})의 제품입니다. 등록 주소: {address}.",
+    "otherProducts": "다른 제품",
+    "exploreAll": "blissfulplan.com에서 모든 앱 보기 →",
+    "follow": "Blissfulplan 팔로우"
   },
   "meta": {
     "title": "ContentArc: 하나의 아이디어, 끝없는 콘텐츠",

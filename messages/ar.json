@@ -29,7 +29,10 @@
     "terms": "شروط الخدمة",
     "rights": "© {year} Blissfulplan Publishing Ltd. جميع الحقوق محفوظة.",
     "madeFor": "مصمَّم لصنّاع المحتوى والمؤسسين والعلامات المستقلة.",
-    "operator": "ContentArc منتج تابع لشركة {company}، المسجلة في {jurisdiction} (رقم الشركة {number}). المقر المسجَّل: {address}."
+    "operator": "ContentArc منتج تابع لشركة {company}، المسجلة في {jurisdiction} (رقم الشركة {number}). المقر المسجَّل: {address}.",
+    "otherProducts": "منتجاتنا الأخرى",
+    "exploreAll": "استكشف كل التطبيقات على blissfulplan.com ←",
+    "follow": "تابع Blissfulplan"
   },
   "meta": {
     "title": "ContentArc: فكرة واحدة، منشورات لا تنتهي",

@@ -29,7 +29,10 @@
     "terms": "Conditions d'utilisation",
     "rights": "© {year} Blissfulplan Publishing Ltd. Tous droits réservés.",
     "madeFor": "Conçu pour les créateurs, les fondateurs et les marques indépendantes.",
-    "operator": "ContentArc est un produit de {company}, société immatriculée en {jurisdiction} (numéro {number}). Siège social : {address}."
+    "operator": "ContentArc est un produit de {company}, société immatriculée en {jurisdiction} (numéro {number}). Siège social : {address}.",
+    "otherProducts": "Nos autres produits",
+    "exploreAll": "Voir toutes les applications sur blissfulplan.com →",
+    "follow": "Suivre Blissfulplan"
   },
   "meta": {
     "title": "ContentArc : une idée, des posts à l'infini",

@@ -29,7 +29,10 @@
     "terms": "Términos del servicio",
     "rights": "© {year} Blissfulplan Publishing Ltd. Todos los derechos reservados.",
     "madeFor": "Hecho para creadores, fundadores y marcas independientes.",
-    "operator": "ContentArc es un producto de {company}, sociedad registrada en {jurisdiction} (número de registro {number}). Domicilio social: {address}."
+    "operator": "ContentArc es un producto de {company}, sociedad registrada en {jurisdiction} (número de registro {number}). Domicilio social: {address}.",
+    "otherProducts": "Nuestros otros productos",
+    "exploreAll": "Ver todas las apps en blissfulplan.com →",
+    "follow": "Sigue a Blissfulplan"
   },
   "meta": {
     "title": "ContentArc: una idea, publicaciones sin fin",
