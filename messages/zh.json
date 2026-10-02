@@ -172,7 +172,7 @@
       "q1": "一个营销活动具体包含什么？",
       "a1": "围绕一个想法的 {pieces} 篇内容：1 个 YouTube 脚本、5 个短视频脚本、3 篇 LinkedIn 帖子、4 条 X 帖子和串文、2 套轮播图、3 组 Instagram 快拍和 2 封邮件简报，外加整个营销活动的 SEO 关键词策略。",
       "q2": "ContentArc 会发布到我的社交账号吗？",
-      "a2": "可以，付费套餐支持。连接一次账号，为活动创建内容计划，ContentArc 就会在受众的最佳时间，把你批准的内容发布到 LinkedIn、X、Facebook、Instagram、Threads、Bluesky 和 Pinterest，包括用品牌套件和 AI 插图设计的轮播和快拍。每条内容都能预览实际发布效果，未经你批准不会发布任何内容。视频和邮件简报会排进日历，由你自己发布；你也可以复制或导出任意内容。 ContentArc 还能把你的短视频和 YouTube 脚本做成成品视频（AI 旁白、素材视频、字幕），供你下载和发布。",
+      "a2": "可以，付费套餐支持。只需连接一次账号，为活动创建内容计划，ContentArc 就会在受众最佳时间，把你批准的内容发布到 LinkedIn、X、Facebook、Instagram、Threads、Bluesky、Pinterest、TikTok 和 YouTube：包括使用品牌套件和 AI 插图设计的帖子、轮播和快拍，以及根据脚本制作的视频（AI 旁白、素材视频、字幕）。每条帖子都能按实际效果预览，未经你批准不会发布。邮件简报会排进你的日历，由你自行发送；你也可以复制或导出任何内容。",
       "q3": "有免费套餐吗？",
       "a3": "有。免费套餐每月包含 1 个营销活动和 1 个产品，无需信用卡。需要更多时随时升级。",
       "q4": "ContentArc 使用哪种 AI？",
@@ -237,7 +237,8 @@
       "priority": "优先支持",
       "publishing": "{count, plural, =0 {复制和导出（不含自动发布）} other {自动发布 # 个品牌到 7 个平台}}",
       "images": "{count, plural, =0 {仅模板视觉} other {每月 # 张 AI 图片}}",
-      "videos": "{count, plural, =0 {不含 AI 视频} other {每月 # 分钟 AI 视频（根据你的脚本生成）}}"
+      "videos": "{count, plural, =0 {不含 AI 视频} other {每月 # 分钟 AI 视频（根据你的脚本生成）}}",
+      "team": "{count} 名团队成员（编辑或审核者）"
     }
   },
   "help": {

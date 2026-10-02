@@ -38,6 +38,8 @@ export interface Plan {
   images: number;
   /** Minutes of AI video (from scripts) per month. */
   videoMinutes: number;
+  /** Teammates (editors or reviewers) the account can invite. */
+  teamMembers: number;
   prioritySupport?: boolean;
   popular?: boolean;
 }
@@ -54,6 +56,7 @@ export const PLANS: Plan[] = [
     publishingBrands: 0,
     images: 0,
     videoMinutes: 0,
+    teamMembers: 0,
   },
   {
     id: "creator",
@@ -64,6 +67,7 @@ export const PLANS: Plan[] = [
     publishingBrands: 1,
     images: 150,
     videoMinutes: 10,
+    teamMembers: 0,
   },
   {
     id: "publisher",
@@ -74,6 +78,7 @@ export const PLANS: Plan[] = [
     publishingBrands: 3,
     images: 450,
     videoMinutes: 30,
+    teamMembers: 3,
     popular: true,
   },
   {
@@ -85,6 +90,7 @@ export const PLANS: Plan[] = [
     publishingBrands: 10,
     images: 1500,
     videoMinutes: 100,
+    teamMembers: 10,
     prioritySupport: true,
   },
 ];

@@ -172,7 +172,7 @@
       "q1": "O que recebo exatamente numa campanha?",
       "a1": "{pieces} conteúdos construídos em torno de uma ideia: 1 guião de YouTube, 5 guiões de vídeo curto, 3 publicações no LinkedIn, 4 publicações e threads no X, 2 carrosséis, 3 sequências de stories do Instagram e 2 newsletters, mais uma estratégia de palavras-chave SEO para toda a campanha.",
       "q2": "O ContentArc publica nas minhas contas sociais?",
-      "a2": "Sim, nos planos pagos. Conecte suas contas uma vez, crie um plano de conteúdo para uma campanha, e o ContentArc publica os posts que você aprova no LinkedIn, X, Facebook, Instagram, Threads, Bluesky e Pinterest nos melhores horários para o seu público, incluindo carrosséis e stories criados com seu kit de marca e ilustrações de IA. Você vê uma prévia de cada post exatamente como vai aparecer, e nada sai sem sua aprovação. Vídeos e newsletters ficam no seu calendário para você publicar; você também pode copiar ou exportar qualquer peça. O ContentArc também transforma seus roteiros de vídeos curtos e do YouTube em vídeos prontos (narração com IA, imagens de banco, legendas) para baixar e publicar.",
+      "a2": "Sim, nos planos pagos. Conecte suas contas uma vez, crie um plano de conteúdo para uma campanha e o ContentArc publica os posts que você aprova no LinkedIn, X, Facebook, Instagram, Threads, Bluesky, Pinterest, TikTok e YouTube nos melhores horários para o seu público: posts, carrosséis e stories criados com seu kit de marca e ilustrações de IA, e vídeos feitos a partir dos seus roteiros (narração com IA, imagens de banco, legendas). Você vê uma prévia de cada post exatamente como vai aparecer, e nada sai sem a sua aprovação. As newsletters são planejadas no seu calendário para você enviar; você também pode copiar ou exportar qualquer peça.",
       "q3": "Existe um plano gratuito?",
       "a3": "Sim. O plano gratuito inclui 1 campanha por mês e 1 produto, sem cartão de crédito. Faça upgrade quando precisar de mais.",
       "q4": "Que IA utiliza o ContentArc?",
@@ -237,7 +237,8 @@
       "priority": "Suporte prioritário",
       "publishing": "{count, plural, =0 {Copiar e exportar (sem publicação automática)} one {Publicação automática de # marca em 7 redes} other {Publicação automática de # marcas em 7 redes}}",
       "images": "{count, plural, =0 {Apenas visuais de modelo} other {# imagens de IA / mês}}",
-      "videos": "{count, plural, =0 {Sem vídeo com IA} other {# min de vídeo com IA / mês (a partir dos seus roteiros)}}"
+      "videos": "{count, plural, =0 {Sem vídeo com IA} other {# min de vídeo com IA / mês (a partir dos seus roteiros)}}",
+      "team": "{count, plural, one {# membro da equipe (editor ou revisor)} other {# membros da equipe (editores ou revisores)}}"
     }
   },
   "help": {
