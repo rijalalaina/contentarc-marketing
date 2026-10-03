@@ -25,7 +25,6 @@ export const OTHER_PRODUCTS_LINKS: FooterLink[] = [
   { name: "BlissfulScribe", url: "https://scribe.blissfulplan.com", isExternal: true, badge: "Desktop" },
   { name: "BlogForge AI", url: "https://app.blogforgeai.com", isExternal: true, badge: "Auto Blogging" },
   { name: "Diet Plan", url: "https://app.healthtowealth.net", isExternal: true, badge: "Wellness" },
-  { name: "FocusMind", url: "https://app.focusmind.live", isExternal: true, badge: "Focus" },
 ];
 
 /** "Explore all SaaS apps →" at the bottom of the products list. */
