@@ -3,7 +3,13 @@ import Link from "next/link";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import {
   AtSignIcon,
+  BarChart3Icon,
   BrainIcon,
+  ClapperboardIcon,
+  HistoryIcon,
+  Link2Icon,
+  RadarIcon,
+  WebhookIcon,
   BriefcaseBusinessIcon,
   CheckIcon,
   SendIcon,
@@ -49,8 +55,18 @@ const FEATURES = [
   { key: "week", icon: CheckIcon },
 ] as const;
 
+/** What ContentArc does after the campaign is written (the roadmap features). */
+const GROWTH = [
+  { key: "demo", icon: ClapperboardIcon },
+  { key: "analytics", icon: BarChart3Icon },
+  { key: "insights", icon: RadarIcon },
+  { key: "history", icon: HistoryIcon },
+  { key: "links", icon: Link2Icon },
+  { key: "api", icon: WebhookIcon },
+] as const;
+
 const AUDIENCES = ["ebook", "saas", "digital", "brands"] as const;
-const FAQ_KEYS = [1, 2, 3, 4, 5, 6, 7, 8, 9] as const;
+const FAQ_KEYS = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13] as const;
 
 export default async function Home({ params }: PageProps<"/[locale]">) {
   const { locale: raw } = await params;
@@ -194,6 +210,30 @@ export default async function Home({ params }: PageProps<"/[locale]">) {
           ))}
         </ul>
       </Section>
+
+      {/* Beyond the campaign */}
+      <section aria-labelledby="growth-title" className="bg-bg-soft mb-20 sm:mb-24">
+        <div className="mx-auto max-w-6xl px-4 py-20 sm:px-6 sm:py-24">
+          <div className="mx-auto mb-12 max-w-2xl text-center">
+            <p className="text-violet mb-3 text-sm font-semibold tracking-wide uppercase">{t("growth.eyebrow")}</p>
+            <h2 id="growth-title" className="text-3xl font-semibold sm:text-4xl">
+              {t("growth.title")}
+            </h2>
+            <p className="text-muted mt-4 text-lg">{t("growth.intro")}</p>
+          </div>
+          <ul className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+            {GROWTH.map(({ key, icon: Icon }) => (
+              <li key={key} className="border-border bg-card rounded-2xl border p-6">
+                <span className="bg-brand-gradient grid size-10 place-items-center rounded-xl text-white">
+                  <Icon aria-hidden className="size-5" />
+                </span>
+                <h3 className="mt-4 font-semibold">{t(`growth.${key}.title`)}</h3>
+                <p className="text-muted mt-2 text-sm leading-relaxed">{t(`growth.${key}.body`)}</p>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
 
       {/* Audiences */}
       <section aria-labelledby="for-title" className="mx-auto max-w-6xl px-4 sm:px-6">

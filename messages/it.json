@@ -39,7 +39,7 @@
     "description": "ContentArc trasforma un'idea in una campagna di marketing da 20 contenuti su 7 piattaforme, pensata per vendere il tuo ebook, SaaS, prodotto digitale o brand, in circa 30 minuti a settimana.",
     "ogAlt": "ContentArc: trasforma un'idea in post per ogni canale",
     "helpTitle": "Centro assistenza",
-    "helpDescription": "Come configurare il tuo Brand Brain, generare una campagna di 20 contenuti, rifinirla con il Copilot IA, pianificarla e pubblicarla automaticamente.",
+    "helpDescription": "Come configurare il tuo Brand Brain, generare una campagna di 20 contenuti, pubblicarla, seguirne i risultati, monitorare la tua nicchia e creare video demo SaaS.",
     "contactTitle": "Contatti",
     "contactDescription": "Domande su ContentArc, sui piani o sul tuo account? Scrivici.",
     "privacyTitle": "Informativa sulla privacy",
@@ -93,7 +93,7 @@
       "s1Title": "Istruisci il Brand Brain",
       "s1Body": "Aggiungi il tuo ebook, SaaS, prodotto digitale, offerta o intero brand: a chi si rivolge, cosa promette e dove cliccare. ContentArc può rifinire ciò che scrivi.",
       "s2Title": "Lancia un'idea",
-      "s2Body": "Un capitolo, il lancio di una funzionalità, una lezione imparata o un'opinione forte. Scegli un angolo di marketing collaudato e la lingua.",
+      "s2Body": "Un capitolo, il lancio di una funzione, una lezione imparata o un'opinione forte, oppure uno dei trend che ContentArc ha trovato nella tua nicchia. Scegli un angolo di marketing collaudato e la lingua in cui scrivere.",
       "s3Title": "Ricevi {pieces} contenuti pronti da pubblicare",
       "s3Body": "Una campagna coerente su 7 formati in pochi minuti. Rifinisci tutto con il Copilot IA, approva, e ContentArc pubblica secondo il calendario sui tuoi account social."
     },
@@ -152,7 +152,7 @@
       },
       "saas": {
         "title": "Founder SaaS",
-        "body": "Rilascia una funzionalità, poi la campagna che spiega perché conta."
+        "body": "Rilascia una funzione, poi la campagna che spiega perché conta, e un video demo registrato nella tua vera app."
       },
       "digital": {
         "title": "Creator di prodotti digitali",
@@ -189,12 +189,49 @@
       "q8": "Posso disdire quando voglio?",
       "a8": "Sì. Gestisci o disdici l'abbonamento dal portale di fatturazione nell'app; le tue campagne restano nel tuo account.",
       "q9": "Come vengono trattati i miei dati?",
-      "a9": "Usiamo i tuoi dati solo per far funzionare il servizio. Leggi l’<privacy>informativa sulla privacy</privacy> per i dettagli su fornitori e conservazione."
+      "a9": "Usiamo i tuoi dati solo per far funzionare il servizio. Leggi l’<privacy>informativa sulla privacy</privacy> per i dettagli su fornitori e conservazione.",
+      "q10": "ContentArc può creare un video demo della mia app?",
+      "a10": "Sì, con Publisher ed Enterprise. Indica l'indirizzo della tua app web, oppure carica la tua app Android (.apk) o una build per simulatore iPhone, con un account di prova. ContentArc osserva la tua app e propone uno storyboard che modifichi e approvi. Poi esegue i passaggi nella vera app e li trasforma in una demo con voce narrante e brevi clip verticali. L'accesso non compare mai nel video.",
+      "q11": "Cosa mostrano le analisi?",
+      "a11": "I piani a pagamento vedono visualizzazioni, like, commenti, condivisioni e clic sui link di ogni post pubblicato, per rete e nel tempo. Publisher ed Enterprise confrontano anche angoli di marketing, formati e giorni della settimana, così vedi se Problema-Agitazione-Soluzione o Build in Public funziona meglio per il tuo prodotto. I dati arrivano da ogni rete, e alcune ne forniscono più di altre.",
+      "q12": "Come funziona il monitoraggio di nicchia e concorrenti?",
+      "a12": "Descrivi la tua nicchia e aggiungi i concorrenti da seguire. Ogni settimana ContentArc ricerca cosa attira l'attenzione e riassume gli hook, i formati e i temi che funzionano, con i link alle fonti. Non copia mai i post di nessuno: sei tu a scegliere quali spunti ispirano la tua prossima campagna.",
+      "q13": "C'è un'API?",
+      "a13": "Sì, con Publisher ed Enterprise. Crea chiavi API nell'app per avviare campagne e leggere post e analisi da Zapier, Make o dal tuo codice, e aggiungi webhook per sapere quando una campagna è pronta o quando un post viene pubblicato o non riesce."
     },
     "final": {
       "title": "La tua prossima idea merita più di un post.",
       "body": "Trasformala in {pieces} contenuti oggi. Gratis per iniziare, senza carta di credito.",
       "cta": "Crea la mia prima campagna"
+    },
+    "growth": {
+      "eyebrow": "Oltre la campagna",
+      "title": "Scopri cosa funziona, poi fanne di più",
+      "intro": "ContentArc non si ferma alla scrittura. Registra il tuo prodotto, misura ogni post e monitora la tua nicchia, così ogni campagna parte più preparata della precedente.",
+      "demo": {
+        "title": "Video demo SaaS",
+        "body": "ContentArc apre la tua app web, o la tua app Android o iPhone, con un account di prova, segue i passaggi che approvi e li trasforma in una demo con voce narrante e brevi clip verticali."
+      },
+      "analytics": {
+        "title": "Analisi per angolo di marketing",
+        "body": "Copertura, interazioni e post migliori da ogni rete. Con le analisi avanzate vedi quale angolo, formato e giorno della settimana funzionano davvero per il tuo prodotto."
+      },
+      "insights": {
+        "title": "Monitoraggio di nicchia e concorrenti",
+        "body": "Un report settimanale su cosa funziona nella tua nicchia e per i concorrenti che segui, con i link alle fonti. Usalo come ispirazione per la prossima campagna."
+      },
+      "history": {
+        "title": "Cronologia e riciclo",
+        "body": "Tutti i post pubblicati in un unico posto. Riproponi un post che ha funzionato con un nuovo angolo di marketing; le nuove campagne evitano di ripetere ciò che hai già detto."
+      },
+      "links": {
+        "title": "Monitoraggio dei clic sui link",
+        "body": "Attiva i link brevi per brand per contare i clic sul tuo link, per post e per rete. Ogni link porta anche i tag UTM per i tuoi strumenti di analisi."
+      },
+      "api": {
+        "title": "API e webhook",
+        "body": "Avvia una campagna da Zapier, Make o dal tuo codice quando rilasci una funzione o pubblichi un articolo, e ricevi un avviso quando i post vanno online."
+      }
     }
   },
   "pricing": {
@@ -241,7 +278,13 @@
       "publishing": "{count, plural, =0 {Copia ed esportazione (senza pubblicazione automatica)} one {Pubblicazione automatica di # brand su 7 reti} other {Pubblicazione automatica di # brand su 7 reti}}",
       "images": "{count, plural, =0 {Solo grafiche da modello} other {# immagini IA / mese}}",
       "videos": "{count, plural, =0 {Nessun video IA} other {# min di video IA / mese (dai tuoi script)}}",
-      "team": "{count, plural, one {# membro del team (editor o revisore)} other {# membri del team (editor o revisori)}}"
+      "team": "{count, plural, one {# membro del team (editor o revisore)} other {# membri del team (editor o revisori)}}",
+      "analytics": "Analisi: copertura, interazioni, post migliori e clic",
+      "analyticsAdvanced": "Analisi avanzate per angolo, formato e giorno",
+      "trends": "{reports} report di nicchia e concorrenti / mese ({competitors} concorrenti)",
+      "demos": "{count, plural, one {# video demo SaaS / mese (app web o mobile)} other {# video demo SaaS / mese (app web o mobile)}}",
+      "api": "API pubblica e webhook (Zapier, Make)",
+      "history": "Cronologia dei post e riciclo con un nuovo angolo"
     }
   },
   "help": {
@@ -257,7 +300,12 @@
       "export": "Pubblicazione ed esportazione",
       "billing": "Piani e fatturazione",
       "account": "Account e lingue",
-      "sign-in": "Problemi di accesso"
+      "sign-in": "Problemi di accesso",
+      "analytics": "Analisi e clic sui link",
+      "history": "Cronologia e riciclo",
+      "insights": "Monitoraggio di nicchia e concorrenti",
+      "demo-videos": "Video demo SaaS",
+      "api": "API e webhook"
     },
     "blocks": [
       {
@@ -375,6 +423,77 @@
       },
       {
         "t": "h2",
+        "id": "analytics",
+        "x": "Analisi e clic sui link"
+      },
+      {
+        "t": "p",
+        "x": "Apri **Analisi** per vedere come vanno i tuoi post pubblicati. Per 30 giorni ContentArc legge i contatori di ogni post dalla rete su cui è uscito (ogni ora all'inizio, poi meno spesso): visualizzazioni o impression, like, commenti, condivisioni, salvataggi e clic. I piani a pagamento vedono i totali, il dettaglio per rete e i post migliori; Publisher ed Enterprise vedono anche i risultati **per angolo di marketing, per formato e per giorno della settimana**."
+      },
+      {
+        "t": "p",
+        "x": "Gli account Facebook, Instagram e Threads collegati prima dell'arrivo delle analisi potrebbero dover essere ricollegati in **Account social** per condividere copertura e clic."
+      },
+      {
+        "t": "p",
+        "x": "**Monitoraggio dei clic**: nel Brand Brain modifica un prodotto e attiva **Conta i clic sul link**. Alla pubblicazione, il link viene sostituito da un link breve di ContentArc che conta i clic per post e per rete (le anteprime che le reti generano non contano), poi porta alla tua pagina con i suoi tag UTM. Lascia l'opzione disattivata per mantenere il tuo dominio nei post; i tag UTM restano visibili nei tuoi strumenti di analisi."
+      },
+      {
+        "t": "h2",
+        "id": "history",
+        "x": "Cronologia e riciclo"
+      },
+      {
+        "t": "p",
+        "x": "**Cronologia** elenca tutti i post pubblicati con i loro risultati, per tutte le campagne e i brand. Cerca, filtra per prodotto o per rete e fai clic su **Ricicla questo post** su un post che ha funzionato: ContentArc lo riscrive con un altro angolo di marketing (per esempio da AIDA a Contrarian) come nuova bozza nella stessa campagna, pronta da ripianificare. Riciclare un post conta come una riscrittura del Copilot IA. Le nuove campagne tengono anche conto dei post pubblicati, per non ripetere ciò che hai già detto."
+      },
+      {
+        "t": "h2",
+        "id": "insights",
+        "x": "Monitoraggio di nicchia e concorrenti"
+      },
+      {
+        "t": "p",
+        "x": "Apri **Insight**, descrivi la tua nicchia e aggiungi i concorrenti da seguire (per sito web o handle). Ogni settimana ContentArc fa ricerche sul web e scrive un breve report: i temi, gli hook e i formati che attirano l'attenzione, ogni spunto con un link alla fonte. Gli spunti senza fonte vengono esclusi. Puoi anche aggiornare un report quando vuoi, nei limiti dei report mensili del tuo piano."
+      },
+      {
+        "t": "p",
+        "x": "Quando crei una campagna, scegli un report come ispirazione: i suoi spunti guidano l'angolo e gli hook, senza copiare i post di nessuno."
+      },
+      {
+        "t": "h2",
+        "id": "demo-videos",
+        "x": "Video demo SaaS"
+      },
+      {
+        "t": "p",
+        "x": "Con Publisher ed Enterprise, ContentArc può registrare il tuo prodotto. Nella pagina **Nuova campagna**, fai clic su **Video demo SaaS** (il prodotto deve essere di tipo SaaS nel Brand Brain):"
+      },
+      {
+        "t": "ol",
+        "x": [
+          "**Scegli l'app**: la tua **app web** (il suo indirizzo e, se c'è, la pagina di accesso), la tua **app Android** (carica il file .apk) o la tua **app iPhone** (una build per simulatore: la cartella .app di Xcode, compressa; i file dell'App Store non funzionano).",
+          "**Aggiungi un account di prova** se l'app richiede l'accesso. Viene salvato cifrato, digitato solo nella schermata di accesso e non compare mai nel video. Non usare mai l'account di un cliente reale.",
+          "**Scegli cosa mostrare**: un tour del prodotto, i primi passi, oppure una funzione che descrivi.",
+          "**Rivedi lo storyboard**: ContentArc osserva la tua app e propone delle scene, ognuna con i passaggi da eseguire, la narrazione e una didascalia a schermo. Modifica o rimuovi ciò che vuoi, poi approva.",
+          "**Ricevi i video**: i passaggi vengono eseguiti nella vera app, in un browser cloud o su un telefono ospitato, con voce narrante e sottotitoli. Ottieni una demo per YouTube e fino a quattro brevi clip verticali, salvati come bozze nella campagna da pianificare come qualsiasi altro post."
+        ]
+      },
+      {
+        "t": "p",
+        "x": "Se un pulsante non si trova dalla sua etichetta, ContentArc guarda lo schermo per trovarlo. Un passaggio ancora impossibile viene saltato, e la pagina della demo ti spiega perché."
+      },
+      {
+        "t": "h2",
+        "id": "api",
+        "x": "API e webhook"
+      },
+      {
+        "t": "p",
+        "x": "Con Publisher ed Enterprise, apri **Sviluppatori** dal menu dell'account per creare chiavi API e webhook. Con una chiave, i tuoi strumenti possono avviare una campagna (da un'idea o dall'indirizzo di un articolo), seguirne l'avanzamento e leggere post e analisi. I webhook avvisano i tuoi strumenti quando una campagna è pronta e quando un post viene pubblicato o non riesce; ogni invio è firmato, così puoi verificare che arrivi da ContentArc. La documentazione completa è nell'app."
+      },
+      {
+        "t": "h2",
         "id": "billing",
         "x": "Piani e fatturazione"
       },
@@ -473,7 +592,12 @@
           "**Preferenze email**: se e quando hai accettato le email di marketing.",
           "**Modulo di contatto**: nome, email e messaggio quando ci scrivi.",
           "**Dati tecnici**: indirizzo IP e log delle richieste conservati dal nostro provider di hosting per sicurezza.",
-          "**Account social collegati**: nome, handle e immagine del profilo di ogni account che colleghi, i post che programmi, le loro immagini e i risultati della pubblicazione. L’accesso ai tuoi account social è detenuto dal nostro fornitore di pubblicazione (Upload-Post), non da noi."
+          "**Account social collegati**: nome, handle e immagine del profilo di ogni account che colleghi, i post che programmi, le loro immagini e i risultati della pubblicazione. L’accesso ai tuoi account social è detenuto dal nostro fornitore di pubblicazione (Upload-Post), non da noi.",
+          "**Dati sulle prestazioni**: i contatori che ogni rete fornisce per i tuoi post pubblicati (come visualizzazioni, like, commenti, condivisioni e clic).",
+          "**Clic sui link**: se attivi il monitoraggio dei clic, il numero di clic su ogni link breve e l'ora dell'ultimo clic. Non registriamo chi ha cliccato.",
+          "**Monitoraggio di nicchia e concorrenti**: la descrizione della tua nicchia, i concorrenti che scegli di seguire (nomi, siti web o handle pubblici) e i report scritti a partire da pagine web pubbliche.",
+          "**Video demo SaaS**: l'indirizzo della tua app o la build che carichi, l'account di prova che fornisci (salvato cifrato), lo storyboard e le schermate, registrazioni e video realizzati della tua app.",
+          "**API e webhook**: un'impronta di ogni chiave API (mai la chiave stessa), gli indirizzi dei tuoi webhook e un registro dei loro invii."
         ]
       },
       {
@@ -513,7 +637,12 @@
           "**Fornitori di modelli di IA** (come Anthropic, OpenAI, Google o DeepSeek): i dettagli del tuo prodotto e le idee per le campagne vengono inviati al modello che genera o riscrive i tuoi contenuti. Usiamo le loro API business; il modo in cui ciascun fornitore tratta i dati API è indicato nei suoi termini.",
           "**Upload-Post**: pubblica i post che approvi sugli account social che colleghi e detiene l’accesso che concedi a tali account.",
           "**Fornitori di modelli di immagini** (come Black Forest Labs, Ideogram, OpenAI, Google o Cloudflare Workers AI): viene inviata una descrizione testuale dell'immagine, scritta a partire dal tuo post o dalla tua slide, per generare le immagini di post e slide.",
-          "**Fornitori di foto stock** (come Pexels, Pixabay o Unsplash): quando scegli le foto stock, vengono inviate alcune parole di ricerca tratte dal tuo post o dalla tua slide per trovare le foto. Nessun dato personale viene inviato."
+          "**Fornitori di foto stock** (come Pexels, Pixabay o Unsplash): quando scegli le foto stock, vengono inviate alcune parole di ricerca tratte dal tuo post o dalla tua slide per trovare le foto. Nessun dato personale viene inviato.",
+          "**Altri canali di pubblicazione**: a seconda di come colleghi un account, i post vengono pubblicati direttamente tramite l'API della rete (Meta per Facebook e Instagram, Threads, Bluesky) oppure tramite Zernio o Buffer, che detengono quindi l'accesso che concedi.",
+          "**Browserless**: gestisce il browser cloud che apre la tua app web per registrare i video demo SaaS.",
+          "**Appetize**: gestisce i dispositivi Android e iPhone ospitati per i video demo mobile, usando la build che carichi.",
+          "**Shotstack**: compone i video a partire da script, schermate e registrazioni. Le voci narranti sono generate da un fornitore di sintesi vocale IA (come OpenAI).",
+          "**Ricerca web**: il monitoraggio di nicchia e concorrenti usa la ricerca web di un fornitore di modelli IA (come Anthropic). Riceve la descrizione della tua nicchia e i concorrenti seguiti, non i dati del tuo account."
         ]
       },
       {
@@ -595,6 +724,18 @@
         "x": "Quando colleghi account social, autorizzi noi e il nostro fornitore di pubblicazione (Upload-Post) a pubblicare per tuo conto, agli orari che stabilisci, i post che approvi (o che scegli di approvare automaticamente per una campagna). Puoi scollegare gli account o annullare la programmazione dei post in qualsiasi momento. Sei responsabile dei contenuti che pubblichi e del rispetto delle regole di ogni rete. I social network possono modificare, limitare o revocare l’accesso in qualsiasi momento, quindi non possiamo garantire che un post venga pubblicato, pubblicato in orario o resti online; se un post non va a buon fine, te lo comunichiamo via email."
       },
       {
+        "t": "p",
+        "x": "ContentArc misura anche le prestazioni dei tuoi post pubblicati, fa ricerche sulla tua nicchia e sui concorrenti che scegli a partire da pagine web pubbliche e, nei piani che li includono, registra video demo della tua app e offre un'API e dei webhook. I report di ricerca riassumono informazioni pubbliche con i link alle fonti e possono essere incompleti; considerali uno spunto, non fatti garantiti."
+      },
+      {
+        "t": "p",
+        "x": "**Video demo SaaS.** Avviando una demo confermi che l'app è tua o che sei autorizzato a usarla in questo modo e che l'account fornito è un account di prova, e autorizzi noi e i nostri fornitori (Browserless per il browser cloud, Appetize per i telefoni ospitati) ad aprire o installare l'app, accedere ed eseguire i passaggi che approvi. Non registrare schermate che mostrano dati personali di altre persone. Sei responsabile di ciò che il video mostra."
+      },
+      {
+        "t": "p",
+        "x": "**API.** Mantieni segrete le tue chiavi API: chiunque abbia una chiave può agire sul tuo account entro i limiti del tuo piano. Possiamo limitare il numero di richieste e sospendere le chiavi usate in modo abusivo. I webhook vengono inviati al meglio delle nostre possibilità, con nuovi tentativi."
+      },
+      {
         "t": "h2",
         "x": "2. Il tuo account"
       },
@@ -614,7 +755,7 @@
           "Puoi disdire in qualsiasi momento dal portale di fatturazione; il piano resta attivo fino alla fine del periodo in corso. I pagamenti non sono rimborsabili, salvo quanto previsto alla sezione 4 (diritto di recesso) o ove richiesto dalla legge.",
           "Se sei un consumatore nel Regno Unito o nell'UE, accetti che il servizio inizi subito dopo l'acquisto; i tuoi diritti di legge non sono pregiudicati.",
           "Possiamo modificare i prezzi con un preavviso di almeno 30 giorni prima del tuo prossimo rinnovo.",
-          "I limiti di utilizzo (campagne, prodotti, riscritture IA, immagini IA, minuti di video IA) si azzerano ogni mese di calendario."
+          "I limiti di utilizzo (campagne, prodotti, riscritture IA, immagini IA, minuti di video IA, report di nicchia e concorrenti, video demo SaaS) si azzerano ogni mese solare."
         ]
       },
       {
@@ -679,6 +820,7 @@
           "creare contenuti illeciti, ingannevoli, diffamatori, d'odio o in violazione di diritti altrui, o spam;",
           "fare affermazioni false sui prodotti, scrivere recensioni false o impersonare altri;",
           "tentare di violare, sovraccaricare, decompilare o aggirare i limiti o la sicurezza del servizio;",
+          "registrare, analizzare o monitorare app, account o persone senza esserne autorizzato, o usare l'API per aggirare i limiti del tuo piano;",
           "rivendere o condividere l'accesso al servizio senza il nostro consenso scritto."
         ]
       },

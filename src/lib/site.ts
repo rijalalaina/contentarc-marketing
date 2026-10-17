@@ -21,7 +21,7 @@ export const LEGAL = {
   companyNumber: "15418196",
   address: "Covent Garden, 71-75 Shelton Street, London, WC2H 9JQ, UK",
   companyEmail: "contact@blissfulplan.com",
-  lastUpdated: "2026-10-01",
+  lastUpdated: "2026-10-17",
 } as const;
 
 export type Interval = "month" | "year";
@@ -40,6 +40,15 @@ export interface Plan {
   videoMinutes: number;
   /** Teammates (editors or reviewers) the account can invite. */
   teamMembers: number;
+  /** Post analytics: none, basic (totals, networks, top posts, link clicks) or advanced (by angle, format, timing). */
+  analytics: "none" | "basic" | "advanced";
+  /** Niche & competitor trend reports per month, and competitors watched. */
+  trendReports: number;
+  competitors: number;
+  /** SaaS demo videos per month (web or mobile app). */
+  demoVideos: number;
+  /** Public API keys and webhooks. */
+  api: boolean;
   prioritySupport?: boolean;
   popular?: boolean;
 }
@@ -57,6 +66,11 @@ export const PLANS: Plan[] = [
     images: 0,
     videoMinutes: 0,
     teamMembers: 0,
+    analytics: "none",
+    trendReports: 0,
+    competitors: 0,
+    demoVideos: 0,
+    api: false,
   },
   {
     id: "creator",
@@ -68,10 +82,15 @@ export const PLANS: Plan[] = [
     images: 150,
     videoMinutes: 10,
     teamMembers: 0,
+    analytics: "basic",
+    trendReports: 4,
+    competitors: 2,
+    demoVideos: 0,
+    api: false,
   },
   {
     id: "publisher",
-    prices: { month: 69, year: 690 },
+    prices: { month: 79, year: 790 },
     campaigns: 30,
     products: 10,
     rewrites: 500,
@@ -79,11 +98,16 @@ export const PLANS: Plan[] = [
     images: 450,
     videoMinutes: 30,
     teamMembers: 3,
+    analytics: "advanced",
+    trendReports: 20,
+    competitors: 10,
+    demoVideos: 3,
+    api: true,
     popular: true,
   },
   {
     id: "enterprise",
-    prices: { month: 199, year: 1990 },
+    prices: { month: 249, year: 2490 },
     campaigns: 100,
     products: null,
     rewrites: 1500,
@@ -91,6 +115,11 @@ export const PLANS: Plan[] = [
     images: 1500,
     videoMinutes: 100,
     teamMembers: 10,
+    analytics: "advanced",
+    trendReports: 100,
+    competitors: 50,
+    demoVideos: 20,
+    api: true,
     prioritySupport: true,
   },
 ];

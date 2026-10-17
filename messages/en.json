@@ -39,7 +39,7 @@
     "description": "ContentArc turns one idea into a 20-piece, 7-platform marketing campaign built to sell your ebook, SaaS, digital product or brand, in about 30 minutes a week.",
     "ogAlt": "ContentArc: turn one idea into posts across every channel",
     "helpTitle": "Help center",
-    "helpDescription": "How to set up your Brand Brain, generate a 20-piece campaign, refine it with the AI Copilot, plan it and auto-publish it.",
+    "helpDescription": "How to set up your Brand Brain, generate a 20-piece campaign, publish it, track its results, watch your niche and make SaaS demo videos.",
     "contactTitle": "Contact",
     "contactDescription": "Questions about ContentArc, plans or your account? Send us a message.",
     "privacyTitle": "Privacy policy",
@@ -93,7 +93,7 @@
       "s1Title": "Teach the Brand Brain",
       "s1Body": "Add your ebook, SaaS, digital product, offer or whole brand: who it's for, what it promises and where people should click. ContentArc can polish what you write.",
       "s2Title": "Drop one idea",
-      "s2Body": "A chapter, a feature launch, a lesson learned or a hot take. Pick a proven marketing angle and the language to write in.",
+      "s2Body": "A chapter, a feature launch, a lesson learned or a hot take, or one of the trends ContentArc found in your niche. Pick a proven marketing angle and the language to write in.",
       "s3Title": "Get {pieces} ready-to-post pieces",
       "s3Body": "A coherent campaign across 7 formats in a few minutes. Refine anything with the AI Copilot, approve it, and ContentArc publishes it on schedule to your social accounts."
     },
@@ -152,7 +152,7 @@
       },
       "saas": {
         "title": "SaaS founders",
-        "body": "Ship a feature, then ship the campaign that explains why it matters."
+        "body": "Ship a feature, then ship the campaign that explains why it matters, and a demo video recorded in your real app."
       },
       "digital": {
         "title": "Digital product creators",
@@ -189,12 +189,49 @@
       "q8": "Can I cancel anytime?",
       "a8": "Yes. Manage or cancel your subscription from the billing portal in the app; your campaigns stay in your account.",
       "q9": "How is my data handled?",
-      "a9": "We only use your data to run the service. Read the <privacy>privacy policy</privacy> for details on providers and retention."
+      "a9": "We only use your data to run the service. Read the <privacy>privacy policy</privacy> for details on providers and retention.",
+      "q10": "Can ContentArc make a demo video of my app?",
+      "a10": "Yes, on Publisher and Enterprise. Give the address of your web app, or upload your Android app (.apk) or an iPhone simulator build, with a test account. ContentArc looks at your app and proposes a storyboard that you edit and approve. It then performs the steps in the real app and turns them into a voiced walkthrough and short vertical clips. The sign-in is never shown in the video.",
+      "q11": "What do the analytics show?",
+      "a11": "Paid plans see each published post's views, likes, comments, shares and link clicks, by network and over time. Publisher and Enterprise also compare marketing angles, formats and weekdays, so you can see whether Problem-Agitate-Solve or Build in Public works better for your product. Figures come from each network, and some networks report more than others.",
+      "q12": "How does the niche and competitor watch work?",
+      "a12": "Describe your niche and add the competitors you want to follow. Every week ContentArc researches what's getting attention there and summarises the hooks, formats and topics that work, with links to its sources. It never copies anyone's posts: you choose which findings inspire your next campaign.",
+      "q13": "Is there an API?",
+      "a13": "Yes, on Publisher and Enterprise. Create API keys in the app to start campaigns and read posts and analytics from Zapier, Make or your own code, and add webhooks to be told when a campaign is ready or when a post is published or fails."
     },
     "final": {
       "title": "Your next idea deserves more than one post.",
       "body": "Turn it into {pieces} today. Free to start, no credit card required.",
       "cta": "Create my first campaign"
+    },
+    "growth": {
+      "eyebrow": "Beyond the campaign",
+      "title": "Learn what works, then do more of it",
+      "intro": "ContentArc doesn't stop at writing. It records your product, measures every post and watches your niche, so each campaign starts smarter than the last.",
+      "demo": {
+        "title": "SaaS demo videos",
+        "body": "ContentArc opens your web app, or your Android or iPhone app, with a test account, follows the steps you approve and turns them into a voiced walkthrough and short vertical clips."
+      },
+      "analytics": {
+        "title": "Analytics by marketing angle",
+        "body": "Reach, engagement and top posts from every network. With advanced analytics, see which angle, format and weekday actually perform for your product."
+      },
+      "insights": {
+        "title": "Niche & competitor watch",
+        "body": "A weekly report on what's working in your niche and for the competitors you follow, with links to the sources. Use it as inspiration for your next campaign."
+      },
+      "history": {
+        "title": "History & recycling",
+        "body": "Every published post in one place. Bring back a post that worked with a new marketing angle, and new campaigns avoid repeating what you already said."
+      },
+      "links": {
+        "title": "Link click tracking",
+        "body": "Turn on short links per brand to count the clicks on your link, per post and per network. Every link also carries UTM tags for your own analytics."
+      },
+      "api": {
+        "title": "API & webhooks",
+        "body": "Start a campaign from Zapier, Make or your own code when you ship a feature or publish an article, and get notified when posts go live."
+      }
     }
   },
   "pricing": {
@@ -241,7 +278,13 @@
       "publishing": "{count, plural, =0 {Copy & export (no auto-publishing)} one {Auto-publish # brand to 7 networks} other {Auto-publish # brands to 7 networks}}",
       "images": "{count, plural, =0 {Template visuals only} other {# AI images / month}}",
       "videos": "{count, plural, =0 {No AI video} other {# min of AI video / month (from your scripts)}}",
-      "team": "{count, plural, one {# teammate (editor or reviewer)} other {# teammates (editors or reviewers)}}"
+      "team": "{count, plural, one {# teammate (editor or reviewer)} other {# teammates (editors or reviewers)}}",
+      "analytics": "Analytics: reach, engagement, top posts & link clicks",
+      "analyticsAdvanced": "Advanced analytics by angle, format & weekday",
+      "trends": "{reports} niche & competitor reports / month ({competitors} competitors)",
+      "demos": "{count, plural, one {# SaaS demo video / month (web or mobile app)} other {# SaaS demo videos / month (web or mobile app)}}",
+      "api": "Public API & webhooks (Zapier, Make)",
+      "history": "Post history & recycling with a new angle"
     }
   },
   "help": {
@@ -257,7 +300,12 @@
       "export": "Publishing & export",
       "billing": "Plans & billing",
       "account": "Account & languages",
-      "sign-in": "Sign-in problems"
+      "sign-in": "Sign-in problems",
+      "analytics": "Analytics & link clicks",
+      "history": "History & recycling",
+      "insights": "Niche & competitor watch",
+      "demo-videos": "SaaS demo videos",
+      "api": "API & webhooks"
     },
     "blocks": [
       {
@@ -375,6 +423,77 @@
       },
       {
         "t": "h2",
+        "id": "analytics",
+        "x": "Analytics & link clicks"
+      },
+      {
+        "t": "p",
+        "x": "Open **Analytics** to see how your published posts perform. ContentArc reads each post's counters from the network it went out on for 30 days (every hour at first, then less often): views or impressions, likes, comments, shares, saves and clicks. Paid plans see totals, a breakdown by network and the top posts; Publisher and Enterprise also see results **by marketing angle, by format and by weekday**."
+      },
+      {
+        "t": "p",
+        "x": "Facebook, Instagram and Threads accounts connected before analytics existed may need to be reconnected in **Social accounts** to share reach and clicks."
+      },
+      {
+        "t": "p",
+        "x": "**Link click tracking**: in Brand Brain, edit a product and turn on **Count link clicks**. When a post is published, its link is replaced by a short ContentArc link that counts clicks per post and per network (the previews networks make of a link are not counted), then sends people to your page with its UTM tags. Leave it off to keep your own domain in your posts; the UTM tags still show up in your own analytics."
+      },
+      {
+        "t": "h2",
+        "id": "history",
+        "x": "History & recycling"
+      },
+      {
+        "t": "p",
+        "x": "**History** lists every published post with its results, across campaigns and brands. Search it, filter by product or network, and click **Recycle this post** on a post that worked: ContentArc rewrites it with another marketing angle (for example from AIDA to Contrarian) as a new draft in the same campaign, ready to plan again. Recycling a post counts as one AI Copilot rewrite. New campaigns also take your published posts into account, so they don't repeat what you already said."
+      },
+      {
+        "t": "h2",
+        "id": "insights",
+        "x": "Niche & competitor watch"
+      },
+      {
+        "t": "p",
+        "x": "Open **Insights**, describe your niche and add the competitors you want to follow (by website or handle). Every week ContentArc researches the web and writes a short report: the topics, hooks and formats getting attention, each finding with a link to its source. Findings without a source are left out. You can also refresh a report on demand, within your plan's monthly reports."
+      },
+      {
+        "t": "p",
+        "x": "When you create a campaign, choose a report as inspiration: its findings guide the angle and the hooks, without copying anyone's posts."
+      },
+      {
+        "t": "h2",
+        "id": "demo-videos",
+        "x": "SaaS demo videos"
+      },
+      {
+        "t": "p",
+        "x": "On Publisher and Enterprise, ContentArc can record your product. On the **New campaign** page, click **SaaS demo video** (your product must be of type SaaS in Brand Brain):"
+      },
+      {
+        "t": "ol",
+        "x": [
+          "**Choose the app**: your **web app** (its address, and its sign-in page if it has one), your **Android app** (upload the .apk) or your **iPhone app** (a simulator build: the .app folder from Xcode, zipped; App Store files can't be used).",
+          "**Add a test account** if the app needs a sign-in. It is stored encrypted, typed only into the sign-in screen and never appears in the video. Never use a real customer's account.",
+          "**Choose what to show**: a tour of the product, getting started, or one feature you describe.",
+          "**Review the storyboard**: ContentArc looks at your app and proposes scenes, each with the steps to perform, the narration and an on-screen caption. Edit or remove anything, then approve.",
+          "**Get your videos**: the steps are performed in the real app, in a cloud browser or on a hosted phone, with a voice-over and captions. You get a walkthrough for YouTube and up to four short vertical clips, saved as drafts in the campaign so you can schedule them like any other post."
+        ]
+      },
+      {
+        "t": "p",
+        "x": "If a button can't be found by its label, ContentArc looks at the screen to find it. A step that still can't be done is skipped, and the demo page tells you why."
+      },
+      {
+        "t": "h2",
+        "id": "api",
+        "x": "API & webhooks"
+      },
+      {
+        "t": "p",
+        "x": "On Publisher and Enterprise, open **Developers** from the account menu to create API keys and webhooks. With a key, your tools can start a campaign (from an idea or an article's address), follow its progress and read posts and analytics. Webhooks tell your tools when a campaign is ready and when a post is published or fails; every delivery is signed so you can check it comes from ContentArc. The full reference is in the app."
+      },
+      {
+        "t": "h2",
         "id": "billing",
         "x": "Plans & billing"
       },
@@ -471,7 +590,12 @@
           "**Email preferences**: whether you opted in to marketing emails, and when.",
           "**Contact form**: your name, email and message when you write to us.",
           "**Technical data**: IP address and request logs kept by our hosting provider for security.",
-          "**Connected social accounts**: the name, handle and profile picture of each account you connect, the posts you schedule, their images and their publishing results. Access to your social accounts is held by our publishing provider (Upload-Post), not by us."
+          "**Connected social accounts**: the name, handle and profile picture of each account you connect, the posts you schedule, their images and their publishing results. Access to your social accounts is held by our publishing provider (Upload-Post), not by us.",
+          "**Performance data**: the counters each network reports for your published posts (such as views, likes, comments, shares and clicks).",
+          "**Link clicks**: if you turn on click tracking, the number of clicks on each short link and the time of the latest click. We don't store who clicked.",
+          "**Niche and competitor watch**: your niche description, the competitors you choose to follow (names, websites or public handles) and the reports written from public web pages.",
+          "**SaaS demo videos**: your app's address or the app build you upload, the test account you provide (stored encrypted), the storyboard, and the screenshots, recordings and videos made of your app.",
+          "**API and webhooks**: a fingerprint of each API key (never the key itself), your webhook addresses and a log of their deliveries."
         ]
       },
       {
@@ -511,7 +635,12 @@
           "**AI model providers** (such as Anthropic, OpenAI, Google or DeepSeek): your product details and campaign ideas are sent to the model that generates or rewrites your content. We use their business APIs; how each provider handles API data is set out in its own terms.",
           "**Upload-Post**: publishes the posts you approve to the social accounts you connect, and holds the access you grant to those accounts.",
           "**Image model providers** (such as Black Forest Labs, Ideogram, OpenAI, Google or Cloudflare Workers AI): a text description of the image, written from your post or slide, is sent to generate post and slide images.",
-          "**Stock photo providers** (such as Pexels, Pixabay or Unsplash): when you choose stock photos, a few search words written from your post or slide are sent to find matching photos. No personal data is sent."
+          "**Stock photo providers** (such as Pexels, Pixabay or Unsplash): when you choose stock photos, a few search words written from your post or slide are sent to find matching photos. No personal data is sent.",
+          "**Other publishing routes**: depending on how you connect an account, posts go out directly through the network's own API (Meta for Facebook and Instagram, Threads, Bluesky) or through Zernio or Buffer, which then hold the access you grant.",
+          "**Browserless**: runs the cloud browser that opens your web app to record SaaS demo videos.",
+          "**Appetize**: runs the hosted Android and iPhone devices for mobile demo videos, using the app build you upload.",
+          "**Shotstack**: assembles videos from scripts, screenshots and recordings. Voice-overs are generated by an AI text-to-speech provider (such as OpenAI).",
+          "**Web research**: the niche and competitor watch uses an AI model provider's web search (such as Anthropic's). It receives your niche description and the competitors you follow, not your account data."
         ]
       },
       {
@@ -593,6 +722,18 @@
         "x": "When you connect social accounts, you authorise us and our publishing provider (Upload-Post) to publish, on your behalf and at the times you set, the posts you approve (or that you choose to approve automatically for a campaign). You can disconnect accounts or unschedule posts at any time. You are responsible for the content you publish and for complying with each network's rules. Social networks can change, limit or withdraw access at any time, so we cannot guarantee that a post will be published, published on time or stay online; if a post fails, we will tell you by email."
       },
       {
+        "t": "p",
+        "x": "ContentArc also measures how your published posts perform, researches your niche and the competitors you choose using public web pages and, on the plans that include them, records demo videos of your app and offers an API and webhooks. Research reports summarise public information with links to their sources and may be incomplete; treat them as inspiration, not as guaranteed facts."
+      },
+      {
+        "t": "p",
+        "x": "**SaaS demo videos.** By starting a demo, you confirm that you own the app or are authorised to use it this way, that the account you provide is a test account, and that you authorise us and our providers (Browserless for the cloud browser, Appetize for hosted phones) to open or install the app, sign in and perform the steps you approve. Don't record screens that show other people's personal data. You are responsible for what the video shows."
+      },
+      {
+        "t": "p",
+        "x": "**API.** Keep your API keys secret: anyone with a key can act on your account within your plan. We may limit the number of requests and suspend keys that are abused. Webhooks are delivered on a best-effort basis, with retries."
+      },
+      {
         "t": "h2",
         "x": "2. Your account"
       },
@@ -612,7 +753,7 @@
           "You can cancel anytime from the billing portal; your plan stays active until the end of the current period. Payments are non-refundable, except as described in section 4 (right of withdrawal) or where required by law.",
           "If you are a consumer in the EU/UK, you agree that the service starts immediately after purchase; your statutory rights are not affected.",
           "We may change prices with at least 30 days' notice before your next renewal.",
-          "Usage limits (campaigns, products, AI rewrites, AI images, AI video minutes) reset each calendar month."
+          "Usage limits (campaigns, products, AI rewrites, AI images, AI video minutes, niche and competitor reports, SaaS demo videos) reset each calendar month."
         ]
       },
       {
@@ -677,6 +818,7 @@
           "create unlawful, deceptive, defamatory, hateful or infringing content, or spam;",
           "make false claims about products, fake reviews or impersonate others;",
           "attempt to break, overload, reverse engineer or bypass the limits or security of the service;",
+          "record, research or track apps, accounts or people you are not authorised to, or use the API to get around your plan's limits;",
           "resell or share access to the service without our written permission."
         ]
       },
