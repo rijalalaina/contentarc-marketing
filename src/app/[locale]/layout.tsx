@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { notFound } from "next/navigation";
 import { Inter, Noto_Sans_Arabic, Poppins } from "next/font/google";
+import Script from "next/script";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Providers } from "@/components/providers";
@@ -75,6 +76,8 @@ export default async function LocaleLayout({ children, params }: LayoutProps<"/[
               {children}
             </main>
             <SiteFooter locale={locale} />
+            {/* SubredditSales: counts visits from tracked reply links (?via=). */}
+            <Script src="https://subredditsales.blissfulplan.com/t.js" strategy="afterInteractive" />
           </Providers>
         </NextIntlClientProvider>
       </body>
