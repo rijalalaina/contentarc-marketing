@@ -231,6 +231,14 @@
       "api": {
         "title": "API et webhooks",
         "body": "Lancez une campagne depuis Zapier, Make ou votre propre code quand vous livrez une fonctionnalité ou publiez un article, et soyez prévenu quand les posts sont en ligne."
+      },
+      "sprint": {
+        "title": "Campagnes Sprint",
+        "body": "Concentrez une campagne sur 3 à 7 jours pour tester vite vos hooks. ContentArc garde chaque compte dans des limites sûres, repère d'abord les posts quasi identiques et met un compte en pause quelques heures si un réseau signale trop de publications."
+      },
+      "hooks": {
+        "title": "Variantes de hook",
+        "body": "Importez un court enregistrement de votre app et obtenez 3 à 10 vidéos verticales, chacune ouvrant sur un clip de réaction avec un hook différent. Publiez-en une ou deux par jour et gardez ce qui décolle. Les clips de réaction viennent de vos imports, de vidéos libres de droits ou de l'IA (à partir de Publisher)."
       }
     }
   },
@@ -284,7 +292,11 @@
       "trends": "{reports} rapports de veille niche et concurrents / mois ({competitors} concurrents)",
       "demos": "{count, plural, one {# vidéo de démo SaaS / mois (app web ou mobile)} other {# vidéos de démo SaaS / mois (app web ou mobile)}}",
       "api": "API publique et webhooks (Zapier, Make)",
-      "history": "Historique des posts et recyclage avec un nouvel angle"
+      "history": "Historique des posts et recyclage avec un nouvel angle",
+      "sprint": "Campagnes Sprint (3 à 7 jours) avec protection des comptes",
+      "hookVariants": "Variantes de hook : plusieurs vidéos courtes à partir d'un seul enregistrement de l'app",
+      "aiReactions": "Clips de réaction IA pour les variantes de hook",
+      "premiumVoices": "Voix premium ElevenLabs pour les vidéos"
     }
   },
   "help": {
@@ -642,6 +654,7 @@
           "**Browserless** : fait tourner le navigateur cloud qui ouvre votre app web pour enregistrer les vidéos de démo SaaS.",
           "**Appetize** : fait tourner les appareils Android et iPhone hébergés pour les vidéos de démo mobiles, à partir du build que vous envoyez.",
           "**Shotstack** : assemble les vidéos à partir des scripts, captures d'écran et enregistrements. Les voix off sont générées par un fournisseur de synthèse vocale par IA (comme OpenAI).",
+          "**Fournisseurs de vidéo et de voix IA** (comme fal.ai, Hugging Face, LTX, Google Gemini, ElevenLabs ou Microsoft Azure) : un court texte décrivant un clip de réaction, ou les lignes du script d'une vidéo, est envoyé pour générer des clips vidéo ou des voix off. Les enregistrements et clips de réaction que vous importez sont stockés chez Supabase et envoyés au moteur de rendu vidéo (le service FFmpeg d'Upload-Post ou Shotstack).",
           "**Recherche web** : la veille de niche et de concurrents utilise la recherche web d'un fournisseur de modèles d'IA (comme Anthropic). Elle reçoit la description de votre niche et les concurrents suivis, pas les données de votre compte."
         ]
       },
@@ -730,6 +743,10 @@
       {
         "t": "p",
         "x": "**Vidéos de démo SaaS.** En lançant une démo, vous confirmez que l'app vous appartient ou que vous êtes autorisé à l'utiliser ainsi, que le compte fourni est un compte de test, et vous nous autorisez, nous et nos prestataires (Browserless pour le navigateur cloud, Appetize pour les téléphones hébergés), à ouvrir ou installer l'app, à vous connecter et à effectuer les étapes que vous validez. N'enregistrez pas d'écrans affichant les données personnelles d'autres personnes. Vous êtes responsable de ce que montre la vidéo."
+      },
+      {
+        "t": "p",
+        "x": "**Variantes de hook.** N'importez que des enregistrements d'app et des clips de réaction que vous avez le droit d'utiliser, avec le consentement des personnes qui y apparaissent. Les hooks sont rédigés comme des affirmations sur votre produit, jamais comme des témoignages ; assurez-vous que chaque affirmation est vraie. Les vidéos faites avec des clips de réaction IA sont signalées comme générées par IA à la publication, et vous ne devez pas retirer cette mention."
       },
       {
         "t": "p",

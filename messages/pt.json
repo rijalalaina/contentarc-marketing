@@ -231,6 +231,14 @@
       "api": {
         "title": "API e webhooks",
         "body": "Inicie uma campanha pelo Zapier, Make ou pelo seu próprio código quando lançar um recurso ou publicar um artigo, e seja avisado quando os posts forem ao ar."
+      },
+      "sprint": {
+        "title": "Campanhas Sprint",
+        "body": "Concentre uma campanha em 3 a 7 dias para testar ganchos depressa. O ContentArc mantém cada conta dentro de limites seguros, verifica antes os posts quase idênticos e pausa uma conta durante algumas horas se uma rede indicar publicações a mais."
+      },
+      "hooks": {
+        "title": "Variantes de gancho",
+        "body": "Carregue uma gravação curta da sua app e obtenha 3 a 10 vídeos verticais, cada um a abrir com um clip de reação e um gancho diferente. Publique um ou dois por dia e mantenha o que descola. Os clips de reação vêm dos seus carregamentos, de vídeos de stock gratuitos ou da IA (a partir do Publisher)."
       }
     }
   },
@@ -284,7 +292,11 @@
       "trends": "{reports} relatórios de nicho e concorrentes / mês ({competitors} concorrentes)",
       "demos": "{count, plural, one {# vídeo demo de SaaS / mês (app web ou mobile)} other {# vídeos demo de SaaS / mês (app web ou mobile)}}",
       "api": "API pública e webhooks (Zapier, Make)",
-      "history": "Histórico de posts e reciclagem com um novo ângulo"
+      "history": "Histórico de posts e reciclagem com um novo ângulo",
+      "sprint": "Campanhas Sprint (3–7 dias) com proteção das contas",
+      "hookVariants": "Variantes de gancho: muitos vídeos curtos a partir de uma só gravação da app",
+      "aiReactions": "Clips de reação com IA para as variantes de gancho",
+      "premiumVoices": "Vozes premium da ElevenLabs para os vídeos"
     }
   },
   "help": {
@@ -642,6 +654,7 @@
           "**Browserless**: executa o navegador na nuvem que abre seu app web para gravar os vídeos demo de SaaS.",
           "**Appetize**: executa os dispositivos Android e iPhone hospedados para os vídeos demo mobile, usando o build que você envia.",
           "**Shotstack**: monta os vídeos a partir de roteiros, capturas de tela e gravações. As narrações são geradas por um provedor de texto para fala com IA (como a OpenAI).",
+          "**Fornecedores de vídeo e voz com IA** (como fal.ai, Hugging Face, LTX, Google Gemini, ElevenLabs ou Microsoft Azure): é enviado um texto curto que descreve um clip de reação, ou as linhas do guião de um vídeo, para gerar clips de vídeo ou locuções. As gravações e os clips de reação que carrega são guardados na Supabase e enviados para o renderizador de vídeo (o serviço FFmpeg da Upload-Post ou a Shotstack).",
           "**Pesquisa na web**: o monitoramento de nicho e concorrentes usa a pesquisa na web de um provedor de modelos de IA (como a Anthropic). Ela recebe a descrição do seu nicho e os concorrentes acompanhados, não os dados da sua conta."
         ]
       },
@@ -730,6 +743,10 @@
       {
         "t": "p",
         "x": "**Vídeos demo de SaaS.** Ao iniciar uma demo, você confirma que o app é seu ou que tem autorização para usá-lo dessa forma e que a conta fornecida é uma conta de teste, e autoriza a nós e aos nossos fornecedores (Browserless para o navegador na nuvem, Appetize para os celulares hospedados) a abrir ou instalar o app, fazer login e executar as etapas que você aprovar. Não grave telas que mostrem dados pessoais de outras pessoas. Você é responsável pelo que o vídeo mostra."
+      },
+      {
+        "t": "p",
+        "x": "**Variantes de gancho.** Carregue apenas gravações da app e clips de reação que tenha o direito de usar, com o consentimento de quem neles aparece. Os ganchos são afirmações sobre o seu produto, nunca testemunhos; garanta que cada afirmação é verdadeira. Os vídeos feitos com clips de reação de IA são identificados como gerados por IA ao publicar, e não deve remover essa identificação."
       },
       {
         "t": "p",

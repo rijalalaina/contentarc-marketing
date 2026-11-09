@@ -21,7 +21,7 @@ export const LEGAL = {
   companyNumber: "15418196",
   address: "Covent Garden, 71-75 Shelton Street, London, WC2H 9JQ, UK",
   companyEmail: "contact@blissfulplan.com",
-  lastUpdated: "2026-10-17",
+  lastUpdated: "2026-11-09",
 } as const;
 
 export type Interval = "month" | "year";
@@ -49,6 +49,10 @@ export interface Plan {
   demoVideos: number;
   /** Public API keys and webhooks. */
   api: boolean;
+  /** Sprint campaigns and hook variants (paid plans). */
+  hookVariants: boolean;
+  /** AI reaction clips and premium ElevenLabs voices (Publisher and up). */
+  premiumVideo: boolean;
   prioritySupport?: boolean;
   popular?: boolean;
 }
@@ -71,6 +75,8 @@ export const PLANS: Plan[] = [
     competitors: 0,
     demoVideos: 0,
     api: false,
+    hookVariants: false,
+    premiumVideo: false,
   },
   {
     id: "creator",
@@ -87,6 +93,8 @@ export const PLANS: Plan[] = [
     competitors: 2,
     demoVideos: 0,
     api: false,
+    hookVariants: true,
+    premiumVideo: false,
   },
   {
     id: "publisher",
@@ -103,6 +111,8 @@ export const PLANS: Plan[] = [
     competitors: 10,
     demoVideos: 3,
     api: true,
+    hookVariants: true,
+    premiumVideo: true,
     popular: true,
   },
   {
@@ -120,6 +130,8 @@ export const PLANS: Plan[] = [
     competitors: 50,
     demoVideos: 20,
     api: true,
+    hookVariants: true,
+    premiumVideo: true,
     prioritySupport: true,
   },
 ];

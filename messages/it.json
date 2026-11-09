@@ -231,6 +231,14 @@
       "api": {
         "title": "API e webhook",
         "body": "Avvia una campagna da Zapier, Make o dal tuo codice quando rilasci una funzione o pubblichi un articolo, e ricevi un avviso quando i post vanno online."
+      },
+      "sprint": {
+        "title": "Campagne Sprint",
+        "body": "Concentra una campagna in 3–7 giorni per testare gli hook in fretta. ContentArc mantiene ogni account entro limiti sicuri, controlla prima i post quasi identici e mette in pausa un account per qualche ora se un social segnala troppi post."
+      },
+      "hooks": {
+        "title": "Varianti di hook",
+        "body": "Carica una breve registrazione della tua app e ottieni da 3 a 10 video verticali, ognuno che si apre con una clip di reazione e un hook diverso. Pubblicane uno o due al giorno e tieni ciò che decolla. Le clip di reazione arrivano dai tuoi caricamenti, da video stock gratuiti o dall'IA (da Publisher in su)."
       }
     }
   },
@@ -284,7 +292,11 @@
       "trends": "{reports} report di nicchia e concorrenti / mese ({competitors} concorrenti)",
       "demos": "{count, plural, one {# video demo SaaS / mese (app web o mobile)} other {# video demo SaaS / mese (app web o mobile)}}",
       "api": "API pubblica e webhook (Zapier, Make)",
-      "history": "Cronologia dei post e riciclo con un nuovo angolo"
+      "history": "Cronologia dei post e riciclo con un nuovo angolo",
+      "sprint": "Campagne Sprint (3–7 giorni) con protezione degli account",
+      "hookVariants": "Varianti di hook: tanti video brevi da una sola registrazione dell'app",
+      "aiReactions": "Clip di reazione IA per le varianti di hook",
+      "premiumVoices": "Voci premium ElevenLabs per i video"
     }
   },
   "help": {
@@ -642,6 +654,7 @@
           "**Browserless**: gestisce il browser cloud che apre la tua app web per registrare i video demo SaaS.",
           "**Appetize**: gestisce i dispositivi Android e iPhone ospitati per i video demo mobile, usando la build che carichi.",
           "**Shotstack**: compone i video a partire da script, schermate e registrazioni. Le voci narranti sono generate da un fornitore di sintesi vocale IA (come OpenAI).",
+          "**Fornitori di video e voce IA** (come fal.ai, Hugging Face, LTX, Google Gemini, ElevenLabs o Microsoft Azure): un breve testo che descrive una clip di reazione, o le righe del copione di un video, viene inviato per generare clip video o voci fuori campo. Le registrazioni e le clip di reazione che carichi sono archiviate su Supabase e inviate al motore di rendering video (il servizio FFmpeg di Upload-Post o Shotstack).",
           "**Ricerca web**: il monitoraggio di nicchia e concorrenti usa la ricerca web di un fornitore di modelli IA (come Anthropic). Riceve la descrizione della tua nicchia e i concorrenti seguiti, non i dati del tuo account."
         ]
       },
@@ -730,6 +743,10 @@
       {
         "t": "p",
         "x": "**Video demo SaaS.** Avviando una demo confermi che l'app è tua o che sei autorizzato a usarla in questo modo e che l'account fornito è un account di prova, e autorizzi noi e i nostri fornitori (Browserless per il browser cloud, Appetize per i telefoni ospitati) ad aprire o installare l'app, accedere ed eseguire i passaggi che approvi. Non registrare schermate che mostrano dati personali di altre persone. Sei responsabile di ciò che il video mostra."
+      },
+      {
+        "t": "p",
+        "x": "**Varianti di hook.** Carica solo registrazioni dell'app e clip di reazione che hai il diritto di usare, con il consenso di chiunque vi compaia. Gli hook sono affermazioni sul tuo prodotto, mai testimonianze; assicurati che ogni affermazione sia vera. I video realizzati con clip di reazione IA vengono etichettati come generati dall'IA alla pubblicazione e non devi rimuovere tale etichetta."
       },
       {
         "t": "p",

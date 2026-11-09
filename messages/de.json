@@ -231,6 +231,14 @@
       "api": {
         "title": "API & Webhooks",
         "body": "Starten Sie eine Kampagne aus Zapier, Make oder Ihrem eigenen Code, wenn Sie ein Feature liefern oder einen Artikel veröffentlichen, und werden Sie benachrichtigt, wenn Beiträge live gehen."
+      },
+      "sprint": {
+        "title": "Sprint-Kampagnen",
+        "body": "Packen Sie eine Kampagne in 3 bis 7 Tage, um Hooks schnell zu testen. ContentArc hält jedes Konto in sicheren Grenzen, prüft vorab auf fast identische Beiträge und pausiert ein Konto für einige Stunden, wenn ein Netzwerk zu viele Beiträge meldet."
+      },
+      "hooks": {
+        "title": "Hook-Varianten",
+        "body": "Laden Sie eine kurze Aufnahme Ihrer App hoch und erhalten Sie 3 bis 10 Hochformat-Videos, die jeweils mit einem Reaktionsclip und einem anderen Hook beginnen. Posten Sie ein bis zwei pro Tag und behalten Sie, was zündet. Reaktionsclips stammen aus Ihren Uploads, kostenlosem Stock-Material oder KI (ab Publisher)."
       }
     }
   },
@@ -284,7 +292,11 @@
       "trends": "{reports} Nischen- & Wettbewerbsberichte / Monat ({competitors} Wettbewerber)",
       "demos": "{count, plural, one {# SaaS-Demovideo / Monat (Web- oder Mobile-App)} other {# SaaS-Demovideos / Monat (Web- oder Mobile-App)}}",
       "api": "Öffentliche API & Webhooks (Zapier, Make)",
-      "history": "Beitragsverlauf & Wiederverwendung mit neuem Ansatz"
+      "history": "Beitragsverlauf & Wiederverwendung mit neuem Ansatz",
+      "sprint": "Sprint-Kampagnen (3–7 Tage) mit Kontoschutz",
+      "hookVariants": "Hook-Varianten: viele Kurzvideos aus einer App-Aufnahme",
+      "aiReactions": "KI-Reaktionsclips für Hook-Varianten",
+      "premiumVoices": "Premium-Stimmen von ElevenLabs für Videos"
     }
   },
   "help": {
@@ -642,6 +654,7 @@
           "**Browserless**: betreibt den Cloud-Browser, der Ihre Web-App für SaaS-Demovideos öffnet.",
           "**Appetize**: betreibt die gehosteten Android- und iPhone-Geräte für mobile Demovideos, mit dem von Ihnen hochgeladenen App-Build.",
           "**Shotstack**: setzt Videos aus Skripten, Screenshots und Aufnahmen zusammen. Sprecherstimmen erzeugt ein KI-Text-to-Speech-Anbieter (etwa OpenAI).",
+          "**KI-Video- und Sprachanbieter** (z. B. fal.ai, Hugging Face, LTX, Google Gemini, ElevenLabs oder Microsoft Azure): Eine kurze Textbeschreibung eines Reaktionsclips oder die Skriptzeilen eines Videos werden gesendet, um Videoclips oder Voice-overs zu erzeugen. Aufnahmen und Reaktionsclips, die Sie hochladen, werden bei Supabase gespeichert und an den Video-Renderer gesendet (FFmpeg-Dienst von Upload-Post oder Shotstack).",
           "**Webrecherche**: Die Nischen- und Wettbewerbsbeobachtung nutzt die Websuche eines KI-Modellanbieters (etwa Anthropic). Sie erhält Ihre Nischenbeschreibung und die beobachteten Wettbewerber, nicht Ihre Kontodaten."
         ]
       },
@@ -730,6 +743,10 @@
       {
         "t": "p",
         "x": "**SaaS-Demovideos.** Mit dem Start einer Demo bestätigen Sie, dass Ihnen die App gehört oder Sie sie so nutzen dürfen und dass das angegebene Konto ein Testkonto ist, und Sie erlauben uns und unseren Dienstleistern (Browserless für den Cloud-Browser, Appetize für gehostete Telefone), die App zu öffnen oder zu installieren, sich anzumelden und die freigegebenen Schritte auszuführen. Nehmen Sie keine Bildschirme mit personenbezogenen Daten anderer auf. Sie sind für den Inhalt des Videos verantwortlich."
+      },
+      {
+        "t": "p",
+        "x": "**Hook-Varianten.** Laden Sie nur App-Aufnahmen und Reaktionsclips hoch, die Sie verwenden dürfen, mit Einwilligung aller darin gezeigten Personen. Hooks sind Aussagen über Ihr Produkt, niemals Erfahrungsberichte; stellen Sie sicher, dass jede Aussage stimmt. Videos mit KI-Reaktionsclips werden beim Veröffentlichen als KI-generiert gekennzeichnet, und Sie dürfen diese Kennzeichnung nicht entfernen."
       },
       {
         "t": "p",

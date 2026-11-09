@@ -64,6 +64,8 @@ export function Pricing() {
             ...(plan.trendReports > 0 ? [t("features.trends", { reports: num(plan.trendReports), competitors: num(plan.competitors) })] : []),
             ...(plan.demoVideos > 0 ? [t("features.demos", { count: plan.demoVideos })] : []),
             ...(plan.api ? [t("features.api")] : []),
+            ...(plan.hookVariants ? [t("features.sprint"), t("features.hookVariants")] : []),
+            ...(plan.premiumVideo ? [t("features.aiReactions"), t("features.premiumVoices")] : []),
             t("features.history"),
             t("features.formats"),
             t("features.seo"),
